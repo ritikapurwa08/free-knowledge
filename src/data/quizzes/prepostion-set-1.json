@@ -1,0 +1,38 @@
+{
+  "id": "prepostion-set-1",
+  "title": "Prepostion Set 1",
+  "subject": "English",
+  "topic": "Preposition",
+  "difficulty": "Medium",
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "q-1767703248722-0",
+      "text": "What is the synonym of Happy?",
+      "type": "Single Choice",
+      "options": [
+        "Sad",
+        "Joyful",
+        "Angry",
+        "Tired"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Joyful means feeling, expressing, or causing great pleasure and happiness.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767703248722-1",
+      "text": "Which tense is used here: 'I have eaten'?",
+      "type": "Single Choice",
+      "options": [
+        "Present Simple",
+        "Past Simple",
+        "Present Perfect",
+        "Future"
+      ],
+      "correctAnswer": 2,
+      "explanation": "",
+      "imageUrl": ""
+    }
+  ]
+}

@@ -1,5 +1,23 @@
 import { convexAuth } from "@convex-dev/auth/server";
+import { Password } from "@convex-dev/auth/providers/Password";
+import { DataModel, } from "./_generated/dataModel";
+
+const CustomPassword = Password<DataModel>({
+  profile(params) {
+    return {
+      email: params.email as string,
+      name: params.name as string,
+      imageUrl:params.imageUrl as string,
+      totalXp:params.totalXp as number,
+      streak:params.streak as number,
+      lastLogin:params.lastLogin as number,
+
+      // Include other fields for user creation based on your usersConvexSchema:
+
+    };
+  },
+});
 
 export const { auth, signIn, signOut, store, isAuthenticated } = convexAuth({
-  providers: [],
+  providers: [CustomPassword],
 });
