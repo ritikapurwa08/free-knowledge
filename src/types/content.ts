@@ -35,11 +35,12 @@ export interface VocabWord {
 
 // Structure for PDFs (src/data/resources.json)
 export interface PDFResource {
+  topic: any;
   id: string;
   title: string;
   subject: string;
   fileName: string; // "grammar-guide.pdf" (points to public/pdfs/)
   size: string;
   dateAdded: string;
-  url:string; 
+  url:string;
 }

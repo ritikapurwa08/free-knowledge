@@ -1,40 +1,95 @@
+import { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
+import { fetchAllQuizzes, fetchAllPDFs } from "@/lib/local-api";
+import {type QuizData,type PDFResource } from "@/types/content";
 
+type ContentItem =
+  | { type: "quiz"; data: QuizData }
+  | { type: "pdf"; data: PDFResource };
 
 export default function Learn() {
   const navigate = useNavigate();
 
+  // State
+  const [selectedSubject, setSelectedSubject] = useState("English");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [content, setContent] = useState<ContentItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch Data
+  useEffect(() => {
+    async function loadData() {
+      setIsLoading(true);
+      try {
+        const [quizzes, pdfs] = await Promise.all([
+          fetchAllQuizzes(),
+          fetchAllPDFs()
+        ]);
+
+        const merged: ContentItem[] = [
+          ...quizzes.map(q => ({ type: "quiz" as const, data: q })),
+          ...pdfs.map(p => ({ type: "pdf" as const, data: p }))
+        ];
+
+        setContent(merged);
+      } catch (e) {
+        console.error("Failed to load content", e);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    loadData();
+  }, []);
+
+  // Filter Data
+  const filteredContent = useMemo(() => {
+    return content.filter(item => {
+      const { subject, title, topic } = item.data;
+      const matchesSubject = subject.toLowerCase() === selectedSubject.toLowerCase();
+      const matchesSearch = title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                            topic.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchesSubject && matchesSearch;
+    });
+  }, [content, selectedSubject, searchQuery]);
+
   return (
-    <div className="min-h-screen bg-background-light dark:bg-background-dark pb-24">
+    <div className="min-h-screen bg-background-light dark:bg-background-dark pb-32">
       {/* 1. Header & Search */}
       <div className="sticky top-0 z-20 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md pb-2 border-b border-gray-100 dark:border-gray-800">
         <div className="flex items-center justify-between p-4">
           <h2 className="text-2xl font-bold tracking-tight text-[#111318] dark:text-white">Library</h2>
-          <button className="size-10 flex items-center justify-center rounded-full bg-white dark:bg-[#1a2230] shadow-sm">
-            <span className="material-symbols-outlined text-gray-600 dark:text-gray-300">search</span>
-          </button>
+          <div className="relative">
+             <input
+                className="pl-8 pr-4 py-2 rounded-full bg-white dark:bg-[#1a2230] shadow-sm text-sm outline-none border border-transparent focus:border-primary w-32 focus:w-48 transition-all"
+                placeholder="Search..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+             />
+             <span className="material-symbols-outlined absolute left-2 top-1.5 text-gray-400 text-lg">search</span>
+          </div>
         </div>
 
         {/* Subject Tabs */}
         <div className="flex w-full gap-6 overflow-x-auto px-4 no-scrollbar">
-          <button className="flex flex-col items-center pb-2 border-b-2 border-primary">
-            <span className="text-sm font-bold text-primary">English</span>
-          </button>
-          <button className="flex flex-col items-center pb-2 border-b-2 border-transparent text-gray-500">
-            <span className="text-sm font-medium">GK</span>
-          </button>
-          <button className="flex flex-col items-center pb-2 border-b-2 border-transparent text-gray-500">
-            <span className="text-sm font-medium">Reasoning</span>
-          </button>
-          <button className="flex flex-col items-center pb-2 border-b-2 border-transparent text-gray-500">
-            <span className="text-sm font-medium">Maths</span>
-          </button>
+          {["English", "GK", "Reasoning", "Maths"].map((sub) => (
+            <button
+                key={sub}
+                onClick={() => setSelectedSubject(sub)}
+                className={`flex flex-col items-center pb-2 border-b-2 transition-colors ${
+                    selectedSubject === sub
+                    ? "border-primary text-primary font-bold"
+                    : "border-transparent text-gray-500 font-medium"
+                }`}
+            >
+              <span className="text-sm">{sub}</span>
+            </button>
+          ))}
         </div>
       </div>
 
       <div className="p-4 space-y-6">
 
-        {/* 2. Topic Chips */}
+        {/* 2. Topic Chips (Static for now, could be dynamic) */}
         <div className="flex gap-2 overflow-x-auto no-scrollbar">
           {["All", "Nouns", "Tenses", "Verbs", "Idioms"].map((chip, i) => (
             <button
@@ -71,23 +126,60 @@ export default function Learn() {
           </div>
         </div>
 
-        {/* 4. Recommended Content List */}
+        {/* 4. Recommended Content List (REAL DATA) */}
         <div>
-            <h3 className="font-bold text-lg mb-3">Recommended for you</h3>
-            <div className="space-y-3">
-                {[1, 2, 3].map((item) => (
-                    <div key={item} className="flex items-center gap-4 bg-white dark:bg-[#1a2230] p-3 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800">
-                        <div className="size-12 rounded-lg bg-gray-100 dark:bg-gray-800 bg-center bg-cover" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoFDhVW5yACV5H2RkVzXHes3RAhA7B8sZ0uCOY1l1SJCPwTnw4iw3oKWHb3TmzYkXDUwoDBq5tNR7shuYlbvWW7ROsnrz340ffEjIc2-IOydxqwvP-Hl3v7U5noy2VC_1NjISCphsWW9NOyu6VKUU_RbtZeKqeN0YdeRfYTIH4GCNkfaHwfFT82KYYuViUlqjSJUdRz0-LhQp7biP3AsxnCoTriojFZR3ABrgjuY617WsZd0UVE14Gu-sUTV7ESrl9uYhmgVDcgA")'}}></div>
-                        <div className="flex-1">
-                            <h4 className="font-bold text-sm">Grammar Basics: Nouns</h4>
-                            <p className="text-xs text-gray-500">Video Lesson • 15 mins</p>
+            <h3 className="font-bold text-lg mb-3">Recommended for {selectedSubject}</h3>
+
+            {isLoading ? (
+                <div className="text-center py-8 text-gray-400">Loading content...</div>
+            ) : filteredContent.length === 0 ? (
+                <div className="text-center py-8 bg-white dark:bg-slate-900 rounded-xl">
+                    <span className="material-symbols-outlined text-4xl text-gray-300 mb-2">sentiment_dissatisfied</span>
+                    <p className="text-gray-500">No content found for {selectedSubject}</p>
+                    <p className="text-xs text-gray-400 mt-1">Try switching subjects or search query.</p>
+                </div>
+            ) : (
+                <div className="space-y-3">
+                    {filteredContent.map((item, i) => (
+                        <div
+                            key={i}
+                            className="flex items-center gap-4 bg-white dark:bg-[#1a2230] p-3 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-md transition-shadow cursor-pointer"
+                            onClick={() => {
+                                if (item.type === 'quiz') {
+                                    // Navigate to Quiz Attempt
+                                    // Need to pass state or just navigate. Using quick-start route or similar based on existing structure.
+                                    // Assuming existing flow requires quiz object.
+                                    navigate('/quiz/attempt', { state: { quiz: item.data } });
+                                } else {
+                                    // Open PDF
+                                    window.open(item.data.url, '_blank');
+                                }
+                            }}
+                        >
+                            <div className={`size-12 rounded-lg flex items-center justify-center text-white ${
+                                item.type === 'quiz' ? 'bg-orange-400' : 'bg-red-400'
+                            }`}>
+                                <span className="material-symbols-outlined">
+                                    {item.type === 'quiz' ? 'quiz' : 'picture_as_pdf'}
+                                </span>
+                            </div>
+
+                            <div className="flex-1 min-w-0">
+                                <h4 className="font-bold text-sm truncate">{item.data.title}</h4>
+                                <p className="text-xs text-gray-500 flex items-center gap-1">
+                                    {item.type === 'quiz' ? 'Quiz Attempt' : 'PDF Document'} • {item.data.topic}
+                                </p>
+                            </div>
+
+                            <button className="size-8 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center shrink-0">
+                                <span className="material-symbols-outlined text-[18px]">
+                                    {item.type === 'quiz' ? 'play_arrow' : 'download'}
+                                </span>
+                            </button>
                         </div>
-                        <button className="size-8 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center">
-                            <span className="material-symbols-outlined text-[18px]">play_arrow</span>
-                        </button>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>
+            )}
         </div>
 
       </div>

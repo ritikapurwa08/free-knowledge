@@ -42,3 +42,37 @@ export async function fetchAllPDFs(): Promise<PDFResource[]> {
     return [];
   }
 }
+
+// --- 4. UPLOAD PDF (POST) ---
+export async function uploadPDF(file: File, folderPath: string) {
+  try {
+    const reader = new FileReader();
+    return new Promise<{ success: boolean; error?: string }>((resolve) => {
+      reader.onload = async () => {
+        try {
+          const content = reader.result as string;
+          const response = await fetch(`${API_BASE_URL}/upload-pdf`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              fileName: file.name,
+              folderPath,
+              content
+            }),
+          });
+
+          if (!response.ok) throw new Error("Server Upload Failed");
+          resolve(await response.json());
+        } catch (err) {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          resolve({ success: false, error: (err as any).message });
+        }
+      };
+      reader.onerror = () => resolve({ success: false, error: "File Read Error" });
+      reader.readAsDataURL(file);
+    });
+  } catch (error) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return { success: false, error: (error as any).message };
+  }
+}
