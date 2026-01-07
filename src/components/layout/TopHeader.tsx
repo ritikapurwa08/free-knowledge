@@ -3,10 +3,11 @@ import { useNavigate } from "react-router-dom";
 interface TopHeaderProps {
   title: string;
   showBack?: boolean;
+  onBack?: () => void;
   rightAction?: React.ReactNode;
 }
 
-export function TopHeader({ title, showBack = true, rightAction }: TopHeaderProps) {
+export function TopHeader({ title, showBack = true, onBack, rightAction }: TopHeaderProps) {
   const navigate = useNavigate();
 
   return (
@@ -14,7 +15,7 @@ export function TopHeader({ title, showBack = true, rightAction }: TopHeaderProp
       <div className="flex w-12 items-center justify-start">
         {showBack && (
           <button
-            onClick={() => navigate(-1)}
+            onClick={onBack ? onBack : () => navigate(-1)}
             className="flex size-10 items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-[#111318] dark:text-white"
           >
             <span className="material-symbols-outlined">arrow_back</span>
