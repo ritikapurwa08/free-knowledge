@@ -87,10 +87,10 @@ export default function AdminPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-black pb-20">
+    <div className="min-h-screen bg-background pb-20">
       <TopHeader title="Admin Panel" showBack={true} />
 
-      <main className="p-4 max-w-lg mx-auto space-y-6">
+      <main className="p-4 max-w-[1200px] mx-auto space-y-6">
 
         {/* Navigation Tabs */}
         <div className="flex gap-2 bg-gray-200 dark:bg-slate-800 p-1 rounded-lg overflow-x-auto">

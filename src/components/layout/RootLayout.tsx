@@ -17,7 +17,7 @@ export function RootLayout() {
 
   return (
     <div className="flex justify-center min-h-screen bg-gray-100 dark:bg-black">
-      <div className="relative flex h-full min-h-screen w-full max-w-md flex-col overflow-x-hidden bg-background-light dark:bg-background-dark shadow-2xl">
+      <div className="relative flex h-full min-h-screen w-full max-w-[1200px] flex-col overflow-x-hidden bg-background shadow-2xl">
         <main className="flex-1">
           <Outlet />
         </main>
