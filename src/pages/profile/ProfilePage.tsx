@@ -141,7 +141,16 @@ function ProfileContent({ user }: { user: any }) {
          </div>
       </div>
 
-      <div className="px-6 mt-4">
+      <div className="px-6 mt-4 space-y-3">
+          <Button
+            variant="outline"
+            className="w-full h-12 text-base font-medium border-dashed border-gray-300 dark:border-gray-700 text-gray-500 hover:text-primary hover:border-primary/50 hover:bg-primary/5"
+            onClick={() => navigate("/admin")}
+          >
+             <span className="material-symbols-outlined text-[20px] mr-2">admin_panel_settings</span>
+             Admin Panel
+          </Button>
+
           <Button
             variant="destructive"
             className="w-full h-12 text-base font-medium bg-red-50 text-red-600 hover:bg-red-100 dark:bg-red-900/20 dark:text-red-400 dark:hover:bg-red-900/30 border border-red-100 dark:border-red-900/50 shadow-none"
@@ -160,8 +169,16 @@ export default function ProfilePage() {
 
   if (user === undefined) {
       return (
-        <div className="min-h-screen flex items-center justify-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+        <div className="min-h-screen bg-background pb-20 p-4 pt-16 flex flex-col items-center">
+           <div className="w-24 h-24 rounded-full bg-gray-200 dark:bg-gray-800 animate-pulse mb-4"></div>
+           <div className="h-6 w-32 bg-gray-200 dark:bg-gray-800 animate-pulse rounded mb-2"></div>
+           <div className="h-4 w-48 bg-gray-200 dark:bg-gray-800 animate-pulse rounded mb-8"></div>
+
+           <div className="w-full space-y-4">
+              <div className="h-20 w-full bg-gray-100 dark:bg-gray-800 animate-pulse rounded-xl"></div>
+              <div className="h-12 w-full bg-gray-100 dark:bg-gray-800 animate-pulse rounded-lg"></div>
+              <div className="h-12 w-full bg-gray-100 dark:bg-gray-800 animate-pulse rounded-lg"></div>
+           </div>
         </div>
       );
   }

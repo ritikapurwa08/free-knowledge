@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useAuthActions } from "@convex-dev/auth/react";
@@ -11,6 +11,8 @@ import { Button } from "../../components/ui/button";
 
 export default function Login() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const redirectPath = searchParams.get("redirect") || "/";
   const { signIn } = useAuthActions();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -33,7 +35,7 @@ export default function Login() {
         flow: "signIn",
       });
       // Redirect handled by AuthWrapper or effectively we are signed in.
-      navigate("/");
+      navigate(redirectPath, { replace: true });
     } catch (err) {
       console.error(err);
       setError("Invalid email or password.");
@@ -67,6 +69,7 @@ export default function Login() {
                 placeholder="name@example.com"
                 disabled={isLoading}
                 type="email"
+                autoFocus={true}
               />
 
               <div className="space-y-1">

@@ -40,6 +40,7 @@ interface CustomProps {
   renderSkeleton?: (field: any) => React.ReactNode;
   fieldType: FormFieldType;
   type?: string;
+  autoFocus?: boolean;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -62,6 +63,7 @@ const RenderInput = ({ field, props }: { field: any; props: CustomProps }) => {
               placeholder={props.placeholder}
               {...field}
               type={props.type}
+              autoFocus={props.autoFocus}
               className="shad-input border-0"
             />
           </FormControl>

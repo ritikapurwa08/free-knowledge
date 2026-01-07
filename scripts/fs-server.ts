@@ -9,7 +9,7 @@ const CORS_HEADERS = {
 };
 
 const QUIZ_DIR = "./src/data/quizzes";
-const PDF_DIR = "./public/pdfs";
+const PDF_DIRS = ["./public/pdfs", "./public/pdf"];
 
 console.log("🚀 Bun Local Content Server running on http://localhost:4000");
 
@@ -29,7 +29,7 @@ async function getPdfFilesRecursively(dir: string): Promise<string[]> {
     );
     return files.flat();
   } catch (error) {
-    if (error.code === 'ENOENT') return [];
+    if ((error as { code?: string }).code === 'ENOENT') return [];
     throw error;
   }
 }
@@ -83,41 +83,49 @@ Bun.serve({
     // --- 3. LIST PDFS (GET) ---
     if (url.pathname === "/list-pdfs" && req.method === "GET") {
       try {
-        // Ensure directory exists
-        await mkdir(PDF_DIR, { recursive: true });
+        // Ensure directories exist
+        await Promise.all(PDF_DIRS.map(dir => mkdir(dir, { recursive: true })));
 
-        const allFiles = await getPdfFilesRecursively(PDF_DIR);
+        const allPdfs = await Promise.all(
+          PDF_DIRS.map(async (dir) => {
+             const files = await getPdfFilesRecursively(dir);
+             return files.map((filePath) => {
+                // Get relative path from its root dir
+                const relPath = relative(dir, filePath);
+                const parts = relPath.split(sep);
+                const fileName = parts.pop()!;
 
-        const pdfs = allFiles.map((filePath) => {
-          // Get relative path from public/pdfs to parse Subject/Topic
-          // e.g. "public/pdfs/English/Grammar/test.pdf" -> "English/Grammar/test.pdf"
-          const relPath = relative(PDF_DIR, filePath);
+                let subject = "General";
+                let topic = "Uncategorized";
 
-          // Split by separator to get parts
-          const parts = relPath.split(sep);
-          const fileName = parts.pop()!; // test.pdf
+                if (parts.length >= 1) subject = parts[0];
+                if (parts.length >= 2) topic = parts[1];
 
-          // Default subject/topic if in root
-          let subject = "General";
-          let topic = "Uncategorized";
+                // Construct web-accessible URL
+                // We need to know WHICH dir this came from to form the URL
+                // But simplified: everything in public/ is served at root
+                // e.g. public/pdfs/... -> /pdfs/...
+                // e.g. public/pdf/...  -> /pdf/...
 
-          if (parts.length >= 1) subject = parts[0];
-          if (parts.length >= 2) topic = parts[1];
+                // Hacky but works for valid public dirs:
+                // filePath is like "public/pdfs/Eng/Grammar/test.pdf"
+                // url should be "/pdfs/Eng/Grammar/test.pdf"
+                // slice off "public"
+                const webPath = filePath.replace(/\\/g, "/").replace(/^public\//, "/");
 
-          // Construct web-accessible URL (convert backslashes to slashes for URL)
-          const urlPath = relPath.split(sep).join("/");
+                return {
+                    id: filePath,
+                    title: fileName.replace(".pdf", "").replace(/-/g, " "),
+                    subject,
+                    topic,
+                    fileName,
+                    url: webPath
+                };
+             });
+          })
+        );
 
-          return {
-            id: relPath, // Use relative path as ID
-            title: fileName.replace(".pdf", "").replace(/-/g, " "),
-            subject,
-            topic,
-            fileName: fileName,
-            url: `/pdfs/${urlPath}`
-          };
-        });
-
-        return new Response(JSON.stringify(pdfs), { headers: CORS_HEADERS });
+        return new Response(JSON.stringify(allPdfs.flat()), { headers: CORS_HEADERS });
       } catch (err) {
         console.error("Error listing PDFs:", err);
         return new Response(JSON.stringify([]), { headers: CORS_HEADERS });
@@ -133,9 +141,10 @@ Bun.serve({
              return new Response(JSON.stringify({ error: "Missing filename or content" }), { status: 400, headers: CORS_HEADERS });
         }
 
-        // Clean folder path (remove leading/trailing slashes, prevent traversal)
+        // Clean folder path
         const safeFolderPath = (folderPath || "").replace(/^(\.\.(\/|\\|$))+/, "");
-        const targetDir = join(PDF_DIR, safeFolderPath);
+        // ALWAYS upload to the first configured directory (public/pdfs)
+        const targetDir = join(PDF_DIRS[0], safeFolderPath);
 
         // Create directory if it doesn't exist
         await mkdir(targetDir, { recursive: true });

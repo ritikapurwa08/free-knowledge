@@ -32,7 +32,8 @@ export default function VocabularyPage() {
   const [loading, setLoading] = useState(true);
 
   // Convex
-  const knownWords = useQuery(api.vocab.getKnownWords) || [];
+  const knownWordsQuery = useQuery(api.vocab.getKnownWords);
+  const knownWords = useMemo(() => knownWordsQuery || [], [knownWordsQuery]);
   const markKnownMutation = useMutation(api.vocab.markWordAsKnown);
 
   // Card View State
@@ -76,7 +77,7 @@ export default function VocabularyPage() {
   if (loading && words.length === 0) return <div className="p-10 flex justify-center text-muted-foreground">Loading...</div>;
 
   return (
-    <div className="flex flex-col h-screen bg-background-light dark:bg-background-dark overflow-hidden font-sans">
+    <div className="flex flex-col h-screen bg-background-light dark:bg-background-dark overflow-hidden font-sans max-w-[1200px] w-full mx-auto shadow-2xl">
       {/* 1. Header */}
       <header className="flex items-center px-4 pt-4 pb-2 justify-between z-10 shrink-0 bg-white/80 dark:bg-[#111318]/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
         <button
@@ -110,7 +111,6 @@ export default function VocabularyPage() {
         {viewMode === "list" ? (
           <ListView
             data={displayWords}
-            onSelect={(index) => { setCurrentIndex(index); setViewMode("card"); }}
             onMarkKnown={handleMarkKnown}
           />
         ) : (
@@ -172,60 +172,83 @@ export default function VocabularyPage() {
 // --- SUB-COMPONENT: List View ---
 function ListView({
     data,
-    onSelect,
     onMarkKnown
 }: {
     data: DisplayWord[],
-    onSelect: (idx: number) => void,
     onMarkKnown: (id: string) => void
 }) {
+  const [expandedWordId, setExpandedWordId] = useState<string | null>(null);
+
   return (
-    <div className="flex flex-col gap-3 pb-4">
-      {data.map((item, index) => (
-        <div
-          key={item.id}
-          className={cn(
-            "group bg-white dark:bg-[#1e293b] rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700/50 p-3 flex gap-4 transition-all hover:shadow-md",
-             item.status === 'new' && index === 0 ? "ring-1 ring-purple-500/30 bg-purple-50/10" : ""
-          )}
-        >
-          {/* Small Letter Icon */}
-          <div className="size-16 bg-gray-50 dark:bg-gray-800 rounded-xl flex items-center justify-center shrink-0 border border-gray-100 dark:border-gray-700">
-             <span className="text-2xl font-black text-gray-300 dark:text-gray-600">
-                {item.text.charAt(0).toUpperCase()}
-             </span>
-          </div>
+    <div className="flex flex-col gap-3 pb-24">
+      {data.map((item, index) => {
+        const isExpanded = expandedWordId === item.id;
+        return (
+          <div
+            key={item.id}
+            className={cn(
+              "group bg-white dark:bg-[#1e293b] rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700/50 p-3 transition-all hover:shadow-md",
+               item.status === 'new' && index === 0 ? "ring-1 ring-purple-500/30 bg-purple-50/10" : ""
+            )}
+          >
+            <div className="flex gap-4">
+                {/* Small Letter Icon */}
+                <div className="size-16 bg-gray-50 dark:bg-gray-800 rounded-xl flex items-center justify-center shrink-0 border border-gray-100 dark:border-gray-700">
+                   <span className="text-2xl font-black text-gray-300 dark:text-gray-600">
+                      {item.text.charAt(0).toUpperCase()}
+                   </span>
+                </div>
 
-          <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
-            <div>
-               <div className="flex justify-between items-start">
-                  <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate pr-2">{item.text}</h3>
-                  {item.status === 'mastered' && (
-                      <span className="material-symbols-outlined text-green-500 text-[20px]">check_circle</span>
-                  )}
-               </div>
-               <p className="text-sm text-gray-500 dark:text-gray-400 truncate mt-0.5">{item.definition}</p>
+                <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
+                  <div>
+                     <div className="flex justify-between items-start">
+                        <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate pr-2">{item.text}</h3>
+                        {item.status === 'mastered' && (
+                            <span className="material-symbols-outlined text-green-500 text-[20px]">check_circle</span>
+                        )}
+                     </div>
+                     <p className="text-sm text-gray-500 dark:text-gray-400 truncate mt-0.5">{item.definition}</p>
+                  </div>
+
+                  <div className="flex items-center gap-2 mt-2">
+                      <button
+                          onClick={() => setExpandedWordId(isExpanded ? null : item.id)}
+                          className="flex-1 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold py-1.5 rounded-lg transition-colors"
+                      >
+                          {isExpanded ? "Hide" : "View More"}
+                      </button>
+                      {item.status !== 'mastered' && (
+                          <button
+                              onClick={() => {
+                                  onMarkKnown(item.id);
+                                  // Optional: feedback toast
+                              }}
+                              className="bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors whitespace-nowrap"
+                          >
+                              Already Know
+                          </button>
+                      )}
+                  </div>
+                </div>
             </div>
 
-            <div className="flex items-center gap-2 mt-2">
-                <button
-                    onClick={() => onSelect(index)}
-                    className="flex-1 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold py-1.5 rounded-lg transition-colors"
-                >
-                    View More
-                </button>
-                {item.status !== 'mastered' && (
-                    <button
-                        onClick={() => onMarkKnown(item.id)}
-                        className="bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors whitespace-nowrap"
-                    >
-                        Already Know
-                    </button>
-                )}
-            </div>
+            {/* Inline Expanded Content */}
+            {isExpanded && (
+                <div className="mt-3 pt-3 border-t border-gray-100 dark:border-gray-800 animate-in slide-in-from-top-2 duration-200">
+                    <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+                        <p><span className="font-bold text-gray-900 dark:text-gray-100">Meaning: </span>{item.definition}</p>
+                        {item.hindiSynonyms?.length > 0 && <p><span className="font-bold text-gray-900 dark:text-gray-100">Hindi: </span>{item.hindiSynonyms.join(", ")}</p>}
+                        {item.examples?.length > 0 && (
+                            <div className="bg-gray-50 dark:bg-gray-800/50 p-2 rounded-lg mt-2">
+                                <p className="italic text-gray-500 dark:text-gray-400">"{item.examples[0].sentence}"</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

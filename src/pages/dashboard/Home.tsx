@@ -3,22 +3,35 @@ import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { useState, useEffect } from "react";
 import { loadWordSet, type Word } from "@/data/words";
+import { toast } from "sonner";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const navigate = useNavigate();
 
-  // Mock Data (We will fetch this from Convex/Local JSON later)
   // Fetch User Data from Convex
   const user = useQuery(api.users.viewer);
-  // Mock fallback if loading or no user (though auth wrapper usually handles this)
+  // Fetch Progress Data
+  const progressData = useQuery(api.users.userProgress);
+
+  // Mock fallback if loading or no user
   const userData = user || {
     name: "Guest",
     imageUrl: "",
     streak: 0,
     totalXp: 0,
-    // progress is not in DB, so we derive or mock
   };
-  const progress = Math.min(100, Math.floor((userData.totalXp / 5000) * 100)) || 0; // Simple XP based progress
+
+  // Calculate percentages based on real data
+  const wordPercent = progressData && progressData.totalWords
+    ? Math.round((progressData.knownWords / progressData.totalWords) * 100)
+    : 0;
+
+  const testPercent = progressData && progressData.totalTests
+    ? Math.round((progressData.attemptedTests / progressData.totalTests) * 100)
+    : 0;
+
+
 
   const [dailyWord, setDailyWord] = useState<Word | null>(null);
 
@@ -80,45 +93,57 @@ export default function Home() {
         </h2>
       </div>
 
-      {/* 3. MAIN PROGRESS CARD */}
+      {/* 3. MAIN PROGRESS CARD (Real Data) */}
       <div className="p-4">
-        <div className="relative overflow-hidden rounded-2xl bg-card p-5 shadow-sm border border-border group transition-all hover:border-primary/20">
-          {/* Decorative Circle */}
-          <div className="absolute -right-5 -top-5 size-32 rounded-full bg-blue-50 dark:bg-blue-900/10 z-0 pointer-events-none"></div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-white dark:bg-[#1a2230] rounded-2xl p-5 border border-gray-100 dark:border-gray-800 shadow-sm relative overflow-hidden"
+          >
+             <p className="text-primary text-xs font-bold uppercase tracking-wider mb-2">Your Progress</p>
+             <h2 className="text-xl font-bold mb-4">
+                {wordPercent}% Words • {testPercent}% Quizzes
+             </h2>
 
-          <div className="relative z-10 flex items-stretch justify-between gap-4">
-            <div className="flex flex-[2_2_0px] flex-col justify-between gap-5">
-              <div className="flex flex-col gap-2">
+            <div className="space-y-4 relative z-10">
+                {/* Word Progress */}
                 <div>
-                  <p className="text-primary text-xs font-bold uppercase tracking-wider mb-1">Current Course</p>
-                  <p className="text-foreground text-lg font-bold leading-tight">Level 1: Beginner</p>
+                <div className="flex justify-between text-xs mb-1.5">
+                    <span className="text-gray-500">Words Learned</span>
+                    <span className="font-bold">{progressData?.knownWords ?? 0} / {progressData?.totalWords ?? 0}</span>
                 </div>
+                <div className="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                    <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${wordPercent}%` }}
+                    transition={{ duration: 1, ease: "easeOut" }}
+                    className="h-full bg-emerald-500 rounded-full"
+                    />
+                </div>
+                </div>
+
+                {/* Quiz Progress */}
                 <div>
-                  <div className="flex justify-between items-end mb-1.5">
-                    <p className="text-muted-foreground text-xs font-medium">Progress</p>
-                    <p className="text-foreground text-xs font-bold">{progress}%</p>
-                  </div>
-                  {/* Custom Progress Bar */}
-                  <div className="w-full bg-gray-100 dark:bg-gray-700 rounded-full h-2 overflow-hidden">
-                    <div
-                      className="bg-primary h-2 rounded-full shadow-[0_0_8px_rgba(19,91,236,0.4)] transition-all duration-1000 ease-out"
-                      style={{ width: `${progress}%` }}
-                    ></div>
-                  </div>
+                <div className="flex justify-between text-xs mb-1.5">
+                    <span className="text-gray-500">Quizzes Attempted</span>
+                    <span className="font-bold">{progressData?.attemptedTests ?? 0} / {progressData?.totalTests ?? 0}</span>
                 </div>
-              </div>
-              <button className="flex items-center justify-center overflow-hidden rounded-lg h-9 px-5 bg-primary text-white gap-2 text-sm font-medium leading-normal w-fit shadow-md hover:bg-blue-700 active:scale-95 transition-all">
-                <span>Continue</span>
-                <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
-              </button>
+                <div className="h-2 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                    <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${testPercent}%` }}
+                    transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+                    className="h-full bg-blue-500 rounded-full"
+                    />
+                </div>
+                </div>
             </div>
-            {/* 3D Illustration */}
-            <div
-              className="w-24 bg-center bg-no-repeat bg-cover rounded-xl shrink-0 self-center aspect-3/4"
-              style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoFDhVW5yACV5H2RkVzXHes3RAhA7B8sZ0uCOY1l1SJCPwTnw4iw3oKWHb3TmzYkXDUwoDBq5tNR7shuYlbvWW7ROsnrz340ffEjIc2-IOydxqwvP-Hl3v7U5noy2VC_1NjISCphsWW9NOyu6VKUU_RbtZeKqeN0YdeRfYTIH4GCNkfaHwfFT82KYYuViUlqjSJUdRz0-LhQp7biP3AsxnCoTriojFZR3ABrgjuY617WsZd0UVE14Gu-sUTV7ESrl9uYhmgVDcgA")' }}
-            ></div>
-          </div>
-        </div>
+
+            {/* Decor */}
+            <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">
+                 <span className="material-symbols-outlined text-[120px] text-primary">trending_up</span>
+            </div>
+          </motion.div>
       </div>
 
       {/* 4. DAILY WORD WIDGET (Aaj ka Shabd) */}
@@ -169,7 +194,7 @@ export default function Home() {
           title="Grammar"
           subtitle="व्याकरण"
           icon="edit_note"
-          onClick={() => alert("Coming Soon!")}
+          onClick={() => toast.info("Grammar module is Coming Soon!")}
           colors="text-emerald-600 bg-emerald-50 dark:text-emerald-300 dark:bg-emerald-900/20 group-hover:bg-emerald-100 grayscale opacity-80"
         />
         <ModuleCard
@@ -184,7 +209,7 @@ export default function Home() {
           subtitle="रिसोर्सेज़"
           icon="folder_open"
           colors="text-amber-600 bg-amber-50 dark:text-amber-300 dark:bg-amber-900/20 group-hover:bg-amber-100"
-          onClick={() => navigate('/learn/resources')}
+          onClick={() => navigate('/learn')}
         />
       </div>
 

@@ -8,6 +8,7 @@ import {type QuizData, type  Question } from "@/types/content";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { toast } from "sonner";
 
 export default function AdminPage() {
   // Quiz Quiz Form State
@@ -38,7 +39,7 @@ export default function AdminPage() {
 
   const handleSaveQuiz = async () => {
     if (!title || !topic || questions.length === 0) {
-      alert("Please enter Title, Topic and add at least one question.");
+      toast.error("Please enter Title, Topic and add at least one question.");
       return;
     }
 
@@ -56,18 +57,18 @@ export default function AdminPage() {
 
     const result = await saveQuizToDisk(quizData);
     if (result.success) {
-      alert(`✅ Saved ${quizId}.json with ${questions.length} questions!`);
+      toast.success(`✅ Saved ${quizId}.json with ${questions.length} questions!`);
       // Optional: Reset form
       // setTitle(""); setQuestions([]);
     } else {
-      alert("❌ Failed to save. Check terminal for fs-server errors.");
+      toast.error("❌ Failed to save. Check terminal for fs-server errors.");
     }
   };
 
   // --- PDF HANDLERS ---
   const handlePdfUpload = async () => {
     if (!pdfFile || !pdfSubject || !pdfTopic) {
-        alert("Please select a file and enter Subject/Topic.");
+        toast.error("Please select a file and enter Subject/Topic.");
         return;
     }
 
@@ -79,18 +80,65 @@ export default function AdminPage() {
     setIsUploading(false);
 
     if (result.success) {
-        alert("✅ PDF Uploaded Successfully!");
+        toast.success("✅ PDF Uploaded Successfully!");
         setPdfFile(null);
     } else {
-        alert("❌ Upload Failed: " + result.error);
+        toast.error("❌ Upload Failed: " + result.error);
     }
   };
+
+  const PROMPT_STRING = `You are creating MCQ questions for Exam Orbit.
+Return ONLY a valid JSON array of questions, no extra text.
+Each question must match this TypeScript type:
+type Question = {
+  id: string;           // unique id, use a short slug or 'q-1', 'q-2', etc.
+  text: string;         // the question text
+  type: "Single Choice";
+  options: string[];    // 4 options, labelled A-D implicitly
+  correctAnswer: number; // 0-based index of the correct option
+  explanation?: string; // brief explanation in 1–2 lines
+};
+Rules:
+- 10 questions.
+- Topic: <PUT TOPIC HERE>
+- Level: RPSC 2nd Grade English.
+- Language: Question in English, explanations simple and exam-focused.
+- Do NOT include any comments or markdown.
+- Make sure correctAnswer index is within options array.
+`;
 
   return (
     <div className="min-h-screen bg-background pb-20">
       <TopHeader title="Admin Panel" showBack={true} />
 
       <main className="p-4 max-w-[1200px] mx-auto space-y-6">
+
+        {/* COPY PROMPT WIDGET */}
+        <div className="bg-slate-900 text-slate-100 p-4 rounded-xl border border-slate-800 shadow-sm space-y-3">
+            <div className="flex justify-between items-center">
+                 <div className="flex items-center gap-2">
+                    <span className="material-symbols-outlined text-purple-400">smart_toy</span>
+                    <h3 className="font-bold text-sm">AI Question Generator Prompt</h3>
+                 </div>
+                 <Button
+                    size="sm"
+                    variant="ghost"
+                    className="h-8 text-xs hover:bg-slate-800 text-purple-300 hover:text-purple-200"
+                    onClick={() => {
+                        navigator.clipboard.writeText(PROMPT_STRING);
+                        toast.success("Prompt copied to clipboard!");
+                    }}
+                >
+                    <span className="material-symbols-outlined text-[16px] mr-1">content_copy</span>
+                    Copy
+                </Button>
+            </div>
+            <div className="bg-black/50 p-3 rounded-lg overflow-x-auto">
+                <pre className="text-[10px] font-mono whitespace-pre-wrap text-slate-400">
+                    {PROMPT_STRING.split('\n').slice(0, 3).join('\n')}...
+                </pre>
+            </div>
+        </div>
 
         {/* Navigation Tabs */}
         <div className="flex gap-2 bg-gray-200 dark:bg-slate-800 p-1 rounded-lg overflow-x-auto">

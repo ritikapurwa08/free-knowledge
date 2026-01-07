@@ -5,13 +5,21 @@ import {type QuizData,type PDFResource } from "@/types/content";
 
 type ContentItem =
   | { type: "quiz"; data: QuizData }
-  | { type: "pdf"; data: PDFResource };
+  | { type: "pdf"; data: PDFResource }
+  | { type: "blog"; data: { id: string; title: string; subject: string; topic: string; url?: string } };
+
+const STATIC_BLOGS = [
+  { id: "b1", title: "Top 10 Grammar Rules for RPSC", subject: "English", topic: "Grammar" },
+  { id: "b2", title: "Indian History Timeline", subject: "GK", topic: "History" },
+  { id: "b3", title: "Reasoning Tricks for Blood Relations", subject: "Reasoning", topic: "Logic" },
+];
 
 export default function Learn() {
   const navigate = useNavigate();
 
   // State
   const [selectedSubject, setSelectedSubject] = useState("English");
+  const [selectedChip, setSelectedChip] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [content, setContent] = useState<ContentItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -28,7 +36,8 @@ export default function Learn() {
 
         const merged: ContentItem[] = [
           ...quizzes.map(q => ({ type: "quiz" as const, data: q })),
-          ...pdfs.map(p => ({ type: "pdf" as const, data: p }))
+          ...pdfs.map(p => ({ type: "pdf" as const, data: p })),
+          ...STATIC_BLOGS.map(b => ({ type: "blog" as const, data: b }))
         ];
 
         setContent(merged);
@@ -45,12 +54,14 @@ export default function Learn() {
   const filteredContent = useMemo(() => {
     return content.filter(item => {
       const { subject, title, topic } = item.data;
-      const matchesSubject = subject.toLowerCase() === selectedSubject.toLowerCase();
+      const matchesSubject = selectedSubject === "All" || subject.toLowerCase() === selectedSubject.toLowerCase();
       const matchesSearch = title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             topic.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesSubject && matchesSearch;
+      const matchesChip = selectedChip === "All" || topic.toLowerCase().includes(selectedChip.toLowerCase());
+
+      return matchesSubject && matchesSearch && matchesChip;
     });
-  }, [content, selectedSubject, searchQuery]);
+  }, [content, selectedSubject, searchQuery, selectedChip]);
 
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark pb-32">
@@ -89,54 +100,53 @@ export default function Learn() {
 
       <div className="p-4 space-y-6">
 
-        {/* 2. Topic Chips (Static for now, could be dynamic) */}
+        {/* 2. Topic Chips (Interactive) */}
         <div className="flex gap-2 overflow-x-auto no-scrollbar">
-          {["All", "Nouns", "Tenses", "Verbs", "Idioms"].map((chip, i) => (
+          {["All", "Nouns", "Tenses", "Verbs", "Idioms", "Grammar", "History"].map((chip) => (
             <button
               key={chip}
-              className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-medium shadow-sm transition-colors ${i === 0 ? 'bg-primary text-white' : 'bg-white dark:bg-[#1a2230] text-gray-600 dark:text-gray-300'}`}
+              onClick={() => setSelectedChip(chip)}
+              className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-medium shadow-sm transition-colors ${
+                  selectedChip === chip
+                  ? 'bg-primary text-white'
+                  : 'bg-white dark:bg-[#1a2230] text-gray-600 dark:text-gray-300'
+              }`}
             >
               {chip}
             </button>
           ))}
         </div>
 
-        {/* 3. Quick Access Sections */}
-        <div className="grid grid-cols-2 gap-3">
+        {/* 3. Quick Access (Vocabulary Only) */}
+        <div className="grid grid-cols-1 gap-3">
           <div
             onClick={() => navigate('/learn/vocabulary')}
-            className="bg-purple-50 dark:bg-purple-900/10 p-4 rounded-xl border border-purple-100 dark:border-purple-900/30 active:scale-95 transition-transform cursor-pointer"
+            className="bg-purple-50 dark:bg-purple-900/10 p-4 rounded-xl border border-purple-100 dark:border-purple-900/30 active:scale-95 transition-transform cursor-pointer flex items-center gap-4"
           >
-            <div className="size-10 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-purple-600 dark:text-purple-400 mb-3">
+            <div className="size-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-purple-600 dark:text-purple-400">
               <span className="material-symbols-outlined">style</span>
             </div>
-            <h3 className="font-bold text-gray-900 dark:text-white">Flashcards</h3>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Learn 500+ words</p>
-          </div>
-
-          <div
-            onClick={() => navigate('/learn/resources')}
-            className="bg-blue-50 dark:bg-blue-900/10 p-4 rounded-xl border border-blue-100 dark:border-blue-900/30 active:scale-95 transition-transform cursor-pointer"
-          >
-            <div className="size-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center text-blue-600 dark:text-blue-400 mb-3">
-              <span className="material-symbols-outlined">folder</span>
+            <div>
+                 <h3 className="font-bold text-gray-900 dark:text-white">Flashcards</h3>
+                 <p className="text-xs text-gray-500 dark:text-gray-400">Learn 500+ words with spaced repetition</p>
             </div>
-            <h3 className="font-bold text-gray-900 dark:text-white">PDF Library</h3>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Download notes</p>
           </div>
         </div>
 
-        {/* 4. Recommended Content List (REAL DATA) */}
+        {/* 4. Content List */}
         <div>
-            <h3 className="font-bold text-lg mb-3">Recommended for {selectedSubject}</h3>
+            <h3 className="font-bold text-lg mb-3">
+                {selectedSubject} Resources
+                {selectedChip !== "All" && <span className="text-gray-400 text-sm font-normal ml-2">({selectedChip})</span>}
+            </h3>
 
             {isLoading ? (
-                <div className="text-center py-8 text-gray-400">Loading content...</div>
+                <div className="text-center py-8 text-gray-400">Loading library...</div>
             ) : filteredContent.length === 0 ? (
                 <div className="text-center py-8 bg-white dark:bg-slate-900 rounded-xl">
                     <span className="material-symbols-outlined text-4xl text-gray-300 mb-2">sentiment_dissatisfied</span>
-                    <p className="text-gray-500">No content found for {selectedSubject}</p>
-                    <p className="text-xs text-gray-400 mt-1">Try switching subjects or search query.</p>
+                    <p className="text-gray-500">No content found.</p>
+                    <p className="text-xs text-gray-400 mt-1">Try changing filters or search.</p>
                 </div>
             ) : (
                 <div className="space-y-3">
@@ -146,34 +156,34 @@ export default function Learn() {
                             className="flex items-center gap-4 bg-white dark:bg-[#1a2230] p-3 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-md transition-shadow cursor-pointer"
                             onClick={() => {
                                 if (item.type === 'quiz') {
-                                    // Navigate to Quiz Attempt
-                                    // Need to pass state or just navigate. Using quick-start route or similar based on existing structure.
-                                    // Assuming existing flow requires quiz object.
                                     navigate('/quiz/attempt', { state: { quiz: item.data } });
-                                } else {
-                                    // Open PDF
+                                } else if (item.type === 'pdf') {
                                     window.open(item.data.url, '_blank');
+                                } else {
+                                    // Blog
+                                    alert("Blog Reader Coming Soon!");
                                 }
                             }}
                         >
                             <div className={`size-12 rounded-lg flex items-center justify-center text-white ${
-                                item.type === 'quiz' ? 'bg-orange-400' : 'bg-red-400'
+                                item.type === 'quiz' ? 'bg-orange-400' :
+                                item.type === 'pdf' ? 'bg-red-400' : 'bg-blue-400'
                             }`}>
                                 <span className="material-symbols-outlined">
-                                    {item.type === 'quiz' ? 'quiz' : 'picture_as_pdf'}
+                                    {item.type === 'quiz' ? 'quiz' : item.type === 'pdf' ? 'picture_as_pdf' : 'article'}
                                 </span>
                             </div>
 
                             <div className="flex-1 min-w-0">
                                 <h4 className="font-bold text-sm truncate">{item.data.title}</h4>
                                 <p className="text-xs text-gray-500 flex items-center gap-1">
-                                    {item.type === 'quiz' ? 'Quiz Attempt' : 'PDF Document'} • {item.data.topic}
+                                    {item.type === 'quiz' ? 'Quiz Attempt' : item.type === 'pdf' ? 'PDF Document' : 'Blog Article'} • {item.data.topic}
                                 </p>
                             </div>
 
                             <button className="size-8 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center shrink-0">
                                 <span className="material-symbols-outlined text-[18px]">
-                                    {item.type === 'quiz' ? 'play_arrow' : 'download'}
+                                    {item.type === 'quiz' ? 'play_arrow' : item.type === 'pdf' ? 'download' : 'read_more'}
                                 </span>
                             </button>
                         </div>

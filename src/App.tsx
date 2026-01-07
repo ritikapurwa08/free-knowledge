@@ -5,7 +5,7 @@ import Home from "@/pages/dashboard/Home";
 import QuizAttempt from "@/pages/quiz/QuizAttempt";
 import QuizList from "./pages/quiz/QuizList";
 import AdminPage from "@/pages/admin/AdminPage"; // Import Admin Page
-import ResourcesPage from "./pages/learn/ResourcesPage";
+
 import VocabularyPage from "./pages/learn/VocabularyPage";
 import Learn from "./pages/learn/Learn";
 import Leaderboard from "./pages/dashboard/Leaderboard";
@@ -29,7 +29,7 @@ function App() {
         <Route element={<RootLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/learn" element={<Learn />} />
-          <Route path="/learn/resources" element={<ResourcesPage />} />
+
           <Route path="/learn/vocabulary" element={<VocabularyPage />} />
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/profile" element={<Profile />} />

@@ -1,0 +1,150 @@
+{
+  "id": "rajasthan-ke-lok-devta",
+  "title": "Rajasthan ke Lok Devta",
+  "subject": "Geography ",
+  "topic": "Lok Devta",
+  "difficulty": "Medium",
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "q-1767790349540-0",
+      "text": "Which of the following Lokdevtas is NOT included in the 'Panch Pirs' of Marwar?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Gogaji",
+        "Teja Ji",
+        "Pabuji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Panch Pirs include Ramdevji, Pabuji, Gogaji, Harbhuji, and Mehaji. Teja Ji is a revered Jat deity but not part of the Panch Pirs.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-1",
+      "text": "Who is worshipped as the 'Deity of Camels' (Oonto ke Devta) in Rajasthan?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Pabuji",
+        "Devnarayan Ji",
+        "Ramdevji"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pabuji is worshipped as the protector of camels. It is believed that he brought camels to Marwar.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-2",
+      "text": "Which Lokdevta fought against Mahmud Ghaznavi to protect cows?",
+      "type": "Single Choice",
+      "options": [
+        "Teja Ji",
+        "Gogaji",
+        "Pabuji",
+        "Mallinath Ji"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gogaji fought against Mahmud Ghaznavi. Ghaznavi was impressed by his bravery and called him 'Jahar Pir' (Living Saint).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-3",
+      "text": "Where is the main temple of Baba Ramdevji located, which is famous for the communal harmony fair?",
+      "type": "Single Choice",
+      "options": [
+        "Kharnal (Nagaur)",
+        "Kolu Mund (Phalodi)",
+        "Runecha (Jaisalmer)",
+        "Asind (Bhilwara)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main temple is in Runecha (Ramdevra), Jaisalmer. The fair held here is a symbol of Hindu-Muslim unity.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-4",
+      "text": "Which Lokdevta has the longest and oldest 'Phad' (scroll painting) in Rajasthan?",
+      "type": "Single Choice",
+      "options": [
+        "Pabuji",
+        "Ramdevji",
+        "Devnarayan Ji",
+        "Teja Ji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Devnarayan Ji's Phad is the longest, oldest, and has the smallest illustrations. A postal stamp was also issued on it.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-5",
+      "text": "Who is known as the 'Deity with four hands' (Char Haathon Wale Lokdevta) due to his valor during the siege of Chittorgarh?",
+      "type": "Single Choice",
+      "options": [
+        "Vir Kalla Ji",
+        "Vir Fatta Ji",
+        "Vir Bigga Ji",
+        "Om Banna"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vir Kalla Ji fought with Jaimal on his shoulders during Akbar's attack on Chittorgarh, appearing as a four-armed deity.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-6",
+      "text": "Which Lokdevta composed the literary work 'Choubis Baniya'?",
+      "type": "Single Choice",
+      "options": [
+        "Harbhuji",
+        "Ramdevji",
+        "Mehaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Baba Ramdevji was also a poet. He composed 'Choubis Baniya' which contains his teachings.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-7",
+      "text": "Teja Ji is mainly worshipped to seek protection from:",
+      "type": "Single Choice",
+      "options": [
+        "Locust attacks",
+        "Snake bites",
+        "Smallpox",
+        "Floods"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Teja Ji is known as 'Kala-Bala ka Devta' and is worshipped for protection against snake bites and for the well-being of livestock.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-8",
+      "text": "The main shrine of Mehaji Mangaliya is located in which village of Jodhpur?",
+      "type": "Single Choice",
+      "options": [
+        "Bapini",
+        "Bilara",
+        "Osian",
+        "Mandore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main temple of Mehaji Mangaliya, one of the Panch Pirs, is located in Bapini village, Jodhpur.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767790349540-9",
+      "text": "What is the vehicle (Vahan) of the Lokdevta Harbhuji Sankhla?",
+      "type": "Single Choice",
+      "options": [
+        "Blue Horse",
+        "Lion",
+        "Jackal (Siyar)",
+        "Elephant"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Harbhuji's vehicle is a Jackal (Siyar). He was a cousin of Ramdevji and a master of shakun shastra.",
+      "imageUrl": ""
+    }
+  ]
+}
