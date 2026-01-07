@@ -19,6 +19,7 @@ export const updateUser = mutation({
     name: v.optional(v.string()),
     bio: v.optional(v.string()),
     imageUrl: v.optional(v.string()),
+    isAdmin: v.optional(v.boolean()),
   },
   handler: async (ctx, args) => {
     const userId = await getAuthUserId(ctx);
@@ -31,6 +32,27 @@ export const updateUser = mutation({
     if (args.name !== undefined) updates.name = args.name;
     if (args.bio !== undefined) updates.bio = args.bio;
     if (args.imageUrl !== undefined) updates.imageUrl = args.imageUrl;
+
+    // Securely handle admin upgrade
+    if (args.isAdmin !== undefined) {
+      if (args.isAdmin === true) {
+         // Verify if user is allowed to be admin
+         const user = await ctx.db.get(userId);
+         const email = user?.email;
+         if (email) {
+             const defaults = ["ritikapurwa08@gmail.com"];
+             const dbAdmins = await ctx.db.query("adminEmails").collect();
+             const allowedEmails = [...defaults, ...dbAdmins.map(a => a.email)];
+
+             if (allowedEmails.includes(email)) {
+                 updates.isAdmin = true;
+             }
+         }
+      } else {
+         // Allow creating dropping admin? Sure.
+         updates.isAdmin = false;
+      }
+    }
 
     await ctx.db.patch(userId, updates);
   },

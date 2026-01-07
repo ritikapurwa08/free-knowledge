@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { fetchAllQuizzes, fetchAllPDFs } from "@/lib/local-api";
+import { fetchAllPDFs } from "@/lib/local-api";
 import {type QuizData,type PDFResource } from "@/types/content";
+import { getAllTopics, getQuestionsByTopic } from "@/data/quizzes/database";
 
 type ContentItem =
   | { type: "quiz"; data: QuizData }
@@ -24,18 +25,35 @@ export default function Learn() {
   const [content, setContent] = useState<ContentItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Dynamic Topics based on Master DB
+  const availableTopics = useMemo(() => {
+     return getAllTopics(selectedSubject);
+  }, [selectedSubject]);
+
   // Fetch Data
   useEffect(() => {
     async function loadData() {
       setIsLoading(true);
       try {
-        const [quizzes, pdfs] = await Promise.all([
-          fetchAllQuizzes(),
+        const [pdfs] = await Promise.all([
           fetchAllPDFs()
         ]);
 
+        // Generate Quiz Sets from Master Database
+        // For each topic in English (or other subjects), create a "Quiz" entry
+        const topics = getAllTopics(selectedSubject);
+        const generatedQuizzes: QuizData[] = topics.map(topic => ({
+             id: `quiz-${topic.toLowerCase()}`,
+             title: `${topic} Practice`,
+             subject: selectedSubject,
+             topic: topic,
+             difficulty: "Medium",
+             timeLimit: 600,
+             questions: getQuestionsByTopic(selectedSubject, topic)
+        })).filter(q => q.questions.length > 0);
+
         const merged: ContentItem[] = [
-          ...quizzes.map(q => ({ type: "quiz" as const, data: q })),
+          ...generatedQuizzes.map(q => ({ type: "quiz" as const, data: q })),
           ...pdfs.map(p => ({ type: "pdf" as const, data: p })),
           ...STATIC_BLOGS.map(b => ({ type: "blog" as const, data: b }))
         ];
@@ -48,7 +66,7 @@ export default function Learn() {
       }
     }
     loadData();
-  }, []);
+  }, [selectedSubject]); // Re-run when subject changes to regenerate quizzes
 
   // Filter Data
   const filteredContent = useMemo(() => {
@@ -102,7 +120,7 @@ export default function Learn() {
 
         {/* 2. Topic Chips (Interactive) */}
         <div className="flex gap-2 overflow-x-auto no-scrollbar">
-          {["All", "Nouns", "Tenses", "Verbs", "Idioms", "Grammar", "History"].map((chip) => (
+          {["All", ...availableTopics].map((chip) => (
             <button
               key={chip}
               onClick={() => setSelectedChip(chip)}

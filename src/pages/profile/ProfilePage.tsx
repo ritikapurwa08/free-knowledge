@@ -142,14 +142,16 @@ function ProfileContent({ user }: { user: any }) {
       </div>
 
       <div className="px-6 mt-4 space-y-3">
-          <Button
-            variant="outline"
-            className="w-full h-12 text-base font-medium border-dashed border-gray-300 dark:border-gray-700 text-gray-500 hover:text-primary hover:border-primary/50 hover:bg-primary/5"
-            onClick={() => navigate("/admin")}
-          >
-             <span className="material-symbols-outlined text-[20px] mr-2">admin_panel_settings</span>
-             Admin Panel
-          </Button>
+          {user.isAdmin && (
+            <Button
+              variant="outline"
+              className="w-full h-12 text-base font-medium border-dashed border-gray-300 dark:border-gray-700 text-gray-500 hover:text-primary hover:border-primary/50 hover:bg-primary/5"
+              onClick={() => navigate("/admin")}
+            >
+               <span className="material-symbols-outlined text-[20px] mr-2">admin_panel_settings</span>
+               Admin Panel
+            </Button>
+          )}
 
           <Button
             variant="destructive"

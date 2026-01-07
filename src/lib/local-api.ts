@@ -1,78 +1,68 @@
-import {type  QuizData,type  PDFResource } from "@/types/content";
-
-const API_BASE_URL = "http://localhost:4000";
+import { type QuizData, type PDFResource } from "@/types/content";
+import { MASTER_QUESTION_DATABASE } from "@/data/quizzes/database";
+import { pdfsArray } from "@/data/pdfs/pdfs";
 
 // --- SAVE ---
-export async function saveQuizToDisk(data: QuizData) {
-  try {
-    const response = await fetch(`${API_BASE_URL}/save-quiz`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fileName: data.id, content: data }),
-    });
-    if (!response.ok) throw new Error("Server Error");
-    return await response.json();
-  } catch (error) {
-    console.error(error);
-    return { success: false, error };
-  }
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function saveQuizToDisk(_data: QuizData) {
+  console.warn("Saving to disk via UI is disabled. Please add questions to src/data/quizzes/database.ts");
+  alert("Saving to disk via UI is disabled. Please add questions to src/data/quizzes/database.ts");
+  return { success: false, error: "Feature disabled. Manage questions in code." };
 }
 
 // --- FETCH QUIZZES ---
 export async function fetchAllQuizzes(): Promise<QuizData[]> {
-  try {
-    const response = await fetch(`${API_BASE_URL}/list-quizzes`);
-    if (!response.ok) return [];
-    return await response.json();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  } catch (error) {
-    console.error("Make sure 'bun run scripts/fs-server.ts' is running!");
-    return [];
+  // Group questions by Subject + Topic
+  const groups = new Map<string, typeof MASTER_QUESTION_DATABASE>();
+
+  for (const q of MASTER_QUESTION_DATABASE) {
+    const key = `${q.subject}|${q.topic}`;
+    if (!groups.has(key)) {
+        groups.set(key, []);
+    }
+    groups.get(key)!.push(q);
   }
+
+  const quizzes: QuizData[] = [];
+  groups.forEach((questions, key) => {
+      const [subject, topic] = key.split("|");
+      quizzes.push({
+          id: key.toLowerCase().replace(/\|/g, "-").replace(/\s+/g, "-"),
+          title: topic,
+          subject: subject,
+          topic: topic,
+          difficulty: "Medium", // Default
+          timeLimit: 60 * 10, // 10 mins default
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          questions: questions as any
+      });
+  });
+
+  return quizzes;
 }
 
 // --- FETCH PDFS ---
+
 export async function fetchAllPDFs(): Promise<PDFResource[]> {
-  try {
-    const response = await fetch(`${API_BASE_URL}/list-pdfs`);
-    if (!response.ok) return [];
-    return await response.json();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  } catch (error) {
-    return [];
-  }
+  // Return static list, mapped to match PDFResource interface if needed
+  // The interface in content.ts has some extra fields like size/dateAdded which we might mock or ignore
+  return pdfsArray.map(p => ({
+    id: p.id,
+    title: p.title,
+    subject: p.subject,
+    topic: p.topic,
+    fileName: p.title + ".pdf",
+    url: p.url,
+    size: "Unknown", // Mock
+    dateAdded: new Date().toISOString(), // Mock
+    // topic in content.ts is 'any', keeping it string for now
+  }));
 }
 
 // --- 4. UPLOAD PDF (POST) ---
-export async function uploadPDF(file: File, folderPath: string) {
-  try {
-    const reader = new FileReader();
-    return new Promise<{ success: boolean; error?: string }>((resolve) => {
-      reader.onload = async () => {
-        try {
-          const content = reader.result as string;
-          const response = await fetch(`${API_BASE_URL}/upload-pdf`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              fileName: file.name,
-              folderPath,
-              content
-            }),
-          });
-
-          if (!response.ok) throw new Error("Server Upload Failed");
-          resolve(await response.json());
-        } catch (err) {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          resolve({ success: false, error: (err as any).message });
-        }
-      };
-      reader.onerror = () => resolve({ success: false, error: "File Read Error" });
-      reader.readAsDataURL(file);
-    });
-  } catch (error) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return { success: false, error: (error as any).message };
-  }
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function uploadPDF(_file: File, _folderPath: string) {
+  console.warn("Uploading PDF via UI is disabled. Please add files to src/data/pdfs and update pdfs.ts");
+  alert("Uploading PDF via UI is disabled. Please add files to src/data/pdfs and update pdfs.ts");
+  return { success: false, error: "Feature disabled. Manage files in code." };
 }

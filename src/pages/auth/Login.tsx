@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -8,6 +8,9 @@ import { LoginSchema, type LoginValues } from "../../lib/validations/auth";
 import CustomFormField, { FormFieldType } from "../../components/form/CustomFormField";
 import { Form } from "../../components/ui/form";
 import { Button } from "../../components/ui/button";
+import { toast } from "sonner";
+import { api } from "../../../convex/_generated/api";
+import { useQuery, useMutation } from "convex/react";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,6 +19,25 @@ export default function Login() {
   const { signIn } = useAuthActions();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Auto-admin check
+  const updateUser = useMutation(api.users.updateUser);
+  const viewer = useQuery(api.users.viewer);
+  const adminEmails = useQuery(api.admin.getAdminEmails);
+
+  useEffect(() => {
+    const checkAdmin = async () => {
+      if (viewer && adminEmails && viewer.email && adminEmails.includes(viewer.email) && !viewer.isAdmin) {
+          try {
+            await updateUser({ isAdmin: true });
+            toast.success("Admin access granted! 👑");
+          } catch (e) {
+            console.error("Failed to grant admin", e);
+          }
+      }
+    };
+    checkAdmin();
+  }, [viewer, adminEmails, updateUser]);
 
   const form = useForm<LoginValues>({
     resolver: zodResolver(LoginSchema),

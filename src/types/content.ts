@@ -35,7 +35,7 @@ export interface VocabWord {
 
 // Structure for PDFs (src/data/resources.json)
 export interface PDFResource {
-  topic: any;
+  topic: string;
   id: string;
   title: string;
   subject: string;

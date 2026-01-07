@@ -77,7 +77,7 @@ export default function VocabularyPage() {
   if (loading && words.length === 0) return <div className="p-10 flex justify-center text-muted-foreground">Loading...</div>;
 
   return (
-    <div className="flex flex-col h-screen bg-background-light dark:bg-background-dark overflow-hidden font-sans max-w-[1200px] w-full mx-auto shadow-2xl">
+    <div className="flex flex-col h-screen bg-background-light dark:bg-background-dark overflow-hidden font-sans max-w-300 w-full mx-auto shadow-2xl">
       {/* 1. Header */}
       <header className="flex items-center px-4 pt-4 pb-2 justify-between z-10 shrink-0 bg-white/80 dark:bg-[#111318]/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
         <button

@@ -66,3 +66,64 @@ export const getResult = query({
         return result;
     }
 });
+
+// --- QUIZ MANAGEMENT ---
+
+export const createQuiz = mutation({
+  args: {
+    title: v.string(),
+    subject: v.string(),
+    topic: v.string(),
+    questions: v.array(v.object({
+        text: v.string(),
+        options: v.array(v.string()),
+        correctAnswer: v.number(),
+        explanation: v.optional(v.string()),
+        type: v.string(),
+    })),
+  },
+  handler: async (ctx, args) => {
+    const userId = await getAuthUserId(ctx);
+    // Optional: Check if user is admin
+
+    const quizId = await ctx.db.insert("quizzes", {
+        title: args.title,
+        subject: args.subject,
+        topic: args.topic,
+        questions: args.questions,
+        createdBy: userId ?? undefined,
+        createdAt: Date.now(),
+    });
+    return quizId;
+  },
+});
+
+export const getQuizzes = query({
+    args: {
+        subject: v.optional(v.string()),
+        topic: v.optional(v.string())
+    },
+    handler: async (ctx, args) => {
+        const q = ctx.db.query("quizzes");
+
+        if (args.subject && args.topic) {
+             return await q.withIndex("by_subject_topic", q => q.eq("subject", args.subject!).eq("topic", args.topic!)).collect();
+        }
+
+        if (args.subject) {
+            return await q.withIndex("by_subject", q => q.eq("subject", args.subject!)).collect();
+        }
+
+        return await q.collect();
+    }
+});
+
+export const deleteQuiz = mutation({
+    args: { quizId: v.id("quizzes") },
+    handler: async (ctx, args) => {
+        const userId = await getAuthUserId(ctx);
+        if (!userId) throw new Error("Unauthorized");
+        // Add admin check here ideally
+        await ctx.db.delete(args.quizId);
+    }
+});

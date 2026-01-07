@@ -1,29 +1,52 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { fetchAllQuizzes } from "@/lib/local-api";
+// import { fetchAllQuizzes } from "@/lib/local-api";
 import { type QuizData } from "@/types/content";
 import { TopHeader } from "@/components/layout/TopHeader";
+import { useQuery } from "convex/react";
+import { api } from "@/../convex/_generated/api";
 
 type Step = "SUBJECT" | "TOPIC" | "QUIZ";
 
 export default function QuizList() {
   const navigate = useNavigate();
-  const [quizzes, setQuizzes] = useState<QuizData[]>([]);
-  const [loading, setLoading] = useState(true);
+  // const [quizzes, setQuizzes] = useState<QuizData[]>([]);
+  // const [loading, setLoading] = useState(true);
+
+  const convexQuizzes = useQuery(api.quiz.getQuizzes, {});
+  const history = useQuery(api.quiz.getHistory);
+  const completedQuizIds = new Set(history?.map(h => h.quizId));
+
+  // Map convex quizzes to valid UI format
+  const quizzes: QuizData[] = (convexQuizzes || []).map(q => ({
+    id: q._id,
+    title: q.title,
+    subject: q.subject,
+    topic: q.topic,
+    difficulty: "Medium",
+    timeLimit: 60 * 10,
+    questions: q.questions.map((que) => ({
+        id: "temp-" + Date.now(),
+        text: que.text,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        type: que.type as any,
+        options: que.options,
+        correctAnswer: que.correctAnswer,
+        explanation: que.explanation,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        subject: q.subject as any,
+        topic: q.topic
+    }))
+  }));
+
+  const loading = convexQuizzes === undefined;
+
+  // derived from convex
 
   // Selection State
   const [step, setStep] = useState<Step>("SUBJECT");
   const [selectedSubject, setSelectedSubject] = useState<string>("");
   const [selectedTopic, setSelectedTopic] = useState<string>("");
-
-  useEffect(() => {
-    async function load() {
-      const data = await fetchAllQuizzes();
-      setQuizzes(data);
-      setLoading(false);
-    }
-    load();
-  }, []);
 
   // Derived filters
   const subjects = [...new Set(quizzes.map(q => q.subject))];
@@ -132,15 +155,17 @@ export default function QuizList() {
         {step === "QUIZ" && (
           <div className="flex flex-col gap-3 animate-in slide-in-from-right-4">
              <h2 className="text-sm font-semibold text-gray-500 mb-2 uppercase tracking-wide">Available Quizzes</h2>
-            {quizzesForTopic.map(quiz => (
+            {quizzesForTopic.map(quiz => {
+              const isCompleted = completedQuizIds.has(quiz.id);
+              return (
               <div
                 key={quiz.id}
                 onClick={() => navigate('/quiz/attempt', { state: { quizData: quiz } })}
-                className="group flex items-center justify-between rounded-xl bg-white dark:bg-[#1a2230] p-4 shadow-sm border border-gray-100 dark:border-gray-800 cursor-pointer active:scale-[0.98] transition-all hover:border-primary/30"
+                className={`group flex items-center justify-between rounded-xl p-4 shadow-sm border cursor-pointer active:scale-[0.98] transition-all hover:border-primary/30 ${isCompleted ? 'bg-green-50 dark:bg-green-900/10 border-green-200 dark:border-green-800' : 'bg-white dark:bg-[#1a2230] border-gray-100 dark:border-gray-800'}`}
               >
                   <div className="flex items-center gap-4">
-                    <div className="flex size-12 shrink-0 items-center justify-center rounded-lg bg-blue-50 dark:bg-blue-900/20 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
-                      <span className="material-symbols-outlined">quiz</span>
+                    <div className={`flex size-12 shrink-0 items-center justify-center rounded-lg transition-colors ${isCompleted ? 'bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400' : 'bg-blue-50 dark:bg-blue-900/20 text-primary group-hover:bg-primary group-hover:text-white'}`}>
+                      <span className="material-symbols-outlined">{isCompleted ? "check_circle" : "quiz"}</span>
                     </div>
                     <div>
                       <h3 className="text-base font-bold text-[#111318] dark:text-white line-clamp-1">{quiz.title}</h3>
@@ -156,9 +181,11 @@ export default function QuizList() {
                       </div>
                     </div>
                   </div>
-                  <span className="material-symbols-outlined text-gray-300 group-hover:text-primary">play_arrow</span>
+                  <span className={`material-symbols-outlined ${isCompleted ? 'text-green-500' : 'text-gray-300 group-hover:text-primary'}`}>
+                    {isCompleted ? "done" : "play_arrow"}
+                  </span>
               </div>
-            ))}
+            )})}
           </div>
         )}
 
