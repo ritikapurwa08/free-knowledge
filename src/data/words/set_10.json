@@ -1,0 +1,1193 @@
+[
+  {
+    "text": "Ameliorate",
+    "definition": "Make (something bad or unsatisfactory) better.",
+    "hindiSynonyms": [
+      "सुधारना",
+      "बेहतर बनाना",
+      "उन्नति करना"
+    ],
+    "englishSynonyms": [
+      "Improve",
+      "Enhance",
+      "Better",
+      "Alleviate"
+    ],
+    "examples": [
+      {
+        "sentence": "Steps were taken to ameliorate the situation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 451,
+    "id": "ameliorate"
+  },
+  {
+    "text": "Revamp",
+    "definition": "Give new and improved form, structure, or appearance to.",
+    "hindiSynonyms": [
+      "मरम्मत करना",
+      "नया रूप देना",
+      "सुधारना"
+    ],
+    "englishSynonyms": [
+      "Renovate",
+      "Refurbish",
+      "Overhaul",
+      "Reconstruct"
+    ],
+    "examples": [
+      {
+        "sentence": "The company decided to revamp its image."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 452,
+    "id": "revamp"
+  },
+  {
+    "text": "Rectify",
+    "definition": "Put (something) right; correct.",
+    "hindiSynonyms": [
+      "सुधारना",
+      "ठीक करना",
+      "संशोधन करना"
+    ],
+    "englishSynonyms": [
+      "Correct",
+      "Fix",
+      "Remedy",
+      "Repair"
+    ],
+    "examples": [
+      {
+        "sentence": "Please rectify the error immediately."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 453,
+    "id": "rectify"
+  },
+  {
+    "text": "Ratify",
+    "definition": "Sign or give formal consent to (a treaty, contract, or agreement), making it officially valid.",
+    "hindiSynonyms": [
+      "पुष्टि करना",
+      "अनुमोदन करना",
+      "मंजूरी देना"
+    ],
+    "englishSynonyms": [
+      "Confirm",
+      "Approve",
+      "Sanction",
+      "Endorse"
+    ],
+    "examples": [
+      {
+        "sentence": "The treaty was ratified by all countries."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 454,
+    "id": "ratify"
+  },
+  {
+    "text": "Overhaul",
+    "definition": "Take apart (a piece of machinery or equipment) in order to examine it and repair it if necessary.",
+    "hindiSynonyms": [
+      "कायकल्प करना",
+      "मरम्मत करना",
+      "जांच-पड़ताल"
+    ],
+    "englishSynonyms": [
+      "Service",
+      "Repair",
+      "Renovate",
+      "Rebuild"
+    ],
+    "examples": [
+      {
+        "sentence": "The engine needs a complete overhaul."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 455,
+    "id": "overhaul"
+  },
+  {
+    "text": "Exacerbate",
+    "definition": "Make (a problem, bad situation, or negative feeling) worse.",
+    "hindiSynonyms": [
+      "बिगाड़ना",
+      "तेज करना",
+      "उग्र करना"
+    ],
+    "englishSynonyms": [
+      "Aggravate",
+      "Worsen",
+      "Intensify",
+      "Inflame"
+    ],
+    "examples": [
+      {
+        "sentence": "The new law only exacerbated the problem."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 456,
+    "id": "exacerbate"
+  },
+  {
+    "text": "Aplomb",
+    "definition": "Self-confidence or assurance, especially when in a demanding situation.",
+    "hindiSynonyms": [
+      "आत्मविश्वास",
+      "संयम",
+      "धैर्य"
+    ],
+    "englishSynonyms": [
+      "Poise",
+      "Self-assurance",
+      "Composure",
+      "Confidence"
+    ],
+    "examples": [
+      {
+        "sentence": "He handled the crisis with great aplomb."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 457,
+    "id": "aplomb"
+  },
+  {
+    "text": "Equanimity",
+    "definition": "Mental calmness, composure, and evenness of temper, especially in a difficult situation.",
+    "hindiSynonyms": [
+      "समभाव",
+      "धीरज",
+      "शांति"
+    ],
+    "englishSynonyms": [
+      "Composure",
+      "Calmness",
+      "Serenity",
+      "Poise"
+    ],
+    "examples": [
+      {
+        "sentence": "She accepted the bad news with equanimity."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 458,
+    "id": "equanimity"
+  },
+  {
+    "text": "Sangfroid",
+    "definition": "Composure or coolness, sometimes excessive, as shown in danger or under trying circumstances.",
+    "hindiSynonyms": [
+      "आत्मसंयम",
+      "शीतलता",
+      "धैर्य"
+    ],
+    "englishSynonyms": [
+      "Composure",
+      "Coolness",
+      "Equanimity",
+      "Poise"
+    ],
+    "examples": [
+      {
+        "sentence": "He displayed remarkable sangfroid during the fire."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 459,
+    "id": "sangfroid"
+  },
+  {
+    "text": "Phlegmatic",
+    "definition": "(of a person) having an unemotional and stolidly calm disposition.",
+    "hindiSynonyms": [
+      "सुस्त",
+      "उदासीन",
+      "शांत"
+    ],
+    "englishSynonyms": [
+      "Calm",
+      "Stolid",
+      "Unemotional",
+      "Impassive"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a phlegmatic character who rarely gets angry."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 460,
+    "id": "phlegmatic"
+  },
+  {
+    "text": "Beneficial",
+    "definition": "Resulting in good; favorable or advantageous.",
+    "hindiSynonyms": [
+      "लाभदायक",
+      "फायदेमंद",
+      "हितकारी"
+    ],
+    "englishSynonyms": [
+      "Advantageous",
+      "Favorable",
+      "Helpful",
+      "Useful"
+    ],
+    "examples": [
+      {
+        "sentence": "Regular exercise is beneficial to health."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 461,
+    "id": "beneficial"
+  },
+  {
+    "text": "Beneficiary",
+    "definition": "A person who derives advantage from something, especially a trust, will, or life insurance policy.",
+    "hindiSynonyms": [
+      "लाभार्थी",
+      "हितग्राही"
+    ],
+    "englishSynonyms": [
+      "Recipient",
+      "Heir",
+      "Receiver"
+    ],
+    "examples": [
+      {
+        "sentence": "She is the sole beneficiary of his will."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 462,
+    "id": "beneficiary"
+  },
+  {
+    "text": "Salubrious",
+    "definition": "Health-giving; healthy. Also, (of a place) pleasant; not run-down.",
+    "hindiSynonyms": [
+      "स्वास्थ्यवर्धक",
+      "लाभदायक",
+      "स्वच्छ"
+    ],
+    "englishSynonyms": [
+      "Healthy",
+      "Health-giving",
+      "Beneficial",
+      "Wholesome"
+    ],
+    "examples": [
+      {
+        "sentence": "The mountain air is very salubrious."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 463,
+    "id": "salubrious"
+  },
+  {
+    "text": "Salutary",
+    "definition": "(especially with reference to something unwelcome or unpleasant) producing good effects; beneficial.",
+    "hindiSynonyms": [
+      "लाभदायक",
+      "हितकर",
+      "शिक्षाप्रद"
+    ],
+    "englishSynonyms": [
+      "Beneficial",
+      "Advantageous",
+      "Profitable",
+      "Good"
+    ],
+    "examples": [
+      {
+        "sentence": "The accident was a salutary lesson in road safety."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 464,
+    "id": "salutary"
+  },
+  {
+    "text": "Lucrative",
+    "definition": "Producing a great deal of profit.",
+    "hindiSynonyms": [
+      "लाभदायक",
+      "मुनाफेवाला",
+      "अर्थकर"
+    ],
+    "englishSynonyms": [
+      "Profitable",
+      "Gainful",
+      "Remunerative",
+      "Fruitful"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a lucrative business deal."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 465,
+    "id": "lucrative"
+  },
+  {
+    "text": "Opportune",
+    "definition": "(of a time) well-chosen or particularly favorable; appropriate.",
+    "hindiSynonyms": [
+      "उपयुक्त",
+      "सामायिक",
+      "उचित समय पर"
+    ],
+    "englishSynonyms": [
+      "Timely",
+      "Favorable",
+      "Advantageous",
+      "Appropriate"
+    ],
+    "examples": [
+      {
+        "sentence": "He arrived at an opportune moment."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 466,
+    "id": "opportune"
+  },
+  {
+    "text": "Innocuous",
+    "definition": "Not harmful or offensive.",
+    "hindiSynonyms": [
+      "हानिरहित",
+      "सीधा-सादा",
+      "निर्दोष"
+    ],
+    "englishSynonyms": [
+      "Harmless",
+      "Safe",
+      "Inoffensive",
+      "Mild"
+    ],
+    "examples": [
+      {
+        "sentence": "It was an innocuous remark."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 467,
+    "id": "innocuous"
+  },
+  {
+    "text": "Wholesome",
+    "definition": "Conducive to or suggestive of good health and physical well-being.",
+    "hindiSynonyms": [
+      "पौष्टिक",
+      "स्वास्थ्यकर",
+      "हितकारी"
+    ],
+    "englishSynonyms": [
+      "Healthy",
+      "Nutritious",
+      "Beneficial",
+      "Good"
+    ],
+    "examples": [
+      {
+        "sentence": "She cooks wholesome meals for her family."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 468,
+    "id": "wholesome"
+  },
+  {
+    "text": "Noxious",
+    "definition": "Harmful, poisonous, or very unpleasant.",
+    "hindiSynonyms": [
+      "हानिकारक",
+      "विशैला",
+      "अस्वास्थ्यकर"
+    ],
+    "englishSynonyms": [
+      "Harmful",
+      "Toxic",
+      "Poisonous",
+      "Deadly"
+    ],
+    "examples": [
+      {
+        "sentence": "Noxious fumes filled the room."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 469,
+    "id": "noxious"
+  },
+  {
+    "text": "Detrimental",
+    "definition": "Tending to cause harm.",
+    "hindiSynonyms": [
+      "हानिकारक",
+      "नुकसानदेह"
+    ],
+    "englishSynonyms": [
+      "Harmful",
+      "Damaging",
+      "Injurious",
+      "Prejudicial"
+    ],
+    "examples": [
+      {
+        "sentence": "Smoking is detrimental to your health."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 470,
+    "id": "detrimental"
+  },
+  {
+    "text": "Bane",
+    "definition": "A cause of great distress or annoyance.",
+    "hindiSynonyms": [
+      "अभिशाप",
+      "विपत्ति",
+      "नाश का कारण"
+    ],
+    "englishSynonyms": [
+      "Curse",
+      "Scourge",
+      "Plague",
+      "Ruin"
+    ],
+    "examples": [
+      {
+        "sentence": "Mosquitoes are the bane of my existence."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 471,
+    "id": "bane"
+  },
+  {
+    "text": "Baleful",
+    "definition": "Threatening harm; menacing.",
+    "hindiSynonyms": [
+      "हानिकारक",
+      "विनाशकारी",
+      "अशुभ"
+    ],
+    "englishSynonyms": [
+      "Menacing",
+      "Threatening",
+      "Hostile",
+      "Malevolent"
+    ],
+    "examples": [
+      {
+        "sentence": "He gave me a baleful look."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 472,
+    "id": "baleful"
+  },
+  {
+    "text": "Noisome",
+    "definition": "Having an extremely offensive smell.",
+    "hindiSynonyms": [
+      "बदबूदार",
+      "घिनौना",
+      "हानिकारक"
+    ],
+    "englishSynonyms": [
+      "Foul",
+      "Stinking",
+      "Malodorous",
+      "Disgusting"
+    ],
+    "examples": [
+      {
+        "sentence": "A noisome stench came from the sewer."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 473,
+    "id": "noisome"
+  },
+  {
+    "text": "Perilous",
+    "definition": "Full of danger or risk.",
+    "hindiSynonyms": [
+      "खतरनाक",
+      "जोखिम भरा",
+      "संकटपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Dangerous",
+      "Hazardous",
+      "Risky",
+      "Unsafe"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a perilous journey."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 474,
+    "id": "perilous"
+  },
+  {
+    "text": "Hazardous",
+    "definition": "Risky; dangerous.",
+    "hindiSynonyms": [
+      "खतरनाक",
+      "जोखिम भरा"
+    ],
+    "englishSynonyms": [
+      "Dangerous",
+      "Risky",
+      "Perilous",
+      "Unsafe"
+    ],
+    "examples": [
+      {
+        "sentence": "These chemicals are hazardous to health."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 475,
+    "id": "hazardous"
+  },
+  {
+    "text": "Jeopardous",
+    "definition": "Dangerous; perilous.",
+    "hindiSynonyms": [
+      "खतरनाक",
+      "संकटपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Risky",
+      "Dangerous",
+      "Perilous",
+      "Hazardous"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a jeopardous undertaking."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 476,
+    "id": "jeopardous"
+  },
+  {
+    "text": "Menacing",
+    "definition": "Suggesting the presence of danger; threatening.",
+    "hindiSynonyms": [
+      "डरावना",
+      "धमकी भरा"
+    ],
+    "englishSynonyms": [
+      "Threatening",
+      "Ominous",
+      "Intimidating",
+      "Frightening"
+    ],
+    "examples": [
+      {
+        "sentence": "Dark clouds gathered in a menacing way."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 477,
+    "id": "menacing"
+  },
+  {
+    "text": "Lethal",
+    "definition": "Sufficient to cause death.",
+    "hindiSynonyms": [
+      "जानलेवा",
+      "घातक",
+      "प्राणघातक"
+    ],
+    "englishSynonyms": [
+      "Deadly",
+      "Fatal",
+      "Mortal",
+      "Killer"
+    ],
+    "examples": [
+      {
+        "sentence": "The snake's venom is lethal."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 478,
+    "id": "lethal"
+  },
+  {
+    "text": "Pernicious",
+    "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+    "hindiSynonyms": [
+      "हानिकारक",
+      "विनाशकारी",
+      "घातक"
+    ],
+    "englishSynonyms": [
+      "Harmful",
+      "Damaging",
+      "Destructive",
+      "Deadly"
+    ],
+    "examples": [
+      {
+        "sentence": "The pernicious effects of smoking are well known."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 479,
+    "id": "pernicious"
+  },
+  {
+    "text": "Inimical",
+    "definition": "Tending to obstruct or harm. Also, unfriendly; hostile.",
+    "hindiSynonyms": [
+      "विरोधी",
+      "शत्रुतापूर्ण",
+      "हानिकारक"
+    ],
+    "englishSynonyms": [
+      "Harmful",
+      "Hostile",
+      "Unfriendly",
+      "Adverse"
+    ],
+    "examples": [
+      {
+        "sentence": "These policies are inimical to growth."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 480,
+    "id": "inimical"
+  },
+  {
+    "text": "Deleterious",
+    "definition": "Causing harm or damage.",
+    "hindiSynonyms": [
+      "हानिकारक",
+      "नुकसानदेह"
+    ],
+    "englishSynonyms": [
+      "Harmful",
+      "Damaging",
+      "Detrimental",
+      "Injurious"
+    ],
+    "examples": [
+      {
+        "sentence": "Pollution has a deleterious effect on the environment."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 481,
+    "id": "deleterious"
+  },
+  {
+    "text": "Antediluvian",
+    "definition": "Of or belonging to the time before the biblical Flood. Also, ridiculously old-fashioned.",
+    "hindiSynonyms": [
+      "अतिप्राचीन",
+      "पुराना",
+      "बाबा आदम के जमाने का"
+    ],
+    "englishSynonyms": [
+      "Ancient",
+      "Prehistoric",
+      "Archaic",
+      "Old-fashioned"
+    ],
+    "examples": [
+      {
+        "sentence": "His ideas are antediluvian."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 482,
+    "id": "antediluvian"
+  },
+  {
+    "text": "Aboriginal",
+    "definition": "Inhabiting or existing in a land from the earliest times or from before the arrival of colonists.",
+    "hindiSynonyms": [
+      "आदिवासी",
+      "मूल निवासी",
+      "प्राचीन"
+    ],
+    "englishSynonyms": [
+      "Indigenous",
+      "Native",
+      "Original"
+    ],
+    "examples": [
+      {
+        "sentence": "We studied the aboriginal art of Australia."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 483,
+    "id": "aboriginal"
+  },
+  {
+    "text": "Pristine",
+    "definition": "In its original condition; unspoiled. Also, clean and fresh as if new.",
+    "hindiSynonyms": [
+      "प्राचीन",
+      "मौलिक",
+      "निर्मल"
+    ],
+    "englishSynonyms": [
+      "Unspoiled",
+      "Immaculate",
+      "Perfect",
+      "Pure"
+    ],
+    "examples": [
+      {
+        "sentence": "The beach was in pristine condition."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 484,
+    "id": "pristine"
+  },
+  {
+    "text": "Primeval",
+    "definition": "Of or resembling the earliest ages in the history of the world.",
+    "hindiSynonyms": [
+      "प्राचीन",
+      "आदिम",
+      "युगों पुराना"
+    ],
+    "englishSynonyms": [
+      "Ancient",
+      "Prehistoric",
+      "Primordial",
+      "Primal"
+    ],
+    "examples": [
+      {
+        "sentence": "The forest looked primeval."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 485,
+    "id": "primeval"
+  },
+  {
+    "text": "Archaic",
+    "definition": "Very old or old-fashioned.",
+    "hindiSynonyms": [
+      "प्राचीन",
+      "पुराना",
+      "अप्रचलित"
+    ],
+    "englishSynonyms": [
+      "Obsolete",
+      "Old-fashioned",
+      "Outdated",
+      "Ancient"
+    ],
+    "examples": [
+      {
+        "sentence": "The law is archaic and needs to be updated."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 486,
+    "id": "archaic"
+  },
+  {
+    "text": "Obsolete",
+    "definition": "No longer produced or used; out of date.",
+    "hindiSynonyms": [
+      "अप्रचलित",
+      "पुराना",
+      "लुप्तप्राय"
+    ],
+    "englishSynonyms": [
+      "Outdated",
+      "Old-fashioned",
+      "Archaic",
+      "Defunct"
+    ],
+    "examples": [
+      {
+        "sentence": "Typewriters are now largely obsolete."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 487,
+    "id": "obsolete"
+  },
+  {
+    "text": "Hoary",
+    "definition": "Grayish white; old and trite.",
+    "hindiSynonyms": [
+      "सफेद",
+      "पुराना",
+      "धूसर"
+    ],
+    "englishSynonyms": [
+      "Gray",
+      "White",
+      "Ancient",
+      "Old"
+    ],
+    "examples": [
+      {
+        "sentence": "He told a hoary old joke."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 488,
+    "id": "hoary"
+  },
+  {
+    "text": "Nugatory",
+    "definition": "Of no value or importance.",
+    "hindiSynonyms": [
+      "तुच्छ",
+      "व्यर्थ",
+      "निरर्थक"
+    ],
+    "englishSynonyms": [
+      "Worthless",
+      "Trivial",
+      "Insignificant",
+      "Useless"
+    ],
+    "examples": [
+      {
+        "sentence": "The observation was nugatory."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 489,
+    "id": "nugatory"
+  },
+  {
+    "text": "Sterile",
+    "definition": "Not able to produce children or young. Also, free from bacteria or other living microorganisms.",
+    "hindiSynonyms": [
+      "बांझ",
+      "कीटाणु रहित",
+      "बंजर"
+    ],
+    "englishSynonyms": [
+      "Infertile",
+      "Barren",
+      "Clean",
+      "Antiseptic"
+    ],
+    "examples": [
+      {
+        "sentence": "The needle must be sterile."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 490,
+    "id": "sterile"
+  },
+  {
+    "text": "Arid",
+    "definition": "(of land or a climate) having little or no rain; too dry or barren to support vegetation.",
+    "hindiSynonyms": [
+      "सूखा",
+      "बंजर",
+      "शुष्क"
+    ],
+    "englishSynonyms": [
+      "Dry",
+      "Parched",
+      "Waterless",
+      "Barren"
+    ],
+    "examples": [
+      {
+        "sentence": "The desert is an arid region."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 491,
+    "id": "arid"
+  },
+  {
+    "text": "Parched",
+    "definition": "Dried out with heat. Also, extremely thirsty.",
+    "hindiSynonyms": [
+      "सूखा",
+      "प्यासा",
+      "झुलसा हुआ"
+    ],
+    "englishSynonyms": [
+      "Dry",
+      "Arid",
+      "Thirsty",
+      "Dehydrated"
+    ],
+    "examples": [
+      {
+        "sentence": "The land was parched by the drought."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 492,
+    "id": "parched"
+  },
+  {
+    "text": "Infecund",
+    "definition": "Not producing offspring or fruit; sterile.",
+    "hindiSynonyms": [
+      "बांझ",
+      "अनुरवर",
+      "बंजर"
+    ],
+    "englishSynonyms": [
+      "Sterile",
+      "Infertile",
+      "Barren"
+    ],
+    "examples": [
+      {
+        "sentence": "The soil was infecund and unsuitable for farming."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 493,
+    "id": "infecund"
+  },
+  {
+    "text": "Futile",
+    "definition": "Incapable of producing any useful result; pointless.",
+    "hindiSynonyms": [
+      "व्यर्थ",
+      "निष्फल",
+      "बेकार"
+    ],
+    "englishSynonyms": [
+      "Useless",
+      "Pointless",
+      "Fruitless",
+      "Vain"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a futile attempt to escape."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 494,
+    "id": "futile"
+  },
+  {
+    "text": "Officious",
+    "definition": "Assertive of authority in an annoyingly domineering way, especially with regard to petty or trivial matters.",
+    "hindiSynonyms": [
+      "परेशान करनेवाला",
+      "हस्तक्षेप करने वाला",
+      "दखलअंदाज"
+    ],
+    "englishSynonyms": [
+      "Meddlesome",
+      "Self-important",
+      "Bumptious",
+      "Bossy"
+    ],
+    "examples": [
+      {
+        "sentence": "An officious security guard stopped us."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 495,
+    "id": "officious"
+  },
+  {
+    "text": "Opinionated",
+    "definition": "Conceitedly assertive and dogmatic in one's opinions.",
+    "hindiSynonyms": [
+      "हठी",
+      "स्वेच्छाचारी",
+      "जिद्दी"
+    ],
+    "englishSynonyms": [
+      "Dogmatic",
+      "Inflexible",
+      "Obstinate",
+      "Pig-headed"
+    ],
+    "examples": [
+      {
+        "sentence": "He is too opinionated to listen to others."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 496,
+    "id": "opinionated"
+  },
+  {
+    "text": "Dogmatic",
+    "definition": "Inclined to lay down principles as incontrovertibly true.",
+    "hindiSynonyms": [
+      "कट्टर",
+      "हठी",
+      "सिद्धांतवादी"
+    ],
+    "englishSynonyms": [
+      "Opinionated",
+      "Assertive",
+      "Adamant",
+      "Rigid"
+    ],
+    "examples": [
+      {
+        "sentence": "He is very dogmatic about his political views."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 497,
+    "id": "dogmatic"
+  },
+  {
+    "text": "Overbearing",
+    "definition": "Unpleasantly domineering; trying to control other people's behavior and attitudes.",
+    "hindiSynonyms": [
+      "रोबदार",
+      "अभिमानी",
+      "दबंग"
+    ],
+    "englishSynonyms": [
+      "Domineering",
+      "Bossy",
+      "Arrogant",
+      "Oppressive"
+    ],
+    "examples": [
+      {
+        "sentence": "She has an overbearing mother."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 498,
+    "id": "overbearing"
+  },
+  {
+    "text": "High-handed",
+    "definition": "Using power or authority without considering the feelings of others.",
+    "hindiSynonyms": [
+      "निरंकुश",
+      "स्वेच्छाचारी",
+      "अहंकारी"
+    ],
+    "englishSynonyms": [
+      "Arrogant",
+      "Domineering",
+      "Imperious",
+      "Bossy"
+    ],
+    "examples": [
+      {
+        "sentence": "The manager's high-handed manner alienated the staff."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 499,
+    "id": "high-handed"
+  },
+  {
+    "text": "Peremptory",
+    "definition": "(especially of a person's manner or actions) insisting on immediate attention or obedience.",
+    "hindiSynonyms": [
+      "आदेशात्मक",
+      "अटल",
+      "निर्णायक"
+    ],
+    "englishSynonyms": [
+      "Imperious",
+      "Commanding",
+      "Authoritative",
+      "Bossy"
+    ],
+    "examples": [
+      {
+        "sentence": "He spoke in a peremptory tone."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 500,
+    "id": "peremptory"
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "text": "Dwarf",
+    "definition": "(in folklore or fantasy literature) a member of a mythical race of short, stocky humanlike creatures who are generally skilled in mining and metalworking.",
+    "hindiSynonyms": [
+      "बौना",
+      "नाटा",
+      "छोटा आदमी",
+      "वामन",
+      "ठिगना"
+    ],
+    "englishSynonyms": [
+      "Pygmy",
+      "Midget",
+      "Small person",
+      "Short"
+    ],
+    "examples": [
+      {
+        "sentence": "Snow White and the Seven Dwarfs."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 151,
+    "id": "dwarf"
+  },
+  {
+    "text": "Midget",
+    "definition": "A very small person or thing.",
+    "hindiSynonyms": [
+      "बौना",
+      "छोटा",
+      "नन्हा",
+      "नाटा",
+      "क्षुद्र"
+    ],
+    "englishSynonyms": [
+      "Dwarf",
+      "Pygmy",
+      "Small person",
+      "Shrimp"
+    ],
+    "examples": [
+      {
+        "sentence": "A midget submarine."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 152,
+    "id": "midget"
+  },
+  {
+    "text": "Lilliputian",
+    "definition": "Trivial or very small.",
+    "hindiSynonyms": [
+      "तुच्छ",
+      "बहुत छोटा",
+      "नन्हा",
+      "बौना",
+      "सूक्ष्म"
+    ],
+    "englishSynonyms": [
+      "Tiny",
+      "Small",
+      "Miniature",
+      "Diminutive"
+    ],
+    "examples": [
+      {
+        "sentence": "The problems seem lilliputian compared to the tragedy of war."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 153,
+    "id": "lilliputian"
+  },
+  {
+    "text": "Discrepancy",
+    "definition": "A lack of compatibility or similarity between two or more facts.",
+    "hindiSynonyms": [
+      "विसंगति",
+      "अंतर",
+      "फर्क",
+      "विरोध",
+      "असमानता"
+    ],
+    "englishSynonyms": [
+      "Difference",
+      "Disparity",
+      "Variance",
+      "Inconsistency"
+    ],
+    "examples": [
+      {
+        "sentence": "There is a discrepancy between the two accounts."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 154,
+    "id": "discrepancy"
+  },
+  {
+    "text": "Variance",
+    "definition": "The fact or quality of being different, divergent, or inconsistent.",
+    "hindiSynonyms": [
+      "भिन्नता",
+      "अंतर",
+      "मतभेद",
+      "विविधता",
+      "फेर"
+    ],
+    "englishSynonyms": [
+      "Difference",
+      "Discrepancy",
+      "Inconsistency",
+      "Disagreement"
+    ],
+    "examples": [
+      {
+        "sentence": "Her story is at variance with the facts."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 155,
+    "id": "variance"
+  },
+  {
+    "text": "Inconsistency",
+    "definition": "The fact or state of being inconsistent.",
+    "hindiSynonyms": [
+      "असंगति",
+      "विरोध",
+      "अस्थिरता",
+      "विषमता",
+      "परस्पर विरोध"
+    ],
+    "englishSynonyms": [
+      "Discrepancy",
+      "Disagreement",
+      "Variance",
+      "Difference"
+    ],
+    "examples": [
+      {
+        "sentence": "The inconsistency of his argument was obvious."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 156,
+    "id": "inconsistency"
+  },
+  {
+    "text": "Parity",
+    "definition": "The state or condition of being equal, especially regarding status or pay.",
+    "hindiSynonyms": [
+      "समानता",
+      "बराबरी",
+      "समता",
+      "तुल्यता",
+      "सममूल्य"
+    ],
+    "englishSynonyms": [
+      "Equality",
+      "Equivalence",
+      "Uniformity",
+      "Sameness"
+    ],
+    "examples": [
+      {
+        "sentence": "Women have fought for parity with men in the workplace."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 157,
+    "id": "parity"
+  },
+  {
+    "text": "Disparity",
+    "definition": "A great difference.",
+    "hindiSynonyms": [
+      "असमानता",
+      "फर्क",
+      "विषमता",
+      "अंतर",
+      "भेद"
+    ],
+    "englishSynonyms": [
+      "Difference",
+      "Gap",
+      "Inequality",
+      "Imbalance"
+    ],
+    "examples": [
+      {
+        "sentence": "Economic disparities between different regions."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 158,
+    "id": "disparity"
+  },
+  {
+    "text": "Discrimination",
+    "definition": "The unjust or prejudicial treatment of different categories of people or things.",
+    "hindiSynonyms": [
+      "भेदभाव",
+      "पक्षपात",
+      "विवेक",
+      "पहचान",
+      "अंतर करना"
+    ],
+    "englishSynonyms": [
+      "Prejudice",
+      "Bias",
+      "Bigotry",
+      "Intolerance"
+    ],
+    "examples": [
+      {
+        "sentence": "He was a victim of racial discrimination."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 159,
+    "id": "discrimination"
+  },
+  {
+    "text": "Discordance",
+    "definition": "Lack of agreement or consistency.",
+    "hindiSynonyms": [
+      "अनबन",
+      "बेसुरापन",
+      "विरोध",
+      "असहमति",
+      "फूट"
+    ],
+    "englishSynonyms": [
+      "Disagreement",
+      "Conflict",
+      "Friction",
+      "Dissonance"
+    ],
+    "examples": [
+      {
+        "sentence": "The discordance between the two groups."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 160,
+    "id": "discordance"
+  },
+  {
+    "text": "Congruence",
+    "definition": "Agreement or harmony; compatibility.",
+    "hindiSynonyms": [
+      "अनुरूपता",
+      "समानता",
+      "मेल",
+      "संगति",
+      "समरूपता"
+    ],
+    "englishSynonyms": [
+      "Agreement",
+      "Harmony",
+      "Compatibility",
+      "Accord"
+    ],
+    "examples": [
+      {
+        "sentence": "The results show quite good congruence with recent studies."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 161,
+    "id": "congruence"
+  },
+  {
+    "text": "Concord",
+    "definition": "Agreement or harmony between people or groups.",
+    "hindiSynonyms": [
+      "एकता",
+      "सद्भाव",
+      "मेल",
+      "समझौता",
+      "सहमति"
+    ],
+    "englishSynonyms": [
+      "Agreement",
+      "Harmony",
+      "Accord",
+      "Unity"
+    ],
+    "examples": [
+      {
+        "sentence": "They lived in peace and concord."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 162,
+    "id": "concord"
+  },
+  {
+    "text": "Harmony",
+    "definition": "The combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect.",
+    "hindiSynonyms": [
+      "सद्भाव",
+      "सामंजस्य",
+      "मेल",
+      "एकता",
+      "तालमेल"
+    ],
+    "englishSynonyms": [
+      "Accord",
+      "Agreement",
+      "Peace",
+      "Amity"
+    ],
+    "examples": [
+      {
+        "sentence": "The two countries lived in perfect harmony."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 163,
+    "id": "harmony"
+  },
+  {
+    "text": "Unison",
+    "definition": "Simultaneous performance of action or utterance of speech.",
+    "hindiSynonyms": [
+      "एक सुर",
+      "एकता",
+      "मेल",
+      "सामंजस्य",
+      "सहध्वनि"
+    ],
+    "englishSynonyms": [
+      "Simultaneously",
+      "Together",
+      "At the same time",
+      "As one"
+    ],
+    "examples": [
+      {
+        "sentence": "They sang in unison."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 164,
+    "id": "unison"
+  },
+  {
+    "text": "Voluble",
+    "definition": "Speaking or spoken incessantly and fluently.",
+    "hindiSynonyms": [
+      "बातूनी",
+      "वाचाल",
+      "धाराप्रवाह",
+      "बोलता हुआ",
+      "बकबक करने वाला"
+    ],
+    "englishSynonyms": [
+      "Talkative",
+      "Loquacious",
+      "Garrulous",
+      "Chatty"
+    ],
+    "examples": [
+      {
+        "sentence": "A voluble game-show host."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 165,
+    "id": "voluble"
+  },
+  {
+    "text": "Garrulous",
+    "definition": "Excessively talkative, especially on trivial matters.",
+    "hindiSynonyms": [
+      "बातूनी",
+      "बकवादी",
+      "वाचाल",
+      "गप्पी",
+      "अधिक बोलने वाला"
+    ],
+    "englishSynonyms": [
+      "Talkative",
+      "Loquacious",
+      "Voluble",
+      "Chatty"
+    ],
+    "examples": [
+      {
+        "sentence": "A garrulous taxi driver."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 166,
+    "id": "garrulous"
+  },
+  {
+    "text": "Chatty",
+    "definition": "Readily engaging in informal talk.",
+    "hindiSynonyms": [
+      "बातूनी",
+      "गप्पी",
+      "मिलनसार",
+      "चहकने वाला",
+      "बातचीत का"
+    ],
+    "englishSynonyms": [
+      "Talkative",
+      "Communicative",
+      "Friendly",
+      "Gossipy"
+    ],
+    "examples": [
+      {
+        "sentence": "He was in a chatty mood."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 167,
+    "id": "chatty"
+  },
+  {
+    "text": "Gabby",
+    "definition": "Excessively or annoyingly talkative.",
+    "hindiSynonyms": [
+      "बातूनी",
+      "गप्पी",
+      "बकवादी",
+      "वाचाल",
+      "मुंहफट"
+    ],
+    "englishSynonyms": [
+      "Talkative",
+      "Garrulous",
+      "Loquacious",
+      "Chatty"
+    ],
+    "examples": [
+      {
+        "sentence": "She was a gabby neighbor."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 168,
+    "id": "gabby"
+  },
+  {
+    "text": "Loquacious",
+    "definition": "Tending to talk a great deal; talkative.",
+    "hindiSynonyms": [
+      "बातूनी",
+      "वाचाल",
+      "गप्पी",
+      "बकवादी",
+      "मुंहजोर"
+    ],
+    "englishSynonyms": [
+      "Talkative",
+      "Voluble",
+      "Garrulous",
+      "Chatty"
+    ],
+    "examples": [
+      {
+        "sentence": "She was very loquacious and told us all the news."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 169,
+    "id": "loquacious"
+  },
+  {
+    "text": "Reticent",
+    "definition": "Not revealing one's thoughts or feelings readily.",
+    "hindiSynonyms": [
+      "मौन",
+      "अल्पभाषी",
+      "संकोची",
+      "चुप रहने वाला",
+      "आरक्षित"
+    ],
+    "englishSynonyms": [
+      "Reserved",
+      "Withdrawn",
+      "Introverted",
+      "Shy"
+    ],
+    "examples": [
+      {
+        "sentence": "She was reticent about her past."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 170,
+    "id": "reticent"
+  },
+  {
+    "text": "Taciturn",
+    "definition": "(of a person) reserved or uncommunicative in speech; saying little.",
+    "hindiSynonyms": [
+      "अल्पभाषी",
+      "मौन",
+      "चुपचाप",
+      "गंभीर",
+      "कम बोलने वाला"
+    ],
+    "englishSynonyms": [
+      "Untalkative",
+      "Uncommunicative",
+      "Reticent",
+      "Silent"
+    ],
+    "examples": [
+      {
+        "sentence": "A taciturn man who rarely spoke."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 171,
+    "id": "taciturn"
+  },
+  {
+    "text": "Tight-lipped",
+    "definition": "With the lips firmly closed, especially as a sign of suppressed emotion or determination.",
+    "hindiSynonyms": [
+      "चुप",
+      "मौन",
+      "बात न करने वाला",
+      "रहस्यमय",
+      "संयमित"
+    ],
+    "englishSynonyms": [
+      "Reticent",
+      "Uncommunicative",
+      "Taciturn",
+      "Silent"
+    ],
+    "examples": [
+      {
+        "sentence": "He remained tight-lipped about the deal."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 172,
+    "id": "tight-lipped"
+  },
+  {
+    "text": "Introvert",
+    "definition": "A shy, reticent person.",
+    "hindiSynonyms": [
+      "अंतर्मुखी",
+      "एकांतप्रिय",
+      "संकोची",
+      "आत्मलीन",
+      "शर्मीला"
+    ],
+    "englishSynonyms": [
+      "Recluse",
+      "Loner",
+      "Solitary",
+      "Observer"
+    ],
+    "examples": [
+      {
+        "sentence": "He is an introvert and prefers reading to partying."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 173,
+    "id": "introvert"
+  },
+  {
+    "text": "Extrovert",
+    "definition": "An outgoing, overtly expressive person.",
+    "hindiSynonyms": [
+      "बहिर्मुखी",
+      "मिलनसार",
+      "खुले दिल वाला",
+      "सामाजिक",
+      "बातूनी"
+    ],
+    "englishSynonyms": [
+      "Outgoing",
+      "Sociable",
+      "Friendly",
+      "Lively"
+    ],
+    "examples": [
+      {
+        "sentence": "She is an extrovert who loves meeting new people."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 174,
+    "id": "extrovert"
+  },
+  {
+    "text": "Ambivert",
+    "definition": "A person who has a balance of extrovert and introvert features in their personality.",
+    "hindiSynonyms": [
+      "उभयमुखी",
+      "मध्यम",
+      "संतुलित व्यक्तित्व",
+      "मिश्रित स्वभाव",
+      "लचीला"
+    ],
+    "englishSynonyms": [
+      "Balanced",
+      "Adaptable",
+      "Versatile",
+      "Moderate"
+    ],
+    "examples": [
+      {
+        "sentence": "Most people are ambiverts, falling somewhere in the middle."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 175,
+    "id": "ambivert"
+  },
+  {
+    "text": "Sociable",
+    "definition": "Willing to talk and engage in activities with other people; friendly.",
+    "hindiSynonyms": [
+      "मिलनसार",
+      "सामाजिक",
+      "दोस्ताना",
+      "हंसमुख",
+      "मेल-जोल वाला"
+    ],
+    "englishSynonyms": [
+      "Friendly",
+      "Gregarious",
+      "Convivial",
+      "Outgoing"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a very sociable person."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 176,
+    "id": "sociable"
+  },
+  {
+    "text": "Verbatim",
+    "definition": "In exactly the same words as were used originally.",
+    "hindiSynonyms": [
+      "शब्दशः",
+      "हूब-हू",
+      "ज्यों का त्यों",
+      "अक्षरशः",
+      "प्रतिशब्द"
+    ],
+    "englishSynonyms": [
+      "Word for word",
+      "Literally",
+      "Exactly",
+      "Precisely"
+    ],
+    "examples": [
+      {
+        "sentence": "I copied his notes verbatim."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 177,
+    "id": "verbatim"
+  },
+  {
+    "text": "Alacrity",
+    "definition": "Brisk and cheerful readiness.",
+    "hindiSynonyms": [
+      "तत्परता",
+      "उत्साह",
+      "फुर्ती",
+      "तेजी",
+      "जल्दी"
+    ],
+    "englishSynonyms": [
+      "Eagerness",
+      "Willingness",
+      "Readiness",
+      "Enthusiasm"
+    ],
+    "examples": [
+      {
+        "sentence": "She accepted the invitation with alacrity."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 178,
+    "id": "alacrity"
+  },
+  {
+    "text": "Agile",
+    "definition": "Able to move quickly and easily.",
+    "hindiSynonyms": [
+      "फुर्तीला",
+      "चपल",
+      "तेज",
+      "लचीला",
+      "चुस्त"
+    ],
+    "englishSynonyms": [
+      "Nimble",
+      "Lithe",
+      "Supple",
+      "Acrobatic"
+    ],
+    "examples": [
+      {
+        "sentence": "He is as agile as a monkey."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 179,
+    "id": "agile"
+  },
+  {
+    "text": "Nimble",
+    "definition": "Quick and light in movement or action; agile.",
+    "hindiSynonyms": [
+      "फुर्तीला",
+      "तेज",
+      "चतुर",
+      "कुशल",
+      "चपल"
+    ],
+    "englishSynonyms": [
+      "Agile",
+      "Lithe",
+      "Spry",
+      "Quick"
+    ],
+    "examples": [
+      {
+        "sentence": "With a deft motion of her nimble fingers."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 180,
+    "id": "nimble"
+  },
+  {
+    "text": "Swift",
+    "definition": "Happening quickly or promptly.",
+    "hindiSynonyms": [
+      "तेज",
+      "शीघ्र",
+      "त्वरित",
+      "वेगवान",
+      "जल्दी"
+    ],
+    "englishSynonyms": [
+      "Fast",
+      "Rapid",
+      "Quick",
+      "Speedy"
+    ],
+    "examples": [
+      {
+        "sentence": "A remarkably swift recovery."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 181,
+    "id": "swift"
+  },
+  {
+    "text": "Celerity",
+    "definition": "Swiftness of movement.",
+    "hindiSynonyms": [
+      "तेजी",
+      "वेग",
+      "फुर्ती",
+      "शीघ्रता",
+      "त्वरा"
+    ],
+    "englishSynonyms": [
+      "Speed",
+      "Rapidity",
+      "Swiftness",
+      "Haste"
+    ],
+    "examples": [
+      {
+        "sentence": "He acted with great celerity."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 182,
+    "id": "celerity"
+  },
+  {
+    "text": "Prompt",
+    "definition": "Done without delay; immediate.",
+    "hindiSynonyms": [
+      "शीघ्र",
+      "तत्काल",
+      "फौरन",
+      "तेज",
+      "समयनिष्ठ"
+    ],
+    "englishSynonyms": [
+      "Immediate",
+      "Instant",
+      "Quick",
+      "Rapid"
+    ],
+    "examples": [
+      {
+        "sentence": "Prompt action is required."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 183,
+    "id": "prompt"
+  },
+  {
+    "text": "Expeditious",
+    "definition": "Done with speed and efficiency.",
+    "hindiSynonyms": [
+      "शीघ्र",
+      "त्वरित",
+      "फुर्तीला",
+      "जल्दी",
+      "कारगर"
+    ],
+    "englishSynonyms": [
+      "Speedy",
+      "Swift",
+      "Quick",
+      "Rapid"
+    ],
+    "examples": [
+      {
+        "sentence": "An expeditious investigation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 184,
+    "id": "expeditious"
+  },
+  {
+    "text": "Laxness",
+    "definition": "Lack of strictness or care; negligence.",
+    "hindiSynonyms": [
+      "ढिलाई",
+      "लापरवाही",
+      "सुस्ती",
+      "शिथिलता",
+      "असावधानी"
+    ],
+    "englishSynonyms": [
+      "Negligence",
+      "Slackness",
+      "Carelessness",
+      "Remissness"
+    ],
+    "examples": [
+      {
+        "sentence": "The laxness of the local authorities."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 185,
+    "id": "laxness"
+  },
+  {
+    "text": "Violation",
+    "definition": "The action of violating someone or something.",
+    "hindiSynonyms": [
+      "उल्लंघन",
+      "अतिक्रमण",
+      "तिरस्कार",
+      "अपमान",
+      "भंग"
+    ],
+    "englishSynonyms": [
+      "Breach",
+      "Infringement",
+      "Contravention",
+      "Transgression"
+    ],
+    "examples": [
+      {
+        "sentence": "A violation of human rights."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 186,
+    "id": "violation"
+  },
+  {
+    "text": "Compulsion",
+    "definition": "The action or state of forcing or being forced to do something; constraint.",
+    "hindiSynonyms": [
+      "विवशता",
+      "मजबूरी",
+      "दबाव",
+      "बाध्यता",
+      "अनिवार्यता"
+    ],
+    "englishSynonyms": [
+      "Obligation",
+      "Constraint",
+      "Coercion",
+      "Force"
+    ],
+    "examples": [
+      {
+        "sentence": "There is no compulsion to attend."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 187,
+    "id": "compulsion"
+  },
+  {
+    "text": "Constraint",
+    "definition": "A limitation or restriction.",
+    "hindiSynonyms": [
+      "बाध्यता",
+      "रुकावट",
+      "प्रतिबंध",
+      "दबाव",
+      "संयम"
+    ],
+    "englishSynonyms": [
+      "Restriction",
+      "Limitation",
+      "Curb",
+      "Check"
+    ],
+    "examples": [
+      {
+        "sentence": "Time constraints make it impossible to do everything."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 188,
+    "id": "constraint"
+  },
+  {
+    "text": "Duress",
+    "definition": "Threats, violence, constraints, or other action brought to bear on someone to do something against their will or better judgment.",
+    "hindiSynonyms": [
+      "दबाव",
+      "मजबूरी",
+      "धमकी",
+      "बलप्रयोग",
+      "अवरोध"
+    ],
+    "englishSynonyms": [
+      "Coercion",
+      "Compulsion",
+      "Force",
+      "Pressure"
+    ],
+    "examples": [
+      {
+        "sentence": "He signed the confession under duress."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 189,
+    "id": "duress"
+  },
+  {
+    "text": "Maneuver",
+    "definition": "A movement or series of moves requiring skill and care.",
+    "hindiSynonyms": [
+      "पैंतरा",
+      "चाल",
+      "दांव-पेच",
+      "गतिविधि",
+      "युक्ति"
+    ],
+    "englishSynonyms": [
+      "Operation",
+      "Exercise",
+      "Activity",
+      "Move"
+    ],
+    "examples": [
+      {
+        "sentence": "A complex maneuver to park the car."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 190,
+    "id": "maneuver"
+  },
+  {
+    "text": "Manipulation",
+    "definition": "The action of manipulating something in a skillful manner.",
+    "hindiSynonyms": [
+      "हेरफेर",
+      "जोड़-तोड़",
+      "चालाकी",
+      "हस्त कौशल",
+      "प्रबंधन"
+    ],
+    "englishSynonyms": [
+      "Handling",
+      "Operation",
+      "Control",
+      "Influence"
+    ],
+    "examples": [
+      {
+        "sentence": "The manipulation of the stock market."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 191,
+    "id": "manipulation"
+  },
+  {
+    "text": "Conspiracy",
+    "definition": "A secret plan by a group to do something unlawful or harmful.",
+    "hindiSynonyms": [
+      "साजिश",
+      "षड्यंत्र",
+      "कुचक्र",
+      "मिलीभगत",
+      "गुटबंदी"
+    ],
+    "englishSynonyms": [
+      "Plot",
+      "Scheme",
+      "Plan",
+      "Intrigue"
+    ],
+    "examples": [
+      {
+        "sentence": "A conspiracy to overthrow the government."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 192,
+    "id": "conspiracy"
+  },
+  {
+    "text": "Plot",
+    "definition": "A plan made in secret by a group of people to do something illegal or harmful.",
+    "hindiSynonyms": [
+      "साजिश",
+      "षड्यंत्र",
+      "कथानक",
+      "भूखंड",
+      "योजना"
+    ],
+    "englishSynonyms": [
+      "Conspiracy",
+      "Intrigue",
+      "Scheme",
+      "Plan"
+    ],
+    "examples": [
+      {
+        "sentence": "A plot to seize power."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 193,
+    "id": "plot"
+  },
+  {
+    "text": "Ploy",
+    "definition": "A cunning plan or action designed to turn a situation to one's own advantage.",
+    "hindiSynonyms": [
+      "चाल",
+      "दांव",
+      "युक्ति",
+      "पैंतरा",
+      "हथकंडा"
+    ],
+    "englishSynonyms": [
+      "Ruse",
+      "Tactic",
+      "Move",
+      "Device"
+    ],
+    "examples": [
+      {
+        "sentence": "It was just a ploy to get more money."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 194,
+    "id": "ploy"
+  },
+  {
+    "text": "Stratagem",
+    "definition": "A plan or scheme, especially one used to outwit an opponent or achieve an end.",
+    "hindiSynonyms": [
+      "चाल",
+      "युक्ति",
+      "दांव",
+      "कपट-योजना",
+      "रणनीति"
+    ],
+    "englishSynonyms": [
+      "Plan",
+      "Scheme",
+      "Tactic",
+      "Maneuver"
+    ],
+    "examples": [
+      {
+        "sentence": "His chess stratagem was brilliant."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 195,
+    "id": "stratagem"
+  },
+  {
+    "text": "Gimmick",
+    "definition": "A trick or device intended to attract attention, publicity, or business.",
+    "hindiSynonyms": [
+      "हथकंडा",
+      "नौटंकी",
+      "युक्ति",
+      "चाल",
+      "करतब"
+    ],
+    "englishSynonyms": [
+      "Stunt",
+      "Contrivance",
+      "Scheme",
+      "Trick"
+    ],
+    "examples": [
+      {
+        "sentence": "It is just a publicity gimmick."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 196,
+    "id": "gimmick"
+  },
+  {
+    "text": "Cessation",
+    "definition": "The fact or process of ending or being brought to an end.",
+    "hindiSynonyms": [
+      "समाप्ति",
+      "रोक",
+      "विराम",
+      "अंत",
+      "निवृत्ति"
+    ],
+    "englishSynonyms": [
+      "End",
+      "Ending",
+      "Termination",
+      "Stopping"
+    ],
+    "examples": [
+      {
+        "sentence": "The cessation of hostilities."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 197,
+    "id": "cessation"
+  },
+  {
+    "text": "Inaction",
+    "definition": "Lack of action where some is expected or appropriate.",
+    "hindiSynonyms": [
+      "निष्क्रियता",
+      "अकर्मण्यता",
+      "सुस्ती",
+      "आलस्य",
+      "शिथिलता"
+    ],
+    "englishSynonyms": [
+      "Inactivity",
+      "Passivity",
+      "Idleness",
+      "Inertia"
+    ],
+    "examples": [
+      {
+        "sentence": "The government was accused of inaction."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 198,
+    "id": "inaction"
+  },
+  {
+    "text": "Jettison",
+    "definition": "Throw or drop (something) from an aircraft or ship.",
+    "hindiSynonyms": [
+      "फेंक देना",
+      "बाहर गिराना",
+      "बोझ गिराना",
+      "त्यागना",
+      "निकालना"
+    ],
+    "englishSynonyms": [
+      "Dump",
+      "Drop",
+      "Ditch",
+      "Discharge"
+    ],
+    "examples": [
+      {
+        "sentence": "They jettisoned the fuel to lighten the load."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 199,
+    "id": "jettison"
+  },
+  {
+    "text": "Eject",
+    "definition": "Force or throw (something) out, typically in a violent or sudden way.",
+    "hindiSynonyms": [
+      "निकालना",
+      "बेदखल करना",
+      "बाहर करना",
+      "फेंकना",
+      "निष्कासित करना"
+    ],
+    "englishSynonyms": [
+      "Expel",
+      "Throw out",
+      "Remove",
+      "Oust"
+    ],
+    "examples": [
+      {
+        "sentence": "He was ejected from the club."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 200,
+    "id": "eject"
+  }
+]

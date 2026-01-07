@@ -1,0 +1,1177 @@
+[
+  {
+    "text": "Voluminous",
+    "definition": "(of clothing or drapery) loose and ample. Also, (of writing) very lengthy and full.",
+    "hindiSynonyms": [
+      "विशाल",
+      "भारी-भरकम",
+      "विस्तृत"
+    ],
+    "englishSynonyms": [
+      "Capacious",
+      "Roomy",
+      "Ample",
+      "Extensive"
+    ],
+    "examples": [
+      {
+        "sentence": "He wrote voluminous notes on the subject."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 351,
+    "id": "voluminous"
+  },
+  {
+    "text": "Affectation",
+    "definition": "Behavior, speech, or writing that is artificial and designed to impress.",
+    "hindiSynonyms": [
+      "दिखावा",
+      "ढोंग",
+      "कृत्रिमता"
+    ],
+    "englishSynonyms": [
+      "Pretension",
+      "Artificiality",
+      "Pose",
+      "Sham"
+    ],
+    "examples": [
+      {
+        "sentence": "His British accent is just an affectation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 352,
+    "id": "affectation"
+  },
+  {
+    "text": "Affection",
+    "definition": "A gentle feeling of fondness or liking.",
+    "hindiSynonyms": [
+      "स्नेह",
+      "ममता",
+      "प्यार"
+    ],
+    "englishSynonyms": [
+      "Fondness",
+      "Love",
+      "Liking",
+      "Caring"
+    ],
+    "examples": [
+      {
+        "sentence": "She has deep affection for her parents."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 353,
+    "id": "affection"
+  },
+  {
+    "text": "Swanky",
+    "definition": "Stylishly luxurious and expensive.",
+    "hindiSynonyms": [
+      "तड़क-भड़क वाला",
+      "आलीशान",
+      "शानदार"
+    ],
+    "englishSynonyms": [
+      "Posh",
+      "Classy",
+      "Fancy",
+      "Stylish"
+    ],
+    "examples": [
+      {
+        "sentence": "They went to a swanky restaurant for dinner."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 354,
+    "id": "swanky"
+  },
+  {
+    "text": "Flaunt",
+    "definition": "Display (something) ostentatiously, especially in order to provoke envy or admiration.",
+    "hindiSynonyms": [
+      "इतराना",
+      "दिखावा करना",
+      "प्रदर्शन करना"
+    ],
+    "englishSynonyms": [
+      "Show off",
+      "Parade",
+      "Exhibit",
+      "Brandish"
+    ],
+    "examples": [
+      {
+        "sentence": "She likes to flaunt her wealth."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 355,
+    "id": "flaunt"
+  },
+  {
+    "text": "Sham",
+    "definition": "A thing that is not what it is purported to be.",
+    "hindiSynonyms": [
+      "ढोंग",
+      "नकली",
+      "बनावटी"
+    ],
+    "englishSynonyms": [
+      "Pretence",
+      "Fake",
+      "Fraud",
+      "Hoax"
+    ],
+    "examples": [
+      {
+        "sentence": "Their marriage was a sham."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 356,
+    "id": "sham"
+  },
+  {
+    "text": "Pretense",
+    "definition": "An attempt to make something that is not the case appear true.",
+    "hindiSynonyms": [
+      "बहाना",
+      "ढोंग",
+      "कपट"
+    ],
+    "englishSynonyms": [
+      "Make-believe",
+      "Act",
+      "Simulation",
+      "Feigning"
+    ],
+    "examples": [
+      {
+        "sentence": "He made a pretense of being busy."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 357,
+    "id": "pretense"
+  },
+  {
+    "text": "Sophistry",
+    "definition": "The use of fallacious arguments, especially with the intention of deceiving.",
+    "hindiSynonyms": [
+      "कुतर्क",
+      "मिथ्या तर्क",
+      "छल"
+    ],
+    "englishSynonyms": [
+      "Fallacy",
+      "Quibble",
+      "Equivocation"
+    ],
+    "examples": [
+      {
+        "sentence": "He used political sophistry to win the debate."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 358,
+    "id": "sophistry"
+  },
+  {
+    "text": "Ostentation",
+    "definition": "Pretentious and vulgar display, especially of wealth and luxury, intended to impress or attract notice.",
+    "hindiSynonyms": [
+      "टीम-टाम",
+      "दिखावा",
+      "अभिमान"
+    ],
+    "englishSynonyms": [
+      "Showiness",
+      "Display",
+      "Flashiness",
+      "Pretentiousness"
+    ],
+    "examples": [
+      {
+        "sentence": "The house was furnished without ostentation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 359,
+    "id": "ostentation"
+  },
+  {
+    "text": "Veracity",
+    "definition": "Conformity to facts; accuracy.",
+    "hindiSynonyms": [
+      "सच्चाई",
+      "सत्यता",
+      "यथार्थता"
+    ],
+    "englishSynonyms": [
+      "Truthfulness",
+      "Accuracy",
+      "Correctness",
+      "Honesty"
+    ],
+    "examples": [
+      {
+        "sentence": "Officials questioned the veracity of his statement."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 360,
+    "id": "veracity"
+  },
+  {
+    "text": "Comely",
+    "definition": "(typically of a woman) pleasant to look at; attractive.",
+    "hindiSynonyms": [
+      "सुंदर",
+      "मनोहर",
+      "सुरुचिपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Attractive",
+      "Pretty",
+      "Beautiful",
+      "Lovely"
+    ],
+    "examples": [
+      {
+        "sentence": "She is a comely young woman."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 361,
+    "id": "comely"
+  },
+  {
+    "text": "Pulchritudinous",
+    "definition": "Physically beautiful (often used humorously).",
+    "hindiSynonyms": [
+      "सुंदर",
+      "रूपवान",
+      "मनमोहक"
+    ],
+    "englishSynonyms": [
+      "Beautiful",
+      "Attractive",
+      "Comely",
+      "Lovely"
+    ],
+    "examples": [
+      {
+        "sentence": "The movie star was described as pulchritudinous."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 362,
+    "id": "pulchritudinous"
+  },
+  {
+    "text": "Hideous",
+    "definition": "Ugly or disgusting to look at.",
+    "hindiSynonyms": [
+      "भयंकर",
+      "घिनौना",
+      "कुरूप"
+    ],
+    "englishSynonyms": [
+      "Ugly",
+      "Repulsive",
+      "Grotesque",
+      "Ghastly"
+    ],
+    "examples": [
+      {
+        "sentence": "The monster had a hideous face."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 363,
+    "id": "hideous"
+  },
+  {
+    "text": "Ghastly",
+    "definition": "Causing great horror or fear; frightful or macabre.",
+    "hindiSynonyms": [
+      "डरावना",
+      "भयानक",
+      "वीभत्स"
+    ],
+    "englishSynonyms": [
+      "Terrible",
+      "Frightful",
+      "Horrible",
+      "Grim"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a ghastly crime scene."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 364,
+    "id": "ghastly"
+  },
+  {
+    "text": "Adulation",
+    "definition": "Excessive admiration or praise.",
+    "hindiSynonyms": [
+      "चापलूसी",
+      "अत्यधिक प्रशंसा",
+      "खुशामद"
+    ],
+    "englishSynonyms": [
+      "Hero-worship",
+      "Flattery",
+      "Idolization"
+    ],
+    "examples": [
+      {
+        "sentence": "The actor enjoyed the adulation of his fans."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 365,
+    "id": "adulation"
+  },
+  {
+    "text": "Adulteration",
+    "definition": "The action of making something poorer in quality by adding another substance, typically an inferior one.",
+    "hindiSynonyms": [
+      "मिलावट",
+      "अपमिश्रण"
+    ],
+    "englishSynonyms": [
+      "Contamination",
+      "Degradation",
+      "Dilution"
+    ],
+    "examples": [
+      {
+        "sentence": "The adulteration of milk is a crime."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 366,
+    "id": "adulteration"
+  },
+  {
+    "text": "Obsequious",
+    "definition": "Obedient or attentive to an excessive or servile degree.",
+    "hindiSynonyms": [
+      "चापलूसी करनेवाला",
+      "जी-हुज़ूरिया",
+      "दासवत"
+    ],
+    "englishSynonyms": [
+      "Servile",
+      "Ingratiating",
+      "Sycophantic",
+      "Fawning"
+    ],
+    "examples": [
+      {
+        "sentence": "The waiter was obsequious to the rich customers."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 367,
+    "id": "obsequious"
+  },
+  {
+    "text": "Coax",
+    "definition": "Persuade (someone) gradually or by flattery to do something.",
+    "hindiSynonyms": [
+      "मनाना",
+      "फुसलाना",
+      "पटाना"
+    ],
+    "englishSynonyms": [
+      "Persuade",
+      "Wheedle",
+      "Cajole",
+      "Entice"
+    ],
+    "examples": [
+      {
+        "sentence": "She tried to coax the cat out of the tree."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 368,
+    "id": "coax"
+  },
+  {
+    "text": "Sycophancy",
+    "definition": "Obsequious behavior toward someone important in order to gain advantage.",
+    "hindiSynonyms": [
+      "चापलूसी",
+      "खुशामद"
+    ],
+    "englishSynonyms": [
+      "Bootlicking",
+      "Fawning",
+      "Flattery",
+      "Toadying"
+    ],
+    "examples": [
+      {
+        "sentence": "His promotion was due to sycophancy, not merit."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 369,
+    "id": "sycophancy"
+  },
+  {
+    "text": "Fawning",
+    "definition": "Displaying exaggerated flattery or affection; obsequious.",
+    "hindiSynonyms": [
+      "चापलूसी करनेवाला",
+      "खुशामदी"
+    ],
+    "englishSynonyms": [
+      "Obsequious",
+      "Sycophantic",
+      "Flattering"
+    ],
+    "examples": [
+      {
+        "sentence": "The fawning audience laughed at every joke."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 370,
+    "id": "fawning"
+  },
+  {
+    "text": "Blandish",
+    "definition": "Coax (someone) with kind words or flattery.",
+    "hindiSynonyms": [
+      "चापलूसी करना",
+      "मीठी बातों से मिलाना"
+    ],
+    "englishSynonyms": [
+      "Coax",
+      "Cajole",
+      "Wheedle"
+    ],
+    "examples": [
+      {
+        "sentence": "He tried to blandish her into accepting the offer."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 371,
+    "id": "blandish"
+  },
+  {
+    "text": "Wheedle",
+    "definition": "Employ endearments or flattery to persuade someone to do something or give one something.",
+    "hindiSynonyms": [
+      "खुशामद करना",
+      "फुसलाना",
+      "पटाना"
+    ],
+    "englishSynonyms": [
+      "Coax",
+      "Cajole",
+      "Inveigle"
+    ],
+    "examples": [
+      {
+        "sentence": "She wheedled some money out of her father."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 372,
+    "id": "wheedle"
+  },
+  {
+    "text": "Bootlicking",
+    "definition": "Behaving in an excessively obedient or servile way as a means of gaining favor.",
+    "hindiSynonyms": [
+      "तलवे चाटना",
+      "चापलूसी"
+    ],
+    "englishSynonyms": [
+      "Sycophancy",
+      "Toadying",
+      "Fawning"
+    ],
+    "examples": [
+      {
+        "sentence": "I hate his constant bootlicking of the boss."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 373,
+    "id": "bootlicking"
+  },
+  {
+    "text": "Toady",
+    "definition": "A person who behaves obsequiously to someone important.",
+    "hindiSynonyms": [
+      "चापलूसी",
+      "जी-हुज़ूरिया"
+    ],
+    "englishSynonyms": [
+      "Sycophant",
+      "Bootlicker",
+      "Yes-man"
+    ],
+    "examples": [
+      {
+        "sentence": "Nobody likes a toady."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 374,
+    "id": "toady"
+  },
+  {
+    "text": "Ingratiate",
+    "definition": "Bring oneself into favor with someone by flattering or trying to please them.",
+    "hindiSynonyms": [
+      "कृपापात्र बनना",
+      "प्रिय बनना"
+    ],
+    "englishSynonyms": [
+      "Curry favor",
+      "Cultivate",
+      "Flatter"
+    ],
+    "examples": [
+      {
+        "sentence": "He tried to ingratiate himself with the new manager."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 375,
+    "id": "ingratiate"
+  },
+  {
+    "text": "Chide",
+    "definition": "Scold or rebuke.",
+    "hindiSynonyms": [
+      "डांटना",
+      "फटकारना",
+      "झिड़कना"
+    ],
+    "englishSynonyms": [
+      "Scold",
+      "Chastise",
+      "Upbraid",
+      "Berate"
+    ],
+    "examples": [
+      {
+        "sentence": "She chided him for his bad manners."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 376,
+    "id": "chide"
+  },
+  {
+    "text": "Berate",
+    "definition": "Scold or criticize (someone) angrily.",
+    "hindiSynonyms": [
+      "जोर से डांटना",
+      "भर्त्सना करना"
+    ],
+    "englishSynonyms": [
+      "Scold",
+      "Rebuke",
+      "Reprimand",
+      "Admonish"
+    ],
+    "examples": [
+      {
+        "sentence": "The coach berated the players for their poor performance."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 377,
+    "id": "berate"
+  },
+  {
+    "text": "Aspersion",
+    "definition": "An attack on the reputation or integrity of someone or something.",
+    "hindiSynonyms": [
+      "कलंक",
+      "बदनामी",
+      "आक्षेप"
+    ],
+    "englishSynonyms": [
+      "Slur",
+      "Slander",
+      "Defamation"
+    ],
+    "examples": [
+      {
+        "sentence": "He cast aspersions on her character."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 378,
+    "id": "aspersion"
+  },
+  {
+    "text": "Upbraid",
+    "definition": "Find fault with (someone); scold.",
+    "hindiSynonyms": [
+      "डांटना",
+      "निंदा करना",
+      "फटकारना"
+    ],
+    "englishSynonyms": [
+      "Scold",
+      "Reprimand",
+      "Rebuke",
+      "Reproach"
+    ],
+    "examples": [
+      {
+        "sentence": "She upbraided him for being late."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 379,
+    "id": "upbraid"
+  },
+  {
+    "text": "Reproach",
+    "definition": "Address (someone) in such a way as to express disapproval or disappointment.",
+    "hindiSynonyms": [
+      "धिक्कारना",
+      "दोष देना",
+      "तिरस्कार करना"
+    ],
+    "englishSynonyms": [
+      "Rebuke",
+      "Scold",
+      "Reprimand",
+      "Blame"
+    ],
+    "examples": [
+      {
+        "sentence": "Her eyes were full of reproach."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 380,
+    "id": "reproach"
+  },
+  {
+    "text": "Opprobrium",
+    "definition": "Harsh criticism or censure.",
+    "hindiSynonyms": [
+      "अपमान",
+      "तिरस्कार",
+      "निंदा"
+    ],
+    "englishSynonyms": [
+      "Disgrace",
+      "Shame",
+      "Infamy",
+      "Condemnation"
+    ],
+    "examples": [
+      {
+        "sentence": "His actions brought opprobrium upon the family."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 381,
+    "id": "opprobrium"
+  },
+  {
+    "text": "Pester",
+    "definition": "Trouble or annoy (someone) with frequent or persistent requests or interruptions.",
+    "hindiSynonyms": [
+      "तंग करना",
+      "नाक में दम करना"
+    ],
+    "englishSynonyms": [
+      "Badger",
+      "Harass",
+      "Annoy",
+      "Plague"
+    ],
+    "examples": [
+      {
+        "sentence": "The kids pestered him for ice cream."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 382,
+    "id": "pester"
+  },
+  {
+    "text": "Vex",
+    "definition": "Make (someone) feel annoyed, frustrated, or worried, especially with trivial matters.",
+    "hindiSynonyms": [
+      "खिजाना",
+      "कष्ट देना",
+      "नाराज करना"
+    ],
+    "englishSynonyms": [
+      "Annoy",
+      "Irritate",
+      "Agitate",
+      "Bother"
+    ],
+    "examples": [
+      {
+        "sentence": "The question seemed to vex him."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 383,
+    "id": "vex"
+  },
+  {
+    "text": "Nettle",
+    "definition": "Irritate or annoy (someone).",
+    "hindiSynonyms": [
+      "नाराज करना",
+      "चुभना",
+      "चिढ़ाना"
+    ],
+    "englishSynonyms": [
+      "Irritate",
+      "Annoy",
+      "Provoke",
+      "Vex"
+    ],
+    "examples": [
+      {
+        "sentence": "Her comments really nettled him."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 384,
+    "id": "nettle"
+  },
+  {
+    "text": "Badger",
+    "definition": "Ask (someone) repeatedly and annoyingly for something; pester.",
+    "hindiSynonyms": [
+      "पीछे पड़ना",
+      "तंग करना"
+    ],
+    "englishSynonyms": [
+      "Pester",
+      "Harass",
+      "Plague",
+      "Nag"
+    ],
+    "examples": [
+      {
+        "sentence": "She badgered her parents to buy her a car."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 385,
+    "id": "badger"
+  },
+  {
+    "text": "Beleaguer",
+    "definition": "Put in a very difficult situation. Also, lay siege to.",
+    "hindiSynonyms": [
+      "घेर लेना",
+      "परेशान करना",
+      "नाकाबंदी करना"
+    ],
+    "englishSynonyms": [
+      "Besiege",
+      "Harass",
+      "Plague"
+    ],
+    "examples": [
+      {
+        "sentence": "The beleaguered prime minister faced calls to resign."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 386,
+    "id": "beleaguer"
+  },
+  {
+    "text": "Persecute",
+    "definition": "Subject (someone) to hostility and ill-treatment, especially because of their race or political or religious beliefs.",
+    "hindiSynonyms": [
+      "सताना",
+      "जुल्म करना",
+      "उत्पीड़न करना"
+    ],
+    "englishSynonyms": [
+      "Oppress",
+      "Harass",
+      "Victimise",
+      "Abuse"
+    ],
+    "examples": [
+      {
+        "sentence": "Minorities were persecuted by the regime."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 387,
+    "id": "persecute"
+  },
+  {
+    "text": "Rankle",
+    "definition": "(of a comment, event, or fact) cause annoyance or resentment that persists.",
+    "hindiSynonyms": [
+      "खटकना",
+      "कष्ट देना",
+      "चुभना"
+    ],
+    "englishSynonyms": [
+      "Annoy",
+      "Upset",
+      "Irritate",
+      "Fester"
+    ],
+    "examples": [
+      {
+        "sentence": "The insult continued to rankle him for days."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 388,
+    "id": "rankle"
+  },
+  {
+    "text": "Gadfly",
+    "definition": "An annoying person, especially one who provokes others into action by criticism.",
+    "hindiSynonyms": [
+      "तंग करने वाला व्यक्ति",
+      "प्रेरक"
+    ],
+    "englishSynonyms": [
+      "Nuisance",
+      "Pest",
+      "Irritant"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a political gadfly who challenges the mayor constantly."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 389,
+    "id": "gadfly"
+  },
+  {
+    "text": "Chaff",
+    "definition": "Tease. Also, the husks of corn or other seed separated by winnowing or threshing.",
+    "hindiSynonyms": [
+      "छेड़ना",
+      "मज़ाक उड़ाना",
+      "भूसा"
+    ],
+    "englishSynonyms": [
+      "Tease",
+      "Banter",
+      "Mock"
+    ],
+    "examples": [
+      {
+        "sentence": "The boys chaffed him about his new haircut."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 390,
+    "id": "chaff"
+  },
+  {
+    "text": "Entreat",
+    "definition": "Ask someone earnestly or anxiously to do something.",
+    "hindiSynonyms": [
+      "विनती करना",
+      "प्रार्थना करना",
+      "याचना करना"
+    ],
+    "englishSynonyms": [
+      "Implore",
+      "Beg",
+      "Beseech",
+      "Plead"
+    ],
+    "examples": [
+      {
+        "sentence": "I entreat you to help me."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 391,
+    "id": "entreat"
+  },
+  {
+    "text": "Implore",
+    "definition": "Beg someone earnestly or desperately to do something.",
+    "hindiSynonyms": [
+      "याचना करना",
+      "गिड़गिड़ाना",
+      "प्रार्थना करना"
+    ],
+    "englishSynonyms": [
+      "Beg",
+      "Entreat",
+      "Beseech",
+      "Plead"
+    ],
+    "examples": [
+      {
+        "sentence": "She implored him not to leave."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 392,
+    "id": "implore"
+  },
+  {
+    "text": "Importune",
+    "definition": "Harass (someone) persistently for or to do something.",
+    "hindiSynonyms": [
+      "आग्रह करना",
+      "पीछे पड़ना",
+      "हठ करना"
+    ],
+    "englishSynonyms": [
+      "Beg",
+      "Beseech",
+      "Entreat",
+      "Pester"
+    ],
+    "examples": [
+      {
+        "sentence": "He importuned the editor for a job."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 393,
+    "id": "importune"
+  },
+  {
+    "text": "Beseech",
+    "definition": "Ask (someone) urgently and fervently to do something; implore.",
+    "hindiSynonyms": [
+      "विनती करना",
+      "अर्जी करना",
+      "याचना करना"
+    ],
+    "englishSynonyms": [
+      "Implore",
+      "Beg",
+      "Entreat",
+      "Plead"
+    ],
+    "examples": [
+      {
+        "sentence": "I beseech you to show mercy."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 394,
+    "id": "beseech"
+  },
+  {
+    "text": "Supplicate",
+    "definition": "Ask or beg for something earnestly or humbly.",
+    "hindiSynonyms": [
+      "प्रार्थना करना",
+      "याचना करना",
+      "विनती करना"
+    ],
+    "englishSynonyms": [
+      "Entreat",
+      "Beseech",
+      "Implore",
+      "Beg"
+    ],
+    "examples": [
+      {
+        "sentence": "They supplicated the king for pardon."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 395,
+    "id": "supplicate"
+  },
+  {
+    "text": "Solicit",
+    "definition": "Ask for or try to obtain (something) from someone.",
+    "hindiSynonyms": [
+      "मांगना",
+      "याचना करना",
+      "अनुरोध करना"
+    ],
+    "englishSynonyms": [
+      "Ask for",
+      "Request",
+      "Seek",
+      "Beg"
+    ],
+    "examples": [
+      {
+        "sentence": "The charity is soliciting donations."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 396,
+    "id": "solicit"
+  },
+  {
+    "text": "Remonstrate",
+    "definition": "Make a forcefully reproachful protest.",
+    "hindiSynonyms": [
+      "प्रतिवाद करना",
+      "आपत्ति करना",
+      "विरोध करना"
+    ],
+    "englishSynonyms": [
+      "Protest",
+      "Complain",
+      "Argue"
+    ],
+    "examples": [
+      {
+        "sentence": "He went to the manager to remonstrate against the new rules."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 397,
+    "id": "remonstrate"
+  },
+  {
+    "text": "Flaccid",
+    "definition": "(of part of the body) soft and hanging loosely or limply, especially so as to look or feel unpleasant.",
+    "hindiSynonyms": [
+      "ढीला",
+      "शिथिल",
+      "कमजोर"
+    ],
+    "englishSynonyms": [
+      "Soft",
+      "Loose",
+      "Limp",
+      "Flabby"
+    ],
+    "examples": [
+      {
+        "sentence": "His muscles became flaccid after months of inactivity."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 398,
+    "id": "flaccid"
+  },
+  {
+    "text": "Enervated",
+    "definition": "Drained of energy or vitality.",
+    "hindiSynonyms": [
+      "कमजोर",
+      "शक्तिहीन",
+      "निस्तेज"
+    ],
+    "englishSynonyms": [
+      "Exhausted",
+      "Fatigued",
+      "Drained",
+      "Weakened"
+    ],
+    "examples": [
+      {
+        "sentence": "The hot sun enervated the hikers."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 399,
+    "id": "enervated"
+  },
+  {
+    "text": "Flimsy",
+    "definition": "Insubstantial and easily damaged.",
+    "hindiSynonyms": [
+      "कमजोर",
+      "पतला",
+      "कोमल"
+    ],
+    "englishSynonyms": [
+      "Fragile",
+      "Weak",
+      "Thin",
+      "Slight"
+    ],
+    "examples": [
+      {
+        "sentence": "The evidence was too flimsy to convict him."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 400,
+    "id": "flimsy"
+  }
+]

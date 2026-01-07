@@ -1,0 +1,1137 @@
+[
+  {
+    "text": "Discard",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 201,
+    "id": "discard"
+  },
+  {
+    "text": "Abandon",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 202,
+    "id": "abandon"
+  },
+  {
+    "text": "Shed",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 203,
+    "id": "shed"
+  },
+  {
+    "text": "Dispense with",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 204,
+    "id": "dispense-with"
+  },
+  {
+    "text": "Retain",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 205,
+    "id": "retain"
+  },
+  {
+    "text": "Discard",
+    "definition": "Get rid of someone or something as no longer useful or desirable.",
+    "hindiSynonyms": [
+      "त्यागना",
+      "फेंक देना",
+      "रद्द करना",
+      "छोड़ देना"
+    ],
+    "englishSynonyms": [
+      "Dispose of",
+      "Throw away",
+      "Jettison",
+      "Reject"
+    ],
+    "examples": [
+      {
+        "sentence": "He discarded the old newspapers."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 206,
+    "id": "discard"
+  },
+  {
+    "text": "Abandon",
+    "definition": "Cease to support or look after (someone); desert.",
+    "hindiSynonyms": [
+      "छोड़ देना",
+      "त्यागना",
+      "परित्याग करना"
+    ],
+    "englishSynonyms": [
+      "Desert",
+      "Leave",
+      "Forsake",
+      "Quit"
+    ],
+    "examples": [
+      {
+        "sentence": "The captain gave the order to abandon ship."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 207,
+    "id": "abandon"
+  },
+  {
+    "text": "Shed",
+    "definition": "To lose, drop, or get rid of something.",
+    "hindiSynonyms": [
+      "झाड़ना",
+      "गिराना",
+      "त्यागना",
+      "बहाना"
+    ],
+    "englishSynonyms": [
+      "Drop",
+      "Cast off",
+      "Molt",
+      "Discard"
+    ],
+    "examples": [
+      {
+        "sentence": "The snake sheds its skin periodically."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 208,
+    "id": "shed"
+  },
+  {
+    "text": "Dispense with",
+    "definition": "Manage without or get rid of.",
+    "hindiSynonyms": [
+      "छुटकारा पाना",
+      "के बिना काम चलाना",
+      "हटाना"
+    ],
+    "englishSynonyms": [
+      "Do without",
+      "Forgo",
+      "Waive",
+      "Get rid of"
+    ],
+    "examples": [
+      {
+        "sentence": "They decided to dispense with the formalities."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 209,
+    "id": "dispense-with"
+  },
+  {
+    "text": "Retain",
+    "definition": "Continue to have something; keep possession of.",
+    "hindiSynonyms": [
+      "बनाए रखना",
+      "रखना",
+      "याद रखना"
+    ],
+    "englishSynonyms": [
+      "Keep",
+      "Maintain",
+      "Preserve",
+      "Hold"
+    ],
+    "examples": [
+      {
+        "sentence": "He managed to retain his dignity despite the insults."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 210,
+    "id": "retain"
+  },
+  {
+    "text": "Adversity",
+    "definition": "A difficult or unpleasant situation.",
+    "hindiSynonyms": [
+      "विपत्ति",
+      "मुसीबत",
+      "कठिनाई",
+      "दुर्भाग्य"
+    ],
+    "englishSynonyms": [
+      "Misfortune",
+      "Hardship",
+      "Distress",
+      "Affliction"
+    ],
+    "examples": [
+      {
+        "sentence": "She overcame many adversities to become a doctor."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 211,
+    "id": "adversity"
+  },
+  {
+    "text": "Adversary",
+    "definition": "One's opponent in a contest, conflict, or dispute.",
+    "hindiSynonyms": [
+      "विरोधी",
+      "शत्रु",
+      "प्रतिद्वंद्वी"
+    ],
+    "englishSynonyms": [
+      "Opponent",
+      "Rival",
+      "Enemy",
+      "Foe"
+    ],
+    "examples": [
+      {
+        "sentence": "He defeated his old adversary in the tennis match."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 212,
+    "id": "adversary"
+  },
+  {
+    "text": "Amass",
+    "definition": "Gather together or accumulate (a large amount or number of material or things) over a period of time.",
+    "hindiSynonyms": [
+      "इकट्ठा करना",
+      "संचय करना",
+      "जमा करना"
+    ],
+    "englishSynonyms": [
+      "Gather",
+      "Accumulate",
+      "Collect",
+      "Assemble"
+    ],
+    "examples": [
+      {
+        "sentence": "He amassed a fortune in the stock market."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 213,
+    "id": "amass"
+  },
+  {
+    "text": "Accumulate",
+    "definition": "Gather together or acquire an increasing number or quantity of.",
+    "hindiSynonyms": [
+      "जमा करना",
+      "इकट्ठा होना",
+      "संचित करना"
+    ],
+    "englishSynonyms": [
+      "Gather",
+      "Collect",
+      "Amass",
+      "Pile up"
+    ],
+    "examples": [
+      {
+        "sentence": "Dust began to accumulate on the shelves."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 214,
+    "id": "accumulate"
+  },
+  {
+    "text": "Garner",
+    "definition": "Gather or collect (something, especially information or approval).",
+    "hindiSynonyms": [
+      "इकट्ठा करना",
+      "प्राप्त करना",
+      "संग्रह करना"
+    ],
+    "englishSynonyms": [
+      "Gather",
+      "Collect",
+      "Accumulate",
+      "Amass"
+    ],
+    "examples": [
+      {
+        "sentence": "The movie garnered rave reviews from critics."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 215,
+    "id": "garner"
+  },
+  {
+    "text": "Assimilate",
+    "definition": "Take in and understand fully (information or ideas); absorb and integrate.",
+    "hindiSynonyms": [
+      "अपनाना",
+      "सम्मिलित करना",
+      "आत्मसात करना",
+      "पचाना"
+    ],
+    "englishSynonyms": [
+      "Absorb",
+      "Ingest",
+      "Incorporate",
+      "Digest"
+    ],
+    "examples": [
+      {
+        "sentence": "It takes time to assimilate new information."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 216,
+    "id": "assimilate"
+  },
+  {
+    "text": "Muster",
+    "definition": "Assemble (troops), especially for inspection or in preparation for battle; collect or assemble.",
+    "hindiSynonyms": [
+      "जुटाना",
+      "इकट्ठा करना",
+      "बटोरना"
+    ],
+    "englishSynonyms": [
+      "Assemble",
+      "Rally",
+      "Summon",
+      "Gather"
+    ],
+    "examples": [
+      {
+        "sentence": "He mustered all his courage to speak."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 217,
+    "id": "muster"
+  },
+  {
+    "text": "Pile up",
+    "definition": "Accumulate or stack up.",
+    "hindiSynonyms": [
+      "ढेर लगाना",
+      "जमा करना",
+      "इकट्ठा होना"
+    ],
+    "englishSynonyms": [
+      "Accumulate",
+      "Amass",
+      "Stack",
+      "Heap"
+    ],
+    "examples": [
+      {
+        "sentence": "The work started to pile up while I was on vacation."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 218,
+    "id": "pile-up"
+  },
+  {
+    "text": "Hoard",
+    "definition": "A stock or store of money or valued objects, typically one that is secret or carefully guarded.",
+    "hindiSynonyms": [
+      "जमाखोरी करना",
+      "गुप्त भंडार",
+      "इकट्ठा करना"
+    ],
+    "englishSynonyms": [
+      "Store",
+      "Stockpile",
+      "Cache",
+      "Amass"
+    ],
+    "examples": [
+      {
+        "sentence": "Squirrels hoard nuts for the winter."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 219,
+    "id": "hoard"
+  },
+  {
+    "text": "Accrue",
+    "definition": "(of sums of money or benefits) be received by someone in regular or increasing amounts over time.",
+    "hindiSynonyms": [
+      "प्राप्त होना",
+      "वृद्धि होना",
+      "इकट्ठा होना"
+    ],
+    "englishSynonyms": [
+      "Accumulate",
+      "Collect",
+      "Build up",
+      "Grow"
+    ],
+    "examples": [
+      {
+        "sentence": "Interest will accrue on the account at a rate of 5%."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 220,
+    "id": "accrue"
+  },
+  {
+    "text": "Marshal",
+    "definition": "Arrange or assemble (a group of people, especially soldiers) in order.",
+    "hindiSynonyms": [
+      "क्रम में रखना",
+      "सजाना",
+      "सेनापति",
+      "व्यवस्थित करना"
+    ],
+    "englishSynonyms": [
+      "Assemble",
+      "Gather",
+      "Organize",
+      "Muster"
+    ],
+    "examples": [
+      {
+        "sentence": "The general marshaled his troops for battle."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 221,
+    "id": "marshal"
+  },
+  {
+    "text": "Assemble",
+    "definition": "(of people) gather together in one place for a common purpose.",
+    "hindiSynonyms": [
+      "इकट्ठा होना",
+      "जोड़ना",
+      "एकत्रित करना"
+    ],
+    "englishSynonyms": [
+      "Gather",
+      "Collect",
+      "Congregate",
+      "Convene"
+    ],
+    "examples": [
+      {
+        "sentence": "A crowd assembled outside the courthouse."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 222,
+    "id": "assemble"
+  },
+  {
+    "text": "Congregate",
+    "definition": "Gather into a crowd or mass.",
+    "hindiSynonyms": [
+      "एकत्र होना",
+      "इकट्ठा होना",
+      "जमा होना"
+    ],
+    "englishSynonyms": [
+      "Assemble",
+      "Gather",
+      "Cluster",
+      "Flock"
+    ],
+    "examples": [
+      {
+        "sentence": "People began to congregate in the town square."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 223,
+    "id": "congregate"
+  },
+  {
+    "text": "Collate",
+    "definition": "Collect and combine (texts, information, or sets of figures) in proper order.",
+    "hindiSynonyms": [
+      "मिलान करना",
+      "क्रमवार लगाना",
+      "तुलना करना"
+    ],
+    "englishSynonyms": [
+      "Collect",
+      "Gather",
+      "Assemble",
+      "Arrange"
+    ],
+    "examples": [
+      {
+        "sentence": "The data was collated and analyzed."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 224,
+    "id": "collate"
+  },
+  {
+    "text": "Combine",
+    "definition": "Unite; merge.",
+    "hindiSynonyms": [
+      "मिलाना",
+      "जोड़ना",
+      "संयोजन करना"
+    ],
+    "englishSynonyms": [
+      "Merge",
+      "Unite",
+      "Join",
+      "Blend"
+    ],
+    "examples": [
+      {
+        "sentence": "Hydrogen and oxygen combine to form water."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 225,
+    "id": "combine"
+  },
+  {
+    "text": "Fritter",
+    "definition": "Waste time, money, or energy on trifling matters.",
+    "hindiSynonyms": [
+      "गंवाना",
+      "नष्ट करना",
+      "बर्बाद करना"
+    ],
+    "englishSynonyms": [
+      "Squander",
+      "Waste",
+      "Misspend",
+      "Dissipate"
+    ],
+    "examples": [
+      {
+        "sentence": "He frittered away his inheritance on gambling."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 226,
+    "id": "fritter"
+  },
+  {
+    "text": "Scatter",
+    "definition": "Throw in various random directions.",
+    "hindiSynonyms": [
+      "बिखरना",
+      "फैलाना",
+      "छितराना"
+    ],
+    "englishSynonyms": [
+      "Disperse",
+      "Spread",
+      "Strewn",
+      "Sprinkle"
+    ],
+    "examples": [
+      {
+        "sentence": "The wind scattered the leaves across the lawn."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 227,
+    "id": "scatter"
+  },
+  {
+    "text": "Spread",
+    "definition": "Open out (something) so as to extend its surface area, width, or length.",
+    "hindiSynonyms": [
+      "फैलाना",
+      "प्रसार करना",
+      "बिखरना"
+    ],
+    "englishSynonyms": [
+      "Extend",
+      "Stretch",
+      "Expand",
+      "Distribute"
+    ],
+    "examples": [
+      {
+        "sentence": "The fire spread rapidly through the forest."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 228,
+    "id": "spread"
+  },
+  {
+    "text": "Disperse",
+    "definition": "Distribute or spread over a wide area.",
+    "hindiSynonyms": [
+      "तितर-बितर करना",
+      "फैलाना",
+      "बिखेरना"
+    ],
+    "englishSynonyms": [
+      "Scatter",
+      "Dissipate",
+      "Distribute",
+      "Disband"
+    ],
+    "examples": [
+      {
+        "sentence": "Police used tear gas to disperse the crowd."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 229,
+    "id": "disperse"
+  },
+  {
+    "text": "Fiddle away",
+    "definition": "To waste time.",
+    "hindiSynonyms": [
+      "समय बर्बाद करना",
+      "गंवाना"
+    ],
+    "englishSynonyms": [
+      "Waste",
+      "Squander",
+      "Trifle away"
+    ],
+    "examples": [
+      {
+        "sentence": "Don't fiddle away your time on useless things."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 230,
+    "id": "fiddle-away"
+  },
+  {
+    "text": "Tutelage",
+    "definition": "Protection of or authority over someone or something; guardianship.",
+    "hindiSynonyms": [
+      "संरक्षण",
+      "देखरेख",
+      "अध्यापन"
+    ],
+    "englishSynonyms": [
+      "Guardianship",
+      "Instruction",
+      "Tuition",
+      "Guidance"
+    ],
+    "examples": [
+      {
+        "sentence": "He learned the trade under the tutelage of his father."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 231,
+    "id": "tutelage"
+  },
+  {
+    "text": "Guardianship",
+    "definition": "The position of protecting or defending something.",
+    "hindiSynonyms": [
+      "अभिभावकत्व",
+      "संरक्षण",
+      "निगरानी"
+    ],
+    "englishSynonyms": [
+      "Custody",
+      "Care",
+      "Protection",
+      "Stewardship"
+    ],
+    "examples": [
+      {
+        "sentence": "The child was placed under the guardianship of her aunt."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 232,
+    "id": "guardianship"
+  },
+  {
+    "text": "Patronage",
+    "definition": "The support given by a patron.",
+    "hindiSynonyms": [
+      "संरक्षण",
+      "आश्रय",
+      "समर्थन"
+    ],
+    "englishSynonyms": [
+      "Sponsorship",
+      "Backing",
+      "Funding",
+      "Support"
+    ],
+    "examples": [
+      {
+        "sentence": "The arts survived due to royal patronage."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 233,
+    "id": "patronage"
+  },
+  {
+    "text": "Custody",
+    "definition": "The protective care or guardianship of someone or something.",
+    "hindiSynonyms": [
+      "हिरासत",
+      "देखरेख",
+      "संरक्षण"
+    ],
+    "englishSynonyms": [
+      "Care",
+      "Guardianship",
+      "Protection",
+      "Confinement"
+    ],
+    "examples": [
+      {
+        "sentence": "The suspect is in police custody."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 234,
+    "id": "custody"
+  },
+  {
+    "text": "Care",
+    "definition": "The provision of what is necessary for the health, welfare, maintenance, and protection of someone or something.",
+    "hindiSynonyms": [
+      "देखभाल",
+      "परवाह",
+      "सावधानी"
+    ],
+    "englishSynonyms": [
+      "Protection",
+      "Charge",
+      "Custody",
+      "Attention"
+    ],
+    "examples": [
+      {
+        "sentence": "She is in the care of a nurse."
+      }
+    ],
+    "difficulty": "A2",
+    "category": "word",
+    "step": 235,
+    "id": "care"
+  },
+  {
+    "text": "Tutorship",
+    "definition": "The office or function of a tutor.",
+    "hindiSynonyms": [
+      "अध्यापन",
+      "शिक्षण कार्य"
+    ],
+    "englishSynonyms": [
+      "Tutelage",
+      "Instruction",
+      "Teaching"
+    ],
+    "examples": [
+      {
+        "sentence": "He took up a tutorship at the university."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 236,
+    "id": "tutorship"
+  },
+  {
+    "text": "Charge",
+    "definition": "Care, supervision, or responsibility.",
+    "hindiSynonyms": [
+      "जिम्मेदारी",
+      "प्रभार",
+      "आरोप"
+    ],
+    "englishSynonyms": [
+      "Responsibility",
+      "Care",
+      "Custody",
+      "Duty"
+    ],
+    "examples": [
+      {
+        "sentence": "The babysitter was in charge of the children."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 237,
+    "id": "charge"
+  },
+  {
+    "text": "Aegis",
+    "definition": "The protection, backing, or support of a particular person or organization.",
+    "hindiSynonyms": [
+      "संरक्षण",
+      "छत्रछाया",
+      "बचाव"
+    ],
+    "englishSynonyms": [
+      "Protection",
+      "Patronage",
+      "Sponsorship",
+      "Auspicies"
+    ],
+    "examples": [
+      {
+        "sentence": "The project was developed under the aegis of the UN."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 238,
+    "id": "aegis"
+  },
+  {
+    "text": "Autonomous",
+    "definition": "(of a country or region) having the freedom to govern itself or control its own affairs.",
+    "hindiSynonyms": [
+      "स्वायत्त",
+      "स्वशासित",
+      "स्वतंत्र"
+    ],
+    "englishSynonyms": [
+      "Independent",
+      "Self-governing",
+      "Sovereign",
+      "Free"
+    ],
+    "examples": [
+      {
+        "sentence": "The university is an autonomous institution."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 239,
+    "id": "autonomous"
+  },
+  {
+    "text": "Vicissitude",
+    "definition": "A change of circumstances or fortune, typically one that is unwelcome or unpleasant.",
+    "hindiSynonyms": [
+      "उतार-चढ़ाव",
+      "परिवर्तन",
+      "हेर-फेर"
+    ],
+    "englishSynonyms": [
+      "Change",
+      "Alteration",
+      "Shift",
+      "Fluctuation"
+    ],
+    "examples": [
+      {
+        "sentence": "He has been through many vicissitudes of life."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 240,
+    "id": "vicissitude"
+  },
+  {
+    "text": "Fluctuation",
+    "definition": "An irregular rising and falling in number or amount; a variation.",
+    "hindiSynonyms": [
+      "उतार-चढ़ाव",
+      "घट-बढ़",
+      "अस्थिरता"
+    ],
+    "englishSynonyms": [
+      "Variation",
+      "Change",
+      "Oscillation",
+      "Shift"
+    ],
+    "examples": [
+      {
+        "sentence": "There was a fluctuation in the temperature."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 241,
+    "id": "fluctuation"
+  },
+  {
+    "text": "Alternation",
+    "definition": "The repeated occurrence of two things in turn.",
+    "hindiSynonyms": [
+      "अदला-बदली",
+      "बारी",
+      "एकांतर क्रम"
+    ],
+    "englishSynonyms": [
+      "Rotation",
+      "Interchange",
+      "Variation"
+    ],
+    "examples": [
+      {
+        "sentence": "The alternation of day and night is natural."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 242,
+    "id": "alternation"
+  },
+  {
+    "text": "Shift",
+    "definition": "A slight change in position, direction, or tendency.",
+    "hindiSynonyms": [
+      "खिसकना",
+      "परिवर्तन",
+      "बदलाव"
+    ],
+    "englishSynonyms": [
+      "Move",
+      "Change",
+      "Transfer",
+      "Switch"
+    ],
+    "examples": [
+      {
+        "sentence": "There was a sudden shift in the wind direction."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 243,
+    "id": "shift"
+  },
+  {
+    "text": "Stability",
+    "definition": "The state of being stable.",
+    "hindiSynonyms": [
+      "स्थिरता",
+      "मजबूती",
+      "सुदृढ़ता"
+    ],
+    "englishSynonyms": [
+      "Firmness",
+      "Steadiness",
+      "Constancy",
+      "Strength"
+    ],
+    "examples": [
+      {
+        "sentence": "Political stability is essential for economic growth."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 244,
+    "id": "stability"
+  },
+  {
+    "text": "Steadfastness",
+    "definition": "The quality of being resolutely or dutifully firm and unwavering.",
+    "hindiSynonyms": [
+      "दृढ़ता",
+      "अडिगता",
+      "स्थिरता"
+    ],
+    "englishSynonyms": [
+      "Loyalty",
+      "Faithfulness",
+      "Dedication",
+      "Constancy"
+    ],
+    "examples": [
+      {
+        "sentence": "Her steadfastness in her beliefs was admirable."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 245,
+    "id": "steadfastness"
+  },
+  {
+    "text": "Constancy",
+    "definition": "The quality of being faithful and dependable.",
+    "hindiSynonyms": [
+      "स्थिरता",
+      "निष्ठा",
+      "वफादारी"
+    ],
+    "englishSynonyms": [
+      "Fidelity",
+      "Faithfulness",
+      "Devotion",
+      "Stability"
+    ],
+    "examples": [
+      {
+        "sentence": "He is admired for his constancy to his friends."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 246,
+    "id": "constancy"
+  },
+  {
+    "text": "Vindicate",
+    "definition": "Clear (someone) of blame or suspicion.",
+    "hindiSynonyms": [
+      "साबित करना",
+      "दोषमुक्त करना",
+      "न्यायोचित ठहराना"
+    ],
+    "englishSynonyms": [
+      "Acquit",
+      "Clear",
+      "Absolve",
+      "Exonerate"
+    ],
+    "examples": [
+      {
+        "sentence": "New evidence emerged to vindicate him."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 247,
+    "id": "vindicate"
+  },
+  {
+    "text": "Justify",
+    "definition": "Show or prove to be right or reasonable.",
+    "hindiSynonyms": [
+      "उचित ठहराना",
+      "सही साबित करना",
+      "न्यायसंगत बनाना"
+    ],
+    "englishSynonyms": [
+      "Defend",
+      "Validate",
+      "Warrant",
+      "Substantiate"
+    ],
+    "examples": [
+      {
+        "sentence": "Can you justify your decision to quit?"
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 248,
+    "id": "justify"
+  },
+  {
+    "text": "Acquit",
+    "definition": "Free (someone) from a criminal charge by a verdict of not guilty.",
+    "hindiSynonyms": [
+      "बरी करना",
+      "दोषमुक्त करना",
+      "रिहा करना"
+    ],
+    "englishSynonyms": [
+      "Absolve",
+      "Clear",
+      "Exonerate",
+      "Discharge"
+    ],
+    "examples": [
+      {
+        "sentence": "The jury acquitted him of murder."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 249,
+    "id": "acquit"
+  },
+  {
+    "text": "Validate",
+    "definition": "Check or prove the validity or accuracy of (something).",
+    "hindiSynonyms": [
+      "मान्य करना",
+      "पुष्टि करना",
+      "प्रमाणित करना"
+    ],
+    "englishSynonyms": [
+      "Confirm",
+      "Verify",
+      "Authenticate",
+      "Ratify"
+    ],
+    "examples": [
+      {
+        "sentence": "You need to validate your ticket before boarding."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 250,
+    "id": "validate"
+  }
+]

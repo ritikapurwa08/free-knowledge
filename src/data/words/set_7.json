@@ -1,0 +1,1191 @@
+[
+  {
+    "text": "Terminate",
+    "definition": "Bring to an end.",
+    "hindiSynonyms": [
+      "समाप्त करना",
+      "खत्म करना",
+      "अंत करना"
+    ],
+    "englishSynonyms": [
+      "End",
+      "Conclude",
+      "Finish",
+      "Stop"
+    ],
+    "examples": [
+      {
+        "sentence": "The contract was terminated early."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 301,
+    "id": "terminate"
+  },
+  {
+    "text": "Quiescent",
+    "definition": "In a state or period of inactivity or dormancy.",
+    "hindiSynonyms": [
+      "शांत",
+      "मौन",
+      "निष्क्रिय"
+    ],
+    "englishSynonyms": [
+      "Inactive",
+      "Dormant",
+      "Quiet",
+      "Resting"
+    ],
+    "examples": [
+      {
+        "sentence": "The volcano has been quiescent for centuries."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 302,
+    "id": "quiescent"
+  },
+  {
+    "text": "Lethargic",
+    "definition": "Affected by lethargy; sluggish and apathetic.",
+    "hindiSynonyms": [
+      "सुस्त",
+      "आलसी",
+      "निद्रालु"
+    ],
+    "englishSynonyms": [
+      "Sluggish",
+      "Inactive",
+      "Slow",
+      "Torpid"
+    ],
+    "examples": [
+      {
+        "sentence": "He felt lethargic after the big meal."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 303,
+    "id": "lethargic"
+  },
+  {
+    "text": "Idle",
+    "definition": "(of a person) avoiding work; lazy. Also, not active or in use.",
+    "hindiSynonyms": [
+      "बेकार",
+      "आलसी",
+      "निष्क्रिय"
+    ],
+    "englishSynonyms": [
+      "Lazy",
+      "Inactive",
+      "Unused",
+      "Sluggish"
+    ],
+    "examples": [
+      {
+        "sentence": "The machines stood idle during the strike."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 304,
+    "id": "idle"
+  },
+  {
+    "text": "Idol",
+    "definition": "An image or representation of a god used as an object of worship.",
+    "hindiSynonyms": [
+      "मूर्ति",
+      "प्रतिमा",
+      "आराध्य"
+    ],
+    "englishSynonyms": [
+      "Icon",
+      "Statue",
+      "Hero",
+      "Favorite"
+    ],
+    "examples": [
+      {
+        "sentence": "The pop star is an idol to millions of teenagers."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 305,
+    "id": "idol"
+  },
+  {
+    "text": "Torpid",
+    "definition": "Mentally or physically inactive; lethargic.",
+    "hindiSynonyms": [
+      "सुस्त",
+      "निष्क्रिय",
+      "मंद"
+    ],
+    "englishSynonyms": [
+      "Lethargic",
+      "Sluggish",
+      "Inert",
+      "Inactive"
+    ],
+    "examples": [
+      {
+        "sentence": "The heat made the workers torpid."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 306,
+    "id": "torpid"
+  },
+  {
+    "text": "Dormant",
+    "definition": "Having normal physical functions suspended or slowed down for a period of time; in or as if in a deep sleep.",
+    "hindiSynonyms": [
+      "सुप्त",
+      "निष्क्रिय",
+      "सोया हुआ"
+    ],
+    "englishSynonyms": [
+      "Asleep",
+      "Sleeping",
+      "Inactive",
+      "Passive"
+    ],
+    "examples": [
+      {
+        "sentence": "The volcano has been dormant for 500 years."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 307,
+    "id": "dormant"
+  },
+  {
+    "text": "Listless",
+    "definition": "Lacking energy or enthusiasm.",
+    "hindiSynonyms": [
+      "उदासीन",
+      "बेपरवाह",
+      "शिथिल"
+    ],
+    "englishSynonyms": [
+      "Lethargic",
+      "Spiritless",
+      "Languid",
+      "Enervated"
+    ],
+    "examples": [
+      {
+        "sentence": "She had a listless handshake."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 308,
+    "id": "listless"
+  },
+  {
+    "text": "Lackadaisical",
+    "definition": "Lacking enthusiasm and determination; carelessly lazy.",
+    "hindiSynonyms": [
+      "भावुक",
+      "निरुत्साही",
+      "लापरवाह"
+    ],
+    "englishSynonyms": [
+      "Careless",
+      "Lazy",
+      "Lax",
+      "Half-hearted"
+    ],
+    "examples": [
+      {
+        "sentence": "He has a lackadaisical attitude towards his studies."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 309,
+    "id": "lackadaisical"
+  },
+  {
+    "text": "Languid",
+    "definition": "Displaying or having a disinclination for physical exertion or effort; slow and relaxed.",
+    "hindiSynonyms": [
+      "सुस्त",
+      "मंद",
+      "निसतेज"
+    ],
+    "englishSynonyms": [
+      "Relaxed",
+      "Unhurried",
+      "Languorous",
+      "Slow"
+    ],
+    "examples": [
+      {
+        "sentence": "They enjoyed a languid afternoon by the pool."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 310,
+    "id": "languid"
+  },
+  {
+    "text": "Indolent",
+    "definition": "Wanting to avoid activity or exertion; lazy.",
+    "hindiSynonyms": [
+      "आलसी",
+      "कामचोर",
+      "अकर्मण्य"
+    ],
+    "englishSynonyms": [
+      "Lazy",
+      "Slothful",
+      "Loafing",
+      "Shiftless"
+    ],
+    "examples": [
+      {
+        "sentence": "The indolent employee was fired."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 311,
+    "id": "indolent"
+  },
+  {
+    "text": "Inertia",
+    "definition": "A tendency to do nothing or to remain unchanged.",
+    "hindiSynonyms": [
+      "जड़ता",
+      "निष्क्रियता",
+      "अकर्मण्यता"
+    ],
+    "englishSynonyms": [
+      "Inactivity",
+      "Inaction",
+      "Apathy",
+      "Stagnation"
+    ],
+    "examples": [
+      {
+        "sentence": "Bureaucratic inertia delayed the project."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 312,
+    "id": "inertia"
+  },
+  {
+    "text": "Slumbering",
+    "definition": "Sleeping.",
+    "hindiSynonyms": [
+      "सो रहा",
+      "निद्रित",
+      "नींद में"
+    ],
+    "englishSynonyms": [
+      "Sleeping",
+      "Dozing",
+      "Napping",
+      "Resting"
+    ],
+    "examples": [
+      {
+        "sentence": "The slumbering giant awoke."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 313,
+    "id": "slumbering"
+  },
+  {
+    "text": "Passive",
+    "definition": "Accepting or allowing what happens or what others do, without active response or resistance.",
+    "hindiSynonyms": [
+      "निष्क्रिय",
+      "उदासीन",
+      "चेष्टाहीन"
+    ],
+    "englishSynonyms": [
+      "Submissive",
+      "Inactive",
+      "Docile",
+      "Yielding"
+    ],
+    "examples": [
+      {
+        "sentence": "He played a passive role in the relationship."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 314,
+    "id": "passive"
+  },
+  {
+    "text": "Comatose",
+    "definition": "Of or in a state of deep unconsciousness for a prolonged or indefinite period.",
+    "hindiSynonyms": [
+      "बेहोश",
+      "अचेत",
+      "मूर्छित"
+    ],
+    "englishSynonyms": [
+      "Unconscious",
+      "Insensible",
+      "Stupefied"
+    ],
+    "examples": [
+      {
+        "sentence": "The accident left him comatose for weeks."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 315,
+    "id": "comatose"
+  },
+  {
+    "text": "Supine",
+    "definition": "Lying face upward. Also failing to act or protest as a result of moral weakness or indolence.",
+    "hindiSynonyms": [
+      "चित लेटा हुआ",
+      "लापरवाह",
+      "कमज़ोर"
+    ],
+    "englishSynonyms": [
+      "Flat on one's back",
+      "Weak",
+      "Spineless",
+      "Passive"
+    ],
+    "examples": [
+      {
+        "sentence": "He lay supine on the beach."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 316,
+    "id": "supine"
+  },
+  {
+    "text": "Somnolent",
+    "definition": "Sleepy; drowsy.",
+    "hindiSynonyms": [
+      "निद्रालु",
+      "ऊंघता हुआ",
+      "सुस्त"
+    ],
+    "englishSynonyms": [
+      "Sleepy",
+      "Drowsy",
+      "Tired",
+      "Languid"
+    ],
+    "examples": [
+      {
+        "sentence": "The heavy meal made him feel somnolent."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 317,
+    "id": "somnolent"
+  },
+  {
+    "text": "Soporific",
+    "definition": "Tending to induce drowsiness or sleep.",
+    "hindiSynonyms": [
+      "नींद लाने वाला",
+      "निद्राजनक"
+    ],
+    "englishSynonyms": [
+      "Sleep-inducing",
+      "Sedative",
+      "Tranquilizing"
+    ],
+    "examples": [
+      {
+        "sentence": "The professor's lecture was soporific."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 318,
+    "id": "soporific"
+  },
+  {
+    "text": "Assiduous",
+    "definition": "Showing great care and perseverance.",
+    "hindiSynonyms": [
+      "परिश्रमी",
+      "मेहनती",
+      "अध्यवसायी"
+    ],
+    "englishSynonyms": [
+      "Diligent",
+      "Careful",
+      "Meticulous",
+      "Thorough"
+    ],
+    "examples": [
+      {
+        "sentence": "She was assiduous in her duties."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 319,
+    "id": "assiduous"
+  },
+  {
+    "text": "Strenuous",
+    "definition": "Requiring or using great exertion.",
+    "hindiSynonyms": [
+      "जोरदार",
+      "कठिन",
+      "श्रमसाध्य"
+    ],
+    "englishSynonyms": [
+      "Arduous",
+      "Difficult",
+      "Hard",
+      "Tough"
+    ],
+    "examples": [
+      {
+        "sentence": "The hike was very strenuous."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 320,
+    "id": "strenuous"
+  },
+  {
+    "text": "Arduous",
+    "definition": "Involving or requiring strenuous effort; difficult and tiring.",
+    "hindiSynonyms": [
+      "कठिन",
+      "दुष्कर",
+      "मुश्किल"
+    ],
+    "englishSynonyms": [
+      "Onerous",
+      "Taxing",
+      "Difficult",
+      "Hard"
+    ],
+    "examples": [
+      {
+        "sentence": "It was an arduous journey across the mountains."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 321,
+    "id": "arduous"
+  },
+  {
+    "text": "Diligent",
+    "definition": "Having or showing care and conscientiousness in one's work or duties.",
+    "hindiSynonyms": [
+      "मेहनती",
+      "लगनशील",
+      "सावधान"
+    ],
+    "englishSynonyms": [
+      "Industrious",
+      "Hard-working",
+      "Assiduous",
+      "Conscientious"
+    ],
+    "examples": [
+      {
+        "sentence": "A diligent student always does their homework."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 322,
+    "id": "diligent"
+  },
+  {
+    "text": "Cogent",
+    "definition": "(of an argument or case) clear, logical, and convincing.",
+    "hindiSynonyms": [
+      "प्रभावशाली",
+      "ठोस",
+      "सबल"
+    ],
+    "englishSynonyms": [
+      "Convincing",
+      "Compelling",
+      "Strong",
+      "Powerful"
+    ],
+    "examples": [
+      {
+        "sentence": "She presented a cogent argument for the policy change."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 323,
+    "id": "cogent"
+  },
+  {
+    "text": "Toilsome",
+    "definition": "Involving hard or tedious work.",
+    "hindiSynonyms": [
+      "थकाऊ",
+      "कष्टसाध्य",
+      "मेहनत का"
+    ],
+    "englishSynonyms": [
+      "Laborious",
+      "Arduous",
+      "Strenuous"
+    ],
+    "examples": [
+      {
+        "sentence": "Farming in those days was toilsome work."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 324,
+    "id": "toilsome"
+  },
+  {
+    "text": "Pains",
+    "definition": "Great care or trouble taken to accomplish something.",
+    "hindiSynonyms": [
+      "प्रयास",
+      "कष्ट",
+      "तकलीफ"
+    ],
+    "englishSynonyms": [
+      "Effort",
+      "Trouble",
+      "Care",
+      "Exertion"
+    ],
+    "examples": [
+      {
+        "sentence": "She took great pains to dress well."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 325,
+    "id": "pains"
+  },
+  {
+    "text": "Sedulous",
+    "definition": "(of a person or action) showing dedication and diligence.",
+    "hindiSynonyms": [
+      "परिश्रमी",
+      "लगनशील"
+    ],
+    "englishSynonyms": [
+      "Diligent",
+      "Careful",
+      "Meticulous",
+      "Assiduous"
+    ],
+    "examples": [
+      {
+        "sentence": "He watched her with sedulous care."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 326,
+    "id": "sedulous"
+  },
+  {
+    "text": "Laborious",
+    "definition": "(especially of a task, process, or journey) requiring considerable effort and time.",
+    "hindiSynonyms": [
+      "श्रमसाध्य",
+      "कठिन",
+      "मेहनती"
+    ],
+    "englishSynonyms": [
+      "Arduous",
+      "Hard",
+      "Heavy",
+      "Difficult"
+    ],
+    "examples": [
+      {
+        "sentence": "Writing the book was a laborious process."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 327,
+    "id": "laborious"
+  },
+  {
+    "text": "Herculean",
+    "definition": "Requiring great strength or effort.",
+    "hindiSynonyms": [
+      "अत्यंत कठिन",
+      "बहुत भारी",
+      "भीमकाय"
+    ],
+    "englishSynonyms": [
+      "Arduous",
+      "Grueling",
+      "Laborious",
+      "Strenuous"
+    ],
+    "examples": [
+      {
+        "sentence": "Moving the piano was a Herculean task."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 328,
+    "id": "herculean"
+  },
+  {
+    "text": "Exigency",
+    "definition": "An urgent need or demand.",
+    "hindiSynonyms": [
+      "अनिवार्यता",
+      "जरूरत",
+      "आपात स्थिति"
+    ],
+    "englishSynonyms": [
+      "Need",
+      "Demand",
+      "Requirement",
+      "Urgency"
+    ],
+    "examples": [
+      {
+        "sentence": "The exigencies of war forced them to leave."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 329,
+    "id": "exigency"
+  },
+  {
+    "text": "Exiguous",
+    "definition": "Very small in size or amount.",
+    "hindiSynonyms": [
+      "अल्प",
+      "बहुत कम",
+      "नामात्र"
+    ],
+    "englishSynonyms": [
+      "Meager",
+      "Inadequate",
+      "Scanty",
+      "Small"
+    ],
+    "examples": [
+      {
+        "sentence": "He managed to survive on an exiguous income."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 330,
+    "id": "exiguous"
+  },
+  {
+    "text": "Paucity",
+    "definition": "The presence of something only in small or insufficient quantities or amounts; scarcity.",
+    "hindiSynonyms": [
+      "कमी",
+      "अभाव",
+      "न्यूनता"
+    ],
+    "englishSynonyms": [
+      "Scarcity",
+      "Sparseness",
+      "Dearth",
+      "Shortage"
+    ],
+    "examples": [
+      {
+        "sentence": "There is a paucity of information on the subject."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 331,
+    "id": "paucity"
+  },
+  {
+    "text": "Scanty",
+    "definition": "Small or insufficient in quantity or amount.",
+    "hindiSynonyms": [
+      "अल्प",
+      "कम",
+      "नामात्र"
+    ],
+    "englishSynonyms": [
+      "Meager",
+      "Scant",
+      "Minimal",
+      "Limited"
+    ],
+    "examples": [
+      {
+        "sentence": "The evidence against him was scanty."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 332,
+    "id": "scanty"
+  },
+  {
+    "text": "Sparse",
+    "definition": "Thinly dispersed or scattered.",
+    "hindiSynonyms": [
+      "विरल",
+      "छितरा",
+      "कम घना"
+    ],
+    "englishSynonyms": [
+      "Scant",
+      "Scanty",
+      "Scattered",
+      "Thin"
+    ],
+    "examples": [
+      {
+        "sentence": "The population is sparse in the desert."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 333,
+    "id": "sparse"
+  },
+  {
+    "text": "Devoid",
+    "definition": "Entirely lacking or free from.",
+    "hindiSynonyms": [
+      "रहित",
+      "वंचित",
+      "खाली"
+    ],
+    "englishSynonyms": [
+      "Lacking",
+      "Without",
+      "Empty of",
+      "Free from"
+    ],
+    "examples": [
+      {
+        "sentence": "His voice was devoid of emotion."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 334,
+    "id": "devoid"
+  },
+  {
+    "text": "Plethora",
+    "definition": "A large or excessive amount of (something).",
+    "hindiSynonyms": [
+      "अधिकता",
+      "बाहुल्य",
+      "प्रचुरता"
+    ],
+    "englishSynonyms": [
+      "Excess",
+      "Abundance",
+      "Surplus",
+      "Glut"
+    ],
+    "examples": [
+      {
+        "sentence": "There is a plethora of books on the subject."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 335,
+    "id": "plethora"
+  },
+  {
+    "text": "Galore",
+    "definition": "In abundance.",
+    "hindiSynonyms": [
+      "प्रचुर मात्रा में",
+      "बहुत सारा"
+    ],
+    "englishSynonyms": [
+      "Abundance",
+      "Plenty",
+      "Profusion"
+    ],
+    "examples": [
+      {
+        "sentence": "There were bargains galore at the sale."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 336,
+    "id": "galore"
+  },
+  {
+    "text": "Inordinate",
+    "definition": "Unusually or disproportionately large; excessive.",
+    "hindiSynonyms": [
+      "अत्यधिक",
+      "बेहद",
+      "असंयत"
+    ],
+    "englishSynonyms": [
+      "Excessive",
+      "Undue",
+      "Unreasonable",
+      "Exorbitant"
+    ],
+    "examples": [
+      {
+        "sentence": "He spends an inordinate amount of time on games."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 337,
+    "id": "inordinate"
+  },
+  {
+    "text": "Surfeit",
+    "definition": "An excessive amount of something.",
+    "hindiSynonyms": [
+      "अतिरेक",
+      "अजीर्ण",
+      "अधिकता"
+    ],
+    "englishSynonyms": [
+      "Excess",
+      "Surplus",
+      "Abundance",
+      "Overdose"
+    ],
+    "examples": [
+      {
+        "sentence": "A surfeit of food made him feel sick."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 338,
+    "id": "surfeit"
+  },
+  {
+    "text": "Myriad",
+    "definition": "A countless or extremely great number.",
+    "hindiSynonyms": [
+      "असंख्य",
+      "बेशुमार",
+      "अनगिनत"
+    ],
+    "englishSynonyms": [
+      "Multitude",
+      "Mass",
+      "Host",
+      "Crowd"
+    ],
+    "examples": [
+      {
+        "sentence": "There are myriad stars in the sky."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 339,
+    "id": "myriad"
+  },
+  {
+    "text": "Umpteen",
+    "definition": "Indefinitely many; a lot of.",
+    "hindiSynonyms": [
+      "अनेक",
+      "बहुत सारे",
+      "कई"
+    ],
+    "englishSynonyms": [
+      "Many",
+      "Countless",
+      "Numerous"
+    ],
+    "examples": [
+      {
+        "sentence": "I have told you umpteen times to clean your room."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 340,
+    "id": "umpteen"
+  },
+  {
+    "text": "Rampant",
+    "definition": "(especially of something unwelcome or unpleasant) flourishing or spreading unchecked.",
+    "hindiSynonyms": [
+      "अनियंत्रित",
+      "व्याप्त",
+      "तेजी से फैलने वाला"
+    ],
+    "englishSynonyms": [
+      "Uncontrolled",
+      "Unrestrained",
+      "Widespread",
+      "Prevalent"
+    ],
+    "examples": [
+      {
+        "sentence": "Corruption was rampant in the country."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 341,
+    "id": "rampant"
+  },
+  {
+    "text": "Ramify",
+    "definition": "Form branches or offshoots; spread or branch out.",
+    "hindiSynonyms": [
+      "शाखाओं में बंटना",
+      "फैलना",
+      "विस्तार करना"
+    ],
+    "englishSynonyms": [
+      "Branch",
+      "Diverge",
+      "Subdivide"
+    ],
+    "examples": [
+      {
+        "sentence": "The problem ramified into many complex issues."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 342,
+    "id": "ramify"
+  },
+  {
+    "text": "Opulent",
+    "definition": "Ostentatiously rich and luxurious or lavish.",
+    "hindiSynonyms": [
+      "भव्य",
+      "धनी",
+      "रईस"
+    ],
+    "englishSynonyms": [
+      "Luxurious",
+      "Sumptuous",
+      "Palatial",
+      "Lavish"
+    ],
+    "examples": [
+      {
+        "sentence": "They lived in an opulent mansion."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 343,
+    "id": "opulent"
+  },
+  {
+    "text": "Profuse",
+    "definition": "Exuberantly plentiful; abundant.",
+    "hindiSynonyms": [
+      "विपुल",
+      "प्रचुर",
+      "उदार"
+    ],
+    "englishSynonyms": [
+      "Copious",
+      "Prolific",
+      "Abundant",
+      "Lavish"
+    ],
+    "examples": [
+      {
+        "sentence": "He offered profuse apologies for the mistake."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 344,
+    "id": "profuse"
+  },
+  {
+    "text": "Copious",
+    "definition": "Abundant in supply or quantity.",
+    "hindiSynonyms": [
+      "प्रचुर",
+      "बहुत",
+      "अधिक"
+    ],
+    "englishSynonyms": [
+      "Abundant",
+      "Plentiful",
+      "Ample",
+      "Profuse"
+    ],
+    "examples": [
+      {
+        "sentence": "She took copious notes during the lecture."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 345,
+    "id": "copious"
+  },
+  {
+    "text": "Deluge",
+    "definition": "A severe flood. Also, a great quantity of something arriving at the same time.",
+    "hindiSynonyms": [
+      "बाढ़",
+      "जलप्रलय",
+      "मूसलाधार बारिश"
+    ],
+    "englishSynonyms": [
+      "Flood",
+      "Torrent",
+      "Inundation"
+    ],
+    "examples": [
+      {
+        "sentence": "We received a deluge of complaints."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 346,
+    "id": "deluge"
+  },
+  {
+    "text": "Delude",
+    "definition": "Impose a misleading belief upon (someone); deceive; fool.",
+    "hindiSynonyms": [
+      "धोखा देना",
+      "भ्रम में डालना",
+      "बहकाना"
+    ],
+    "englishSynonyms": [
+      "Deceive",
+      "Fool",
+      "Mislead",
+      "Trick"
+    ],
+    "examples": [
+      {
+        "sentence": "Don't let him delude you with false promises."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 347,
+    "id": "delude"
+  },
+  {
+    "text": "Verdant",
+    "definition": "(of countryside) green with grass or other rich vegetation.",
+    "hindiSynonyms": [
+      "हरा-भरा",
+      "हरियाली से भरा"
+    ],
+    "englishSynonyms": [
+      "Green",
+      "Leafy",
+      "Lush",
+      "Grassy"
+    ],
+    "examples": [
+      {
+        "sentence": "The hills were verdant after the rain."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 348,
+    "id": "verdant"
+  },
+  {
+    "text": "Lush",
+    "definition": "(of vegetation) growing luxuriantly.",
+    "hindiSynonyms": [
+      "रसीला",
+      "हरा-भरा",
+      "समृद्ध"
+    ],
+    "englishSynonyms": [
+      "Luxuriant",
+      "Rich",
+      "Abundant",
+      "Profuse"
+    ],
+    "examples": [
+      {
+        "sentence": "The valley was full of lush vegetation."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 349,
+    "id": "lush"
+  },
+  {
+    "text": "Luxuriate",
+    "definition": "Enjoy oneself in a luxurious way; take self-indulgent delight.",
+    "hindiSynonyms": [
+      "आनंद लेना",
+      "विलास करना",
+      "मज़े करना"
+    ],
+    "englishSynonyms": [
+      "Revel",
+      "Bask",
+      "Delight",
+      "Indulge"
+    ],
+    "examples": [
+      {
+        "sentence": "She luxuriated in a warm bubble bath."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 350,
+    "id": "luxuriate"
+  }
+]

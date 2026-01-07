@@ -9,7 +9,8 @@ export function RootLayout() {
     "/quiz/attempt",
     "/admin",
     "/register",
-    "/login"
+    "/login",
+    "/learn"
   ];
 
   const shouldShowNav = !hideNavRoutes.some(route => location.pathname.startsWith(route));

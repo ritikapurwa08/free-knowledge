@@ -1,0 +1,1302 @@
+[
+  {
+    "text": "Mob",
+    "definition": "A large crowd of people, especially one that is disorderly and intent on causing trouble or violence.",
+    "hindiSynonyms": [
+      "भीड़",
+      "जनसमूह",
+      "दंगाई भीड़",
+      "जमावड़ा",
+      "हुजूम"
+    ],
+    "englishSynonyms": [
+      "Crowd",
+      "Horde",
+      "Multitude",
+      "Rabble"
+    ],
+    "examples": [
+      {
+        "sentence": "The angry mob marched towards the palace."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 51,
+    "id": "mob"
+  },
+  {
+    "text": "Coterie",
+    "definition": "A small group of people with shared interests or tastes, especially one that is exclusive of other people.",
+    "hindiSynonyms": [
+      "मंडली",
+      "मित्र-मंडली",
+      "गुट",
+      "समूह",
+      "टोली"
+    ],
+    "englishSynonyms": [
+      "Clique",
+      "Set",
+      "Circle",
+      "Inner circle"
+    ],
+    "examples": [
+      {
+        "sentence": "A coterie of scientists met privately to discuss the findings."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 52,
+    "id": "coterie"
+  },
+  {
+    "text": "Faction",
+    "definition": "A small organized dissenting group within a larger one, especially in politics.",
+    "hindiSynonyms": [
+      "गुट",
+      "दल",
+      "फिरका",
+      "गिरोह",
+      "विद्रोही दल"
+    ],
+    "englishSynonyms": [
+      "Clique",
+      "Group",
+      "Sector",
+      "Branch"
+    ],
+    "examples": [
+      {
+        "sentence": "The party split into rival factions."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 53,
+    "id": "faction"
+  },
+  {
+    "text": "Clique",
+    "definition": "A small group of people, with shared interests or other features in common, who spend time together and do not readily allow others to join them.",
+    "hindiSynonyms": [
+      "गुट",
+      "मंडली",
+      "टोली",
+      "जत्था",
+      "वर्ग"
+    ],
+    "englishSynonyms": [
+      "Coterie",
+      "Circle",
+      "Gang",
+      "Group"
+    ],
+    "examples": [
+      {
+        "sentence": "The popular kids formed a tight clique at school."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 54,
+    "id": "clique"
+  },
+  {
+    "text": "Nexus",
+    "definition": "A connection or series of connections linking two or more things.",
+    "hindiSynonyms": [
+      "बंधन",
+      "साठ-गाठ",
+      "संपर्क",
+      "कड़ी",
+      "नाता"
+    ],
+    "englishSynonyms": [
+      "Connection",
+      "Link",
+      "Bond",
+      "Tie"
+    ],
+    "examples": [
+      {
+        "sentence": "The nexus between industry and political power is strong."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 55,
+    "id": "nexus"
+  },
+  {
+    "text": "Connivance",
+    "definition": "Willingness to secretly allow or be involved in wrongdoing, especially an immoral or illegal act.",
+    "hindiSynonyms": [
+      "मिलीभगत",
+      "साठगांठ",
+      "शह",
+      "सहमति",
+      "अनदेखी"
+    ],
+    "englishSynonyms": [
+      "Collusion",
+      "Complicity",
+      "Conspiracy",
+      "Intrigue"
+    ],
+    "examples": [
+      {
+        "sentence": "The crime was committed with the connivance of the security guards."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 56,
+    "id": "connivance"
+  },
+  {
+    "text": "Isolation",
+    "definition": "The process or fact of isolating or being isolated.",
+    "hindiSynonyms": [
+      "एकांत",
+      "अलगाव",
+      "तन्हाई",
+      "पृथक्करण",
+      "अकेलापन"
+    ],
+    "englishSynonyms": [
+      "Solitude",
+      "Separation",
+      "Seclusion",
+      "Loneliness"
+    ],
+    "examples": [
+      {
+        "sentence": "The patient was kept in isolation to prevent the spread of infection."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 57,
+    "id": "isolation"
+  },
+  {
+    "text": "Prophylactic",
+    "definition": "Intended to prevent disease.",
+    "hindiSynonyms": [
+      "रोगनिरोधी",
+      "प्रतिबंधक",
+      "बचाव का",
+      "निरोधक",
+      "सुरक्षात्मक"
+    ],
+    "englishSynonyms": [
+      "Preventive",
+      "Precautionary",
+      "Protective",
+      "Defensive"
+    ],
+    "examples": [
+      {
+        "sentence": "Vaccines are prophylactic measures against diseases."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 58,
+    "id": "prophylactic"
+  },
+  {
+    "text": "Preventive",
+    "definition": "Designed to keep something undesirable such as illness or harm from occurring.",
+    "hindiSynonyms": [
+      "निवारक",
+      "प्रतिबंधक",
+      "रोकनेवाला",
+      "बचाव-संबंधी",
+      "सुरक्षात्मक"
+    ],
+    "englishSynonyms": [
+      "Precautionary",
+      "Protective",
+      "Prophylactic",
+      "Deterrent"
+    ],
+    "examples": [
+      {
+        "sentence": "Preventive maintenance can save money in the long run."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 59,
+    "id": "preventive"
+  },
+  {
+    "text": "Precautionary",
+    "definition": "Carried out as a precaution; preventive.",
+    "hindiSynonyms": [
+      "एहतियाती",
+      "सावधानी का",
+      "बचाव का",
+      "पूर्वोपायात्मक",
+      "सुरक्षात्मक"
+    ],
+    "englishSynonyms": [
+      "Preventive",
+      "Safety",
+      "Protective",
+      "Prudent"
+    ],
+    "examples": [
+      {
+        "sentence": "He took precautionary measures to secure his home."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 60,
+    "id": "precautionary"
+  },
+  {
+    "text": "Caution",
+    "definition": "Care taken to avoid danger or mistakes.",
+    "hindiSynonyms": [
+      "सावधानी",
+      "एहतियात",
+      "चेतावनी",
+      "सतर्तकता",
+      "होशियारी"
+    ],
+    "englishSynonyms": [
+      "Care",
+      "Wariness",
+      "Vigilance",
+      "Heed"
+    ],
+    "examples": [
+      {
+        "sentence": "Proceed with caution when driving on icy roads."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 61,
+    "id": "caution"
+  },
+  {
+    "text": "Remedy",
+    "definition": "A medicine or treatment for a disease or injury.",
+    "hindiSynonyms": [
+      "उपचार",
+      "इलाज",
+      "दवा",
+      "समाधान",
+      "निवारण"
+    ],
+    "englishSynonyms": [
+      "Cure",
+      "Treatment",
+      "Solution",
+      "Antidote"
+    ],
+    "examples": [
+      {
+        "sentence": "There is no known remedy for this disease."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 62,
+    "id": "remedy"
+  },
+  {
+    "text": "Endangerment",
+    "definition": "The action of putting someone or something at risk or in danger.",
+    "hindiSynonyms": [
+      "जोखिम",
+      "खतरा",
+      "संकट",
+      "विपत्ति में डालना",
+      "असुरक्षा"
+    ],
+    "englishSynonyms": [
+      "Jeopardy",
+      "Risk",
+      "Peril",
+      "Hazard"
+    ],
+    "examples": [
+      {
+        "sentence": "Child endangerment is a serious crime."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 63,
+    "id": "endangerment"
+  },
+  {
+    "text": "Covenant",
+    "definition": "An agreement.",
+    "hindiSynonyms": [
+      "प्रतिज्ञा-पत्र",
+      "समझौता",
+      "इकरारनामा",
+      "प्रसंविदा",
+      "अनुबंध"
+    ],
+    "englishSynonyms": [
+      "Contract",
+      "Agreement",
+      "Treaty",
+      "Pact"
+    ],
+    "examples": [
+      {
+        "sentence": "The international covenant on human rights was signed by many nations."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 64,
+    "id": "covenant"
+  },
+  {
+    "text": "Treaty",
+    "definition": "A formally concluded and ratified agreement between countries.",
+    "hindiSynonyms": [
+      "संधि",
+      "समझौता",
+      "करार",
+      "सुलहनामा",
+      "शांति-संधि"
+    ],
+    "englishSynonyms": [
+      "Agreement",
+      "Pact",
+      "Deal",
+      "Accord"
+    ],
+    "examples": [
+      {
+        "sentence": "The two countries signed a peace treaty."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 65,
+    "id": "treaty"
+  },
+  {
+    "text": "Pact",
+    "definition": "A formal agreement between individuals or parties.",
+    "hindiSynonyms": [
+      "समझौता",
+      "संधि",
+      "करार",
+      "इकरारनामा",
+      "वचन"
+    ],
+    "englishSynonyms": [
+      "Agreement",
+      "Treaty",
+      "Deal",
+      "Contract"
+    ],
+    "examples": [
+      {
+        "sentence": "They made a pact to always stay friends."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 66,
+    "id": "pact"
+  },
+  {
+    "text": "Alliance",
+    "definition": "A union or association formed for mutual benefit, especially between countries or organizations.",
+    "hindiSynonyms": [
+      "गठबंधन",
+      "संधि",
+      "मेल",
+      "नाता",
+      "दोस्ती"
+    ],
+    "englishSynonyms": [
+      "Association",
+      "Union",
+      "League",
+      "Partnership"
+    ],
+    "examples": [
+      {
+        "sentence": "The two parties formed a strategic alliance."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 67,
+    "id": "alliance"
+  },
+  {
+    "text": "Truce",
+    "definition": "An agreement between enemies or opponents to stop fighting or arguing for a certain time.",
+    "hindiSynonyms": [
+      "युद्धविराम",
+      "सुलह",
+      "शांति",
+      "विराम-संधि",
+      "अस्थायी संधि"
+    ],
+    "englishSynonyms": [
+      "Ceasefire",
+      "Armistice",
+      "Peace",
+      "Respite"
+    ],
+    "examples": [
+      {
+        "sentence": "The rebels declared a temporary truce."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 68,
+    "id": "truce"
+  },
+  {
+    "text": "Protocol",
+    "definition": "The official procedure or system of rules governing affairs of state or diplomatic occasions.",
+    "hindiSynonyms": [
+      "शिष्टाचार",
+      "प्रोटोकॉल",
+      "नियम",
+      "मर्यादा",
+      "औपचारिकता"
+    ],
+    "englishSynonyms": [
+      "Procedure",
+      "Convention",
+      "Code",
+      "Rules"
+    ],
+    "examples": [
+      {
+        "sentence": "It is against protocol for the Prince to do that."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 69,
+    "id": "protocol"
+  },
+  {
+    "text": "Accord",
+    "definition": "Give or grant someone (power, status, or recognition). agreement or harmony.",
+    "hindiSynonyms": [
+      "सहमति",
+      "समझौता",
+      "मेल",
+      "एकता",
+      "स्वीकृति"
+    ],
+    "englishSynonyms": [
+      "Agreement",
+      "Harmony",
+      "Concord",
+      "Treaty"
+    ],
+    "examples": [
+      {
+        "sentence": "His views are in accord with public opinion."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 70,
+    "id": "accord"
+  },
+  {
+    "text": "Florid",
+    "definition": "Having a red or flushed complexion; elaborately or excessively intricate or complicated.",
+    "hindiSynonyms": [
+      "आरक्त",
+      "भड़कीला",
+      "फूलदार",
+      "सजावटी",
+      "रंगीन"
+    ],
+    "englishSynonyms": [
+      "Ruddy",
+      "Red-faced",
+      "Ornate",
+      "Fancy"
+    ],
+    "examples": [
+      {
+        "sentence": "His writing style is too florid for my taste."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 71,
+    "id": "florid"
+  },
+  {
+    "text": "Ornate",
+    "definition": "Made in an intricate shape or decorated with complex patterns.",
+    "hindiSynonyms": [
+      "अलंकृत",
+      "सजा हुआ",
+      "भड़कीला",
+      "विभूषित",
+      "सजावटी"
+    ],
+    "englishSynonyms": [
+      "Elaborate",
+      "Decorated",
+      "Adorned",
+      "Fancy"
+    ],
+    "examples": [
+      {
+        "sentence": "The room was filled with ornate furniture."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 72,
+    "id": "ornate"
+  },
+  {
+    "text": "Gaudy",
+    "definition": "Extravagantly bright or showy, typically so as to be tasteless.",
+    "hindiSynonyms": [
+      "भड़कीला",
+      "चटकीला",
+      "दिखावटी",
+      "अशिष्ट",
+      "बेस्वाद"
+    ],
+    "englishSynonyms": [
+      "Garish",
+      "Lurid",
+      "Loud",
+      "Flashy"
+    ],
+    "examples": [
+      {
+        "sentence": "She wore a gaudy costume to the party."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 73,
+    "id": "gaudy"
+  },
+  {
+    "text": "Flashy",
+    "definition": "Ostentatiously attractive or impressive.",
+    "hindiSynonyms": [
+      "चमकीला",
+      "भड़कीला",
+      "दिखावटी",
+      "शानदार",
+      "आकर्षक"
+    ],
+    "englishSynonyms": [
+      "Showy",
+      "Ostentatious",
+      "Gaish",
+      "Gaudy"
+    ],
+    "examples": [
+      {
+        "sentence": "He drives a flashy sports car."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 74,
+    "id": "flashy"
+  },
+  {
+    "text": "Lurid",
+    "definition": "Very vivid in color, especially so as to create an unpleasantly harsh or unnatural effect.",
+    "hindiSynonyms": [
+      "भयंकर",
+      "घोर",
+      "सनसनीखेज",
+      "चमकदार",
+      "डरावना"
+    ],
+    "englishSynonyms": [
+      "Bright",
+      "Brilliant",
+      "Vivid",
+      "Sensational"
+    ],
+    "examples": [
+      {
+        "sentence": "The papers were full of lurid details of the murder."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 75,
+    "id": "lurid"
+  },
+  {
+    "text": "Baroque",
+    "definition": "Relating to or denoting a style of European architecture, music, and art of the 17th and 18th centuries that followed mannerism and is characterized by ornate detail.",
+    "hindiSynonyms": [
+      "अतिलंकृत",
+      "विचित्र",
+      "विषम",
+      "सजावटी",
+      "अनोखा"
+    ],
+    "englishSynonyms": [
+      "Ornate",
+      "Fancy",
+      "Elaborate",
+      "Decorated"
+    ],
+    "examples": [
+      {
+        "sentence": "The church is a masterpiece of Baroque architecture."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 76,
+    "id": "baroque"
+  },
+  {
+    "text": "Garish",
+    "definition": "Obtrusively bright and showy; lurid.",
+    "hindiSynonyms": [
+      "भड़कीला",
+      "चमकदार",
+      "दिखावटी",
+      "असभ्य",
+      "गाढ़ा"
+    ],
+    "englishSynonyms": [
+      "Gaudy",
+      "Lurid",
+      "Loud",
+      "Showy"
+    ],
+    "examples": [
+      {
+        "sentence": "The room was painted in garish colors."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 77,
+    "id": "garish"
+  },
+  {
+    "text": "Livid",
+    "definition": "Furiously angry.",
+    "hindiSynonyms": [
+      "लोहा-लाखा",
+      "अत्यंत क्रुद्ध",
+      "गुस्से से लाल",
+      "नीला",
+      "क्रोधित"
+    ],
+    "englishSynonyms": [
+      "Furious",
+      "Incensed",
+      "Infuriated",
+      "Mad"
+    ],
+    "examples": [
+      {
+        "sentence": "He was livid when he found out the truth."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 78,
+    "id": "livid"
+  },
+  {
+    "text": "Unadorned",
+    "definition": "Not adorned; plain.",
+    "hindiSynonyms": [
+      "सादा",
+      "अलंकारहीन",
+      "सरल",
+      "सीधा",
+      "बिना सजावट के"
+    ],
+    "englishSynonyms": [
+      "Plain",
+      "Simple",
+      "Stark",
+      "Bare"
+    ],
+    "examples": [
+      {
+        "sentence": "The walls were unadorned and white."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 79,
+    "id": "unadorned"
+  },
+  {
+    "text": "Bare",
+    "definition": "Not clothed or covered.",
+    "hindiSynonyms": [
+      "नग्न",
+      "खाली",
+      "मात्र",
+      "प्रकट",
+      "सूना"
+    ],
+    "englishSynonyms": [
+      "Naked",
+      "Uncovered",
+      "Exposed",
+      "Simple"
+    ],
+    "examples": [
+      {
+        "sentence": "The cupboard was bare."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 80,
+    "id": "bare"
+  },
+  {
+    "text": "Peruse",
+    "definition": "Read (something), typically in a thorough or careful way.",
+    "hindiSynonyms": [
+      "ध्यानपूर्वक पढ़ना",
+      "अवलोकन करना",
+      "मुआयना करना",
+      "जांचना",
+      "पढ़ना"
+    ],
+    "englishSynonyms": [
+      "Read",
+      "Study",
+      "Examine",
+      "Inspect"
+    ],
+    "examples": [
+      {
+        "sentence": "She perused the document carefully."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 81,
+    "id": "peruse"
+  },
+  {
+    "text": "Scrutinize",
+    "definition": "Examine or inspect closely and thoroughly.",
+    "hindiSynonyms": [
+      "जांचना",
+      "सूक्ष्म परीक्षण करना",
+      "देखभाल करना",
+      "छानबीन करना",
+      "निहारना"
+    ],
+    "englishSynonyms": [
+      "Examine",
+      "Inspect",
+      "Survey",
+      "Study"
+    ],
+    "examples": [
+      {
+        "sentence": "The police scrutinized the evidence extensively."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 82,
+    "id": "scrutinize"
+  },
+  {
+    "text": "Probe",
+    "definition": "Physically explore or examine something with the hands or an instrument.",
+    "hindiSynonyms": [
+      "जांच करना",
+      "टटोलना",
+      "खोजबीन करना",
+      "पूछताछ करना",
+      "गहराई से जांचना"
+    ],
+    "englishSynonyms": [
+      "Examine",
+      "Investigate",
+      "Inquire",
+      "Explore"
+    ],
+    "examples": [
+      {
+        "sentence": "Journalists probed into his private life."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 83,
+    "id": "probe"
+  },
+  {
+    "text": "Condon",
+    "definition": "Accept and allow (behavior that is considered morally wrong or offensive) to continue.",
+    "hindiSynonyms": [
+      "सहन करना",
+      "माफ़ करना",
+      "अनदेखी करना",
+      "स्वीकार करना",
+      "छोड़ देना"
+    ],
+    "englishSynonyms": [
+      "Disregard",
+      "Overlook",
+      "Forgive",
+      "Excuse"
+    ],
+    "examples": [
+      {
+        "sentence": "The college cannot condone any behavior that involves illicit drugs."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 84,
+    "id": "condon"
+  },
+  {
+    "text": "Disregard",
+    "definition": "Pay no attention to; ignore.",
+    "hindiSynonyms": [
+      "अवहेलना करना",
+      "उपेक्षा करना",
+      "ध्यान न देना",
+      "तिरस्कार करना",
+      "नजरअंदाज करना"
+    ],
+    "englishSynonyms": [
+      "Ignore",
+      "Neglect",
+      "Overlook",
+      "Discount"
+    ],
+    "examples": [
+      {
+        "sentence": "Please disregard the previous email."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 85,
+    "id": "disregard"
+  },
+  {
+    "text": "Punitive",
+    "definition": "Inflicting or intended as punishment.",
+    "hindiSynonyms": [
+      "दंडात्मक",
+      "सज़ा देने वाला",
+      "कठोर",
+      "डंड देने वाला",
+      "कड़ा"
+    ],
+    "englishSynonyms": [
+      "Penal",
+      "Disciplinary",
+      "Corrective",
+      "Retributive"
+    ],
+    "examples": [
+      {
+        "sentence": "The US imposed punitive tariffs on imports."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 86,
+    "id": "punitive"
+  },
+  {
+    "text": "Penal",
+    "definition": "Relating to punishment of offenders under the legal system.",
+    "hindiSynonyms": [
+      "दंड सम्बन्धी",
+      "दंण्डात्मक",
+      "सज़ा का",
+      "कठोर",
+      "सज़ा-संबंधी"
+    ],
+    "englishSynonyms": [
+      "Disciplinary",
+      "Punitive",
+      "Corrective",
+      "Retributive"
+    ],
+    "examples": [
+      {
+        "sentence": "The penal system needs reform."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 87,
+    "id": "penal"
+  },
+  {
+    "text": "Retribution",
+    "definition": "Punishment inflicted on someone as vengeance for a wrong or criminal act.",
+    "hindiSynonyms": [
+      "प्रतिशोध",
+      "बदला",
+      "सज़ा",
+      "फल",
+      "दंड"
+    ],
+    "englishSynonyms": [
+      "Vengeance",
+      "Revenge",
+      "Retaliation",
+      "Payback"
+    ],
+    "examples": [
+      {
+        "sentence": "He feared retribution from his enemies."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 88,
+    "id": "retribution"
+  },
+  {
+    "text": "Retaliate",
+    "definition": "Make an attack or assault in return for a similar attack.",
+    "hindiSynonyms": [
+      "बदला लेना",
+      "पलट कर वार करना",
+      "जवाबी कार्रवाई करना",
+      "प्रतिशोध लेना",
+      "ईंट का जवाब पत्थर से देना"
+    ],
+    "englishSynonyms": [
+      "Fight back",
+      "Respond",
+      "React",
+      "Reciprocate"
+    ],
+    "examples": [
+      {
+        "sentence": "The army retaliated with an air strike."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 89,
+    "id": "retaliate"
+  },
+  {
+    "text": "Nemesis",
+    "definition": "The inescapable agent of someone's or something's downfall.",
+    "hindiSynonyms": [
+      "प्रतिशोध",
+      "कट्टर दुश्मन",
+      "बदला लेने वाला",
+      "दण्ड",
+      "विनाशक"
+    ],
+    "englishSynonyms": [
+      "Arch-enemy",
+      "Rival",
+      "Adversary",
+      "Downfall"
+    ],
+    "examples": [
+      {
+        "sentence": "Mathematics was his nemesis in school."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 90,
+    "id": "nemesis"
+  },
+  {
+    "text": "Castigate",
+    "definition": "Reprimand (someone) severely.",
+    "hindiSynonyms": [
+      "फटकारना",
+      "कड़ी आलोचना करना",
+      "डांटना",
+      "सज़ा देना",
+      "भर्त्सना करना"
+    ],
+    "englishSynonyms": [
+      "Reprimand",
+      "Rebuke",
+      "Admonish",
+      "Chastise"
+    ],
+    "examples": [
+      {
+        "sentence": "He was castigated for his constant tardiness."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 91,
+    "id": "castigate"
+  },
+  {
+    "text": "Exculpate",
+    "definition": "Show or declare that (someone) is not guilty of wrongdoing.",
+    "hindiSynonyms": [
+      "दोषमुक्त करना",
+      "सफ़ाई देना",
+      "निर्दोष ठहराना",
+      "बचाव करना",
+      "बरी करना"
+    ],
+    "englishSynonyms": [
+      "Exonerate",
+      "Acquit",
+      "Clear",
+      "Vindicate"
+    ],
+    "examples": [
+      {
+        "sentence": "The article exculpated the mayor."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 92,
+    "id": "exculpate"
+  },
+  {
+    "text": "Exonerate",
+    "definition": "Absolve (someone) from blame for a fault or wrongdoing.",
+    "hindiSynonyms": [
+      "हक बहाल करना",
+      "दोषमुक्त करना",
+      "बरी करना",
+      "निर्दोष साबित करना",
+      "मुक्ति देना"
+    ],
+    "englishSynonyms": [
+      "Absolve",
+      "Clear",
+      "Acquit",
+      "Vindicate"
+    ],
+    "examples": [
+      {
+        "sentence": "The report exonerated the crew from all blame."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 93,
+    "id": "exonerate"
+  },
+  {
+    "text": "Venial",
+    "definition": "Denoting a sin that is not regarded as depriving the soul of divine grace. (of a fault or offense) slight and pardonable.",
+    "hindiSynonyms": [
+      "क्षम्य",
+      "माफ़ करने योग्य",
+      "मामूली",
+      "लघु",
+      "साधारण"
+    ],
+    "englishSynonyms": [
+      "Pardonable",
+      "Forgivable",
+      "Excusable",
+      "Minor"
+    ],
+    "examples": [
+      {
+        "sentence": "A venial sin is easily forgiven."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 94,
+    "id": "venial"
+  },
+  {
+    "text": "Venal",
+    "definition": "Showing or motivated by susceptibility to bribery.",
+    "hindiSynonyms": [
+      "भ्रष्ट",
+      "रिश्वतखोर",
+      "बिकाऊ",
+      "लालची",
+      "घूसखोर"
+    ],
+    "englishSynonyms": [
+      "Corrupt",
+      "Bribable",
+      "Dishonest",
+      "Mercenary"
+    ],
+    "examples": [
+      {
+        "sentence": "The judge was known to be venal and easily bribed."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 95,
+    "id": "venal"
+  },
+  {
+    "text": "Amnesty",
+    "definition": "An official pardon for people who have been convicted of political offenses.",
+    "hindiSynonyms": [
+      "आम माफ़ी",
+      "क्षमादान",
+      "राजक्षमा",
+      "सर्वक्षमा",
+      "माफ़ी"
+    ],
+    "englishSynonyms": [
+      "Pardon",
+      "Forgiveness",
+      "Reprieve",
+      "Absolution"
+    ],
+    "examples": [
+      {
+        "sentence": "The government declared an amnesty for political prisoners."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 96,
+    "id": "amnesty"
+  },
+  {
+    "text": "Obliterate",
+    "definition": "Destroy utterly; wipe out.",
+    "hindiSynonyms": [
+      "मिटा देना",
+      "काटना",
+      "नष्ट करना",
+      "लोप करना",
+      "साफ़ कर देना"
+    ],
+    "englishSynonyms": [
+      "Destroy",
+      "Wipe out",
+      "Annihilate",
+      "Eradicate"
+    ],
+    "examples": [
+      {
+        "sentence": "The city was obliterated by the bomb."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 97,
+    "id": "obliterate"
+  },
+  {
+    "text": "Annihilate",
+    "definition": "Destroy utterly; obliterate.",
+    "hindiSynonyms": [
+      "विनाश करना",
+      "जड़ से मिटाना",
+      "सत्यानाश करना",
+      "नष्ट करना",
+      "ख़त्म करना"
+    ],
+    "englishSynonyms": [
+      "Destroy",
+      "Wipe out",
+      "Obliterate",
+      "Eliminate"
+    ],
+    "examples": [
+      {
+        "sentence": "A simple bomb could annihilate them all."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 98,
+    "id": "annihilate"
+  },
+  {
+    "text": "Exterminate",
+    "definition": "Destroy completely.",
+    "hindiSynonyms": [
+      "विनाश करना",
+      "जड़ से उखाड़ना",
+      "मार डालना",
+      "नष्ट करना",
+      "ख़त्म करना"
+    ],
+    "englishSynonyms": [
+      "Kill",
+      "Destroy",
+      "Eradicate",
+      "Eliminate"
+    ],
+    "examples": [
+      {
+        "sentence": "Hitler wanted to exterminate the Jews."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 99,
+    "id": "exterminate"
+  },
+  {
+    "text": "Extirpate",
+    "definition": "Root out and destroy completely.",
+    "hindiSynonyms": [
+      "जड़ से उखाड़ना",
+      "उन्मूलन करना",
+      "नाश करना",
+      "मिटाना",
+      "हटा देना"
+    ],
+    "englishSynonyms": [
+      "Weed out",
+      "Eradicate",
+      "Destroy",
+      "Eliminate"
+    ],
+    "examples": [
+      {
+        "sentence": "The use of torture must be extirpated."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 100,
+    "id": "extirpate"
+  }
+]

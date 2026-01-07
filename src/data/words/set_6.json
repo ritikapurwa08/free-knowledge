@@ -1,0 +1,1201 @@
+[
+  {
+    "text": "Extenuate",
+    "definition": "Make (guilt or an offense) seem less serious or more forgivable.",
+    "hindiSynonyms": [
+      "कम करना",
+      "हल्का करना",
+      "शांत करना"
+    ],
+    "englishSynonyms": [
+      "Mitigate",
+      "Excuse",
+      "Palliate",
+      "Diminish"
+    ],
+    "examples": [
+      {
+        "sentence": "Nothing can extenuate such behavior."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 251,
+    "id": "extenuate"
+  },
+  {
+    "text": "Advocate",
+    "definition": "Publicly recommend or support.",
+    "hindiSynonyms": [
+      "वकालत करना",
+      "समर्थन करना",
+      "पक्ष लेना"
+    ],
+    "englishSynonyms": [
+      "Support",
+      "Recommend",
+      "Champion",
+      "Promote"
+    ],
+    "examples": [
+      {
+        "sentence": "He advocates for human rights."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 252,
+    "id": "advocate"
+  },
+  {
+    "text": "Endorse",
+    "definition": "Declare one's public approval or support of.",
+    "hindiSynonyms": [
+      "समर्थन करना",
+      "अनुमोदन करना",
+      "पृष्ठांकन करना"
+    ],
+    "englishSynonyms": [
+      "Support",
+      "Approve",
+      "Sanction",
+      "Back"
+    ],
+    "examples": [
+      {
+        "sentence": "The celebrity endorsed the new product."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 253,
+    "id": "endorse"
+  },
+  {
+    "text": "Defend",
+    "definition": "Speak or write in favor of (an action or person); attempt to justify.",
+    "hindiSynonyms": [
+      "रक्षा करना",
+      "बचाव करना",
+      "पैरवी करना"
+    ],
+    "englishSynonyms": [
+      "Protect",
+      "Guard",
+      "Justify",
+      "Uphold"
+    ],
+    "examples": [
+      {
+        "sentence": "She defended her thesis successfully."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 254,
+    "id": "defend"
+  },
+  {
+    "text": "Impeach",
+    "definition": "Call into question the integrity or validity of (a practice). Also, charge (a holder of public office) with misconduct.",
+    "hindiSynonyms": [
+      "महाभियोग चलाना",
+      "दोष लगाना",
+      "संदेह करना"
+    ],
+    "englishSynonyms": [
+      "Challenge",
+      "Question",
+      "Indict",
+      "Accuse"
+    ],
+    "examples": [
+      {
+        "sentence": "The opposition tried to impeach the president."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 255,
+    "id": "impeach"
+  },
+  {
+    "text": "Convict",
+    "definition": "Declare (someone) to be guilty of a criminal offense by the verdict of a jury or the decision of a judge in a court of law.",
+    "hindiSynonyms": [
+      "दोषी ठहराना",
+      "अपराधी घोषित करना",
+      "कैदी"
+    ],
+    "englishSynonyms": [
+      "Sentence",
+      "Condemn",
+      "Find guilty"
+    ],
+    "examples": [
+      {
+        "sentence": "He was convicted of robbery."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 256,
+    "id": "convict"
+  },
+  {
+    "text": "Condemn",
+    "definition": "Express complete disapproval of, typically in public; censure.",
+    "hindiSynonyms": [
+      "निंदा करना",
+      "दोषी ठहराना",
+      "सजा सुनाना"
+    ],
+    "englishSynonyms": [
+      "Censure",
+      "Criticize",
+      "Denounce",
+      "Blame"
+    ],
+    "examples": [
+      {
+        "sentence": "The government condemned the terrorist attack."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 257,
+    "id": "condemn"
+  },
+  {
+    "text": "Wily",
+    "definition": "Skilled at gaining an advantage, especially deceitfully.",
+    "hindiSynonyms": [
+      "चतुर",
+      "मक्कार",
+      "धूर्त",
+      "कपटी"
+    ],
+    "englishSynonyms": [
+      "Crafty",
+      "Cunning",
+      "Sly",
+      "Artful"
+    ],
+    "examples": [
+      {
+        "sentence": "The wily fox escaped the trap."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 258,
+    "id": "wily"
+  },
+  {
+    "text": "Cunning",
+    "definition": "Having or showing skill in achieving one's ends by deceit or evasion.",
+    "hindiSynonyms": [
+      "चालाक",
+      "धूर्त",
+      "मक्कार"
+    ],
+    "englishSynonyms": [
+      "Sly",
+      "Crafty",
+      "Wily",
+      "Devious"
+    ],
+    "examples": [
+      {
+        "sentence": "He is as cunning as a fox."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 259,
+    "id": "cunning"
+  },
+  {
+    "text": "Crafty",
+    "definition": "Clever at achieving one's aims by indirect or deceitful methods.",
+    "hindiSynonyms": [
+      "शिल्पी",
+      "चालाक",
+      "धूर्त"
+    ],
+    "englishSynonyms": [
+      "Cunning",
+      "Sly",
+      "Artful",
+      "Wily"
+    ],
+    "examples": [
+      {
+        "sentence": "He made a crafty move to win the game."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 260,
+    "id": "crafty"
+  },
+  {
+    "text": "Artful",
+    "definition": "Clever or skillful, typically in a crafty or cunning way.",
+    "hindiSynonyms": [
+      "धूर्त",
+      "चालाक",
+      "कुशल"
+    ],
+    "englishSynonyms": [
+      "Cunning",
+      "Crafty",
+      "Sly",
+      "Ingenious"
+    ],
+    "examples": [
+      {
+        "sentence": "The artful dodger managed to steal the wallet."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 261,
+    "id": "artful"
+  },
+  {
+    "text": "Artistic",
+    "definition": "Having or revealing natural creative skill.",
+    "hindiSynonyms": [
+      "कलात्मक",
+      "कलाकार",
+      "सौंदर्यपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Creative",
+      "Imaginative",
+      "Aesthetic",
+      "Talented"
+    ],
+    "examples": [
+      {
+        "sentence": "She has an artistic eye for design."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 262,
+    "id": "artistic"
+  },
+  {
+    "text": "Artless",
+    "definition": "Without guile or deception; natural and simple.",
+    "hindiSynonyms": [
+      "सीधा-सादा",
+      "भोला",
+      "निष्कपट"
+    ],
+    "englishSynonyms": [
+      "Natural",
+      "Naive",
+      "Simple",
+      "Innocent"
+    ],
+    "examples": [
+      {
+        "sentence": "Her artless charm won everyone's heart."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 263,
+    "id": "artless"
+  },
+  {
+    "text": "Tricky",
+    "definition": "(of a task, problem, or situation) requiring care and skill because difficult or awkward.",
+    "hindiSynonyms": [
+      "मुश्किल",
+      "पेचीदा",
+      "धूर्त"
+    ],
+    "englishSynonyms": [
+      "Difficult",
+      "Complicated",
+      "Deceitful",
+      "Crafty"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a tricky question to answer."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 264,
+    "id": "tricky"
+  },
+  {
+    "text": "Insidious",
+    "definition": "Proceeding in a gradual, subtle way, but with harmful effects.",
+    "hindiSynonyms": [
+      "कपटी",
+      "घातक",
+      "छलपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Treacherous",
+      "Deceitful",
+      "Stealthy",
+      "Subtle"
+    ],
+    "examples": [
+      {
+        "sentence": "Glaucoma is an insidious disease."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 265,
+    "id": "insidious"
+  },
+  {
+    "text": "Sly",
+    "definition": "Having or showing a cunning and deceitful nature.",
+    "hindiSynonyms": [
+      "धूर्त",
+      "गुप्त",
+      "चालाक"
+    ],
+    "englishSynonyms": [
+      "Cunning",
+      "Crafty",
+      "Furtive",
+      "Devious"
+    ],
+    "examples": [
+      {
+        "sentence": "He gave a sly grin."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 266,
+    "id": "sly"
+  },
+  {
+    "text": "Underhand",
+    "definition": "Acting or done in a secret or dishonest way.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "छलपूर्ण",
+      "अनैतिक"
+    ],
+    "englishSynonyms": [
+      "Deceitful",
+      "Secretive",
+      "Dishonest",
+      "Sneaky"
+    ],
+    "examples": [
+      {
+        "sentence": "They used underhand tactics to win the contract."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 267,
+    "id": "underhand"
+  },
+  {
+    "text": "Scheming",
+    "definition": "Given to or involved in making secret and underhanded plans.",
+    "hindiSynonyms": [
+      "साजिशी",
+      "योजना बनाने वाला",
+      "कुटिल"
+    ],
+    "englishSynonyms": [
+      "Calculating",
+      "Deceitful",
+      "Conniving",
+      "Cunning"
+    ],
+    "examples": [
+      {
+        "sentence": "The scheming villain plotted against the hero."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 268,
+    "id": "scheming"
+  },
+  {
+    "text": "Intriguing",
+    "definition": "Arousing one's curiosity or interest; fascinating.",
+    "hindiSynonyms": [
+      "दिलचस्प",
+      "लुभावना",
+      "साजिशी"
+    ],
+    "englishSynonyms": [
+      "Fascinating",
+      "Interesting",
+      "Compelling",
+      "Captivating"
+    ],
+    "examples": [
+      {
+        "sentence": "The book has an intriguing plot."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 269,
+    "id": "intriguing"
+  },
+  {
+    "text": "Shrewd",
+    "definition": "Having or showing sharp powers of judgment.",
+    "hindiSynonyms": [
+      "समझदार",
+      "चालाक",
+      "कुशाग्र"
+    ],
+    "englishSynonyms": [
+      "Astute",
+      "Sharp",
+      "Smart",
+      "Perceptive"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a shrewd businessman."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 270,
+    "id": "shrewd"
+  },
+  {
+    "text": "Astute",
+    "definition": "Having or showing an ability to accurately assess situations or people and turn this to one's advantage.",
+    "hindiSynonyms": [
+      "चतुर",
+      "होशियार",
+      "सूक्ष्मदर्शी"
+    ],
+    "englishSynonyms": [
+      "Shrewd",
+      "Sharp",
+      "Clever",
+      "Smart"
+    ],
+    "examples": [
+      {
+        "sentence": "She made some astute investments."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 271,
+    "id": "astute"
+  },
+  {
+    "text": "Vulpine",
+    "definition": "Relating to a fox or foxes; cunning or crafty.",
+    "hindiSynonyms": [
+      "लोमड़ी जैसा",
+      "चालाक",
+      "धूर्त"
+    ],
+    "englishSynonyms": [
+      "Fox-like",
+      "Cunning",
+      "Crafty",
+      "Foxy"
+    ],
+    "examples": [
+      {
+        "sentence": "He had a vulpine smile."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 272,
+    "id": "vulpine"
+  },
+  {
+    "text": "Sneaky",
+    "definition": "Furtive; sly.",
+    "hindiSynonyms": [
+      "चुपके से करने वाला",
+      "कायर",
+      "धूर्त"
+    ],
+    "englishSynonyms": [
+      "Sly",
+      "Furtive",
+      "Devious",
+      "Underhand"
+    ],
+    "examples": [
+      {
+        "sentence": "It was sneaky of him to read my diary."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 273,
+    "id": "sneaky"
+  },
+  {
+    "text": "Canny",
+    "definition": "Having or showing shrewdness and good judgment, especially in money or business matters.",
+    "hindiSynonyms": [
+      "चालाक",
+      "समझदार",
+      "किफायती"
+    ],
+    "englishSynonyms": [
+      "Shrewd",
+      "Astute",
+      "Sharp",
+      "Prudent"
+    ],
+    "examples": [
+      {
+        "sentence": "Canny investors bought the stock early."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 274,
+    "id": "canny"
+  },
+  {
+    "text": "Naive",
+    "definition": "(of a person or action) showing a lack of experience, wisdom, or judgment.",
+    "hindiSynonyms": [
+      "भोला",
+      "नासमझ",
+      "सरल"
+    ],
+    "englishSynonyms": [
+      "Innocent",
+      "Unsophisticated",
+      "Gullible",
+      "Simple"
+    ],
+    "examples": [
+      {
+        "sentence": "He was naive to believe her lies."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 275,
+    "id": "naive"
+  },
+  {
+    "text": "Gullible",
+    "definition": "Easily persuaded to believe something; credulous.",
+    "hindiSynonyms": [
+      "भोला-भाला",
+      "आसानी से धोखा खाने वाला"
+    ],
+    "englishSynonyms": [
+      "Credulous",
+      "Naive",
+      "Trusting",
+      "Easily deceived"
+    ],
+    "examples": [
+      {
+        "sentence": "He is so gullible he believes everything he reads."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 276,
+    "id": "gullible"
+  },
+  {
+    "text": "Credulous",
+    "definition": "Having or showing too great a readiness to believe things.",
+    "hindiSynonyms": [
+      "विश्वासप्रवण",
+      "भोला",
+      "शीघ्र विश्वासी"
+    ],
+    "englishSynonyms": [
+      "Gullible",
+      "Naive",
+      "Impressionable",
+      "Trusting"
+    ],
+    "examples": [
+      {
+        "sentence": "Credulous people are often targets for scams."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 277,
+    "id": "credulous"
+  },
+  {
+    "text": "Aftermath",
+    "definition": "The consequences or aftereffects of a significant unpleasant event.",
+    "hindiSynonyms": [
+      "परिणाम",
+      "नतीजा",
+      "बाद का समय"
+    ],
+    "englishSynonyms": [
+      "Consequence",
+      "Repercussion",
+      "Result",
+      "Outcome"
+    ],
+    "examples": [
+      {
+        "sentence": "The country is rebuilding in the aftermath of the war."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 278,
+    "id": "aftermath"
+  },
+  {
+    "text": "Consequence",
+    "definition": "A result or effect of an action or condition.",
+    "hindiSynonyms": [
+      "परिणाम",
+      "नतीजा",
+      "महत्व"
+    ],
+    "englishSynonyms": [
+      "Result",
+      "Outcome",
+      "Effect",
+      "Repercussion"
+    ],
+    "examples": [
+      {
+        "sentence": "He must face the consequences of his actions."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 279,
+    "id": "consequence"
+  },
+  {
+    "text": "Corollary",
+    "definition": "A proposition that follows from (and is often appended to) one already proved.",
+    "hindiSynonyms": [
+      "अनुमान",
+      "परिणाम",
+      "उपसिद्धांत"
+    ],
+    "englishSynonyms": [
+      "Consequence",
+      "Result",
+      "Outcome",
+      "Deduction"
+    ],
+    "examples": [
+      {
+        "sentence": "A corollary of the theorem was easily proven."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 280,
+    "id": "corollary"
+  },
+  {
+    "text": "Ramification",
+    "definition": "A consequence of an action or event, especially when complex or unwelcome.",
+    "hindiSynonyms": [
+      "जटिल परिणाम",
+      "शाखा",
+      "विस्तार"
+    ],
+    "englishSynonyms": [
+      "Consequence",
+      "Result",
+      "Implication",
+      "Outcome"
+    ],
+    "examples": [
+      {
+        "sentence": "The political ramifications of the decision are unclear."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 281,
+    "id": "ramification"
+  },
+  {
+    "text": "Impact",
+    "definition": "The action of one object coming forcibly into contact with another; marked effect or influence.",
+    "hindiSynonyms": [
+      "प्रभाव",
+      "टक्कर",
+      "असर"
+    ],
+    "englishSynonyms": [
+      "Effect",
+      "Influence",
+      "Collision",
+      "Crash"
+    ],
+    "examples": [
+      {
+        "sentence": "The environmental impact of the project is significant."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 282,
+    "id": "impact"
+  },
+  {
+    "text": "Fallout",
+    "definition": "The adverse side effects or results of a situation.",
+    "hindiSynonyms": [
+      "दुष्परिणाम",
+      "रेडियोधर्मी धूल",
+      "नतीजा"
+    ],
+    "englishSynonyms": [
+      "Repercussions",
+      "Aftermath",
+      "Consequences",
+      "Result"
+    ],
+    "examples": [
+      {
+        "sentence": "The political fallout from the scandal was severe."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 283,
+    "id": "fallout"
+  },
+  {
+    "text": "Upshot",
+    "definition": "The final or eventual outcome or conclusion of a discussion, action, or series of events.",
+    "hindiSynonyms": [
+      "परिणाम",
+      "निष्कर्ष",
+      "नतीजा"
+    ],
+    "englishSynonyms": [
+      "Outcome",
+      "Result",
+      "Conclusion",
+      "Consequence"
+    ],
+    "examples": [
+      {
+        "sentence": "The upshot of the meeting was that we need more money."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 284,
+    "id": "upshot"
+  },
+  {
+    "text": "Repercussion",
+    "definition": "An unintended consequence occurring some time after an event or action, especially an unwelcome one.",
+    "hindiSynonyms": [
+      "प्रतिक्रिया",
+      "परिणाम",
+      "गूंज"
+    ],
+    "englishSynonyms": [
+      "Consequence",
+      "Result",
+      "Effect",
+      "Backlash"
+    ],
+    "examples": [
+      {
+        "sentence": "His resignation will have serious repercussions."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 285,
+    "id": "repercussion"
+  },
+  {
+    "text": "Backlash",
+    "definition": "A strong and adverse reaction by a large number of people, especially to a social or political development.",
+    "hindiSynonyms": [
+      "प्रतिक्रिया",
+      "जवाबी हमला",
+      "विरोध"
+    ],
+    "englishSynonyms": [
+      "Reaction",
+      "Counteraction",
+      "Retaliation",
+      "Response"
+    ],
+    "examples": [
+      {
+        "sentence": "The government faced a backlash over the new tax."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 286,
+    "id": "backlash"
+  },
+  {
+    "text": "Reverberation",
+    "definition": "Prolongation of a sound; resonance. Also, a continuing effect.",
+    "hindiSynonyms": [
+      "गूंज",
+      "प्रतिध्वनि",
+      "प्रभाव"
+    ],
+    "englishSynonyms": [
+      "Echo",
+      "Resonance",
+      "Repercussion",
+      "Vibration"
+    ],
+    "examples": [
+      {
+        "sentence": "The reverberation of the explosion was felt miles away."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 287,
+    "id": "reverberation"
+  },
+  {
+    "text": "Sequel",
+    "definition": "Something that takes place after or as a result of an earlier event.",
+    "hindiSynonyms": [
+      "परिणाम",
+      "अगला भाग",
+      "उत्तरकथा"
+    ],
+    "englishSynonyms": [
+      "Follow-up",
+      "Continuation",
+      "Consequence",
+      "Result"
+    ],
+    "examples": [
+      {
+        "sentence": "The movie sequel was better than the original."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 288,
+    "id": "sequel"
+  },
+  {
+    "text": "Advent",
+    "definition": "The arrival of a notable person, thing, or event.",
+    "hindiSynonyms": [
+      "आगमन",
+      "अवतार",
+      "प्रारंभ"
+    ],
+    "englishSynonyms": [
+      "Arrival",
+      "Appearance",
+      "Emergence",
+      "Onset"
+    ],
+    "examples": [
+      {
+        "sentence": "The advent of the internet changed everything."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 289,
+    "id": "advent"
+  },
+  {
+    "text": "Approach",
+    "definition": "Come near or nearer to (someone or something) in distance or time.",
+    "hindiSynonyms": [
+      "पहुंच",
+      "दृष्टिकोण",
+      "निकट आना"
+    ],
+    "englishSynonyms": [
+      "Advance",
+      "Near",
+      "Method",
+      "Strategy"
+    ],
+    "examples": [
+      {
+        "sentence": "Winter is approaching fast."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 290,
+    "id": "approach"
+  },
+  {
+    "text": "Emergence",
+    "definition": "The process of coming into view or becoming exposed after being concealed.",
+    "hindiSynonyms": [
+      "उद्भव",
+      "प्रकट होना",
+      "निकलना"
+    ],
+    "englishSynonyms": [
+      "Appearance",
+      "Arrival",
+      "Rise",
+      "Development"
+    ],
+    "examples": [
+      {
+        "sentence": "The emergence of new leaders gave hope to the party."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 291,
+    "id": "emergence"
+  },
+  {
+    "text": "Dawn",
+    "definition": "The first appearance of light in the sky before sunrise; the beginning of a phenomenon.",
+    "hindiSynonyms": [
+      "भोर",
+      "सवेरा",
+      "उदय",
+      "आरंभ"
+    ],
+    "englishSynonyms": [
+      "Sunrise",
+      "Daybreak",
+      "Beginning",
+      "Genesis"
+    ],
+    "examples": [
+      {
+        "sentence": "We woke up at dawn to start our journey."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 292,
+    "id": "dawn"
+  },
+  {
+    "text": "Onset",
+    "definition": "The beginning of something, especially something unpleasant.",
+    "hindiSynonyms": [
+      "शुरुआत",
+      "हमला",
+      "आरंभ"
+    ],
+    "englishSynonyms": [
+      "Start",
+      "Beginning",
+      "Inception",
+      "Arrival"
+    ],
+    "examples": [
+      {
+        "sentence": "The onset of winter brought heavy snow."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 293,
+    "id": "onset"
+  },
+  {
+    "text": "Outset",
+    "definition": "The start or beginning of something.",
+    "hindiSynonyms": [
+      "आरंभ",
+      "शुरुआत",
+      "प्रारंभ"
+    ],
+    "englishSynonyms": [
+      "Start",
+      "Beginning",
+      "Inception",
+      "Onset"
+    ],
+    "examples": [
+      {
+        "sentence": "He made it clear from the outset that he wouldn't stay long."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 294,
+    "id": "outset"
+  },
+  {
+    "text": "Inception",
+    "definition": "The establishment or starting point of an institution or activity.",
+    "hindiSynonyms": [
+      "आरंभ",
+      "स्थापना",
+      "शुरुआत"
+    ],
+    "englishSynonyms": [
+      "Beginning",
+      "Start",
+      "Origin",
+      "Foundation"
+    ],
+    "examples": [
+      {
+        "sentence": "She has been with the company since its inception."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 295,
+    "id": "inception"
+  },
+  {
+    "text": "Genesis",
+    "definition": "The origin or mode of formation of something.",
+    "hindiSynonyms": [
+      "उत्पत्ति",
+      "आरंभ",
+      "जन्म"
+    ],
+    "englishSynonyms": [
+      "Origin",
+      "Beginning",
+      "Source",
+      "Creation"
+    ],
+    "examples": [
+      {
+        "sentence": "The genesis of the idea occurred during a walk."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 296,
+    "id": "genesis"
+  },
+  {
+    "text": "Commence",
+    "definition": "Begin; start.",
+    "hindiSynonyms": [
+      "आरंभ करना",
+      "शुरू करना",
+      "प्रारंभ होना"
+    ],
+    "englishSynonyms": [
+      "Begin",
+      "Start",
+      "Initiate",
+      "Launch"
+    ],
+    "examples": [
+      {
+        "sentence": "The ceremony will commence at noon."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 297,
+    "id": "commence"
+  },
+  {
+    "text": "Set in",
+    "definition": "Begin and seem likely to continue (of something unpleasant or unwelcome).",
+    "hindiSynonyms": [
+      "शुरू होना",
+      "जम जाना"
+    ],
+    "englishSynonyms": [
+      "Begin",
+      "Start",
+      "Arrive",
+      "Develop"
+    ],
+    "examples": [
+      {
+        "sentence": "Panic began to set in as the water rose."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 298,
+    "id": "set-in"
+  },
+  {
+    "text": "Exodus",
+    "definition": "A mass departure of people, especially emigrants.",
+    "hindiSynonyms": [
+      "निर्गमन",
+      "कूच",
+      "सामूहिक प्रस्थान"
+    ],
+    "englishSynonyms": [
+      "Departure",
+      "Exit",
+      "Migration",
+      "Evacuation"
+    ],
+    "examples": [
+      {
+        "sentence": "There was a mass exodus from the city before the hurricane."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 299,
+    "id": "exodus"
+  },
+  {
+    "text": "Departure",
+    "definition": "The action of leaving, typically to start a journey.",
+    "hindiSynonyms": [
+      "प्रस्थान",
+      "रवानगी",
+      "वियोग"
+    ],
+    "englishSynonyms": [
+      "Leaving",
+      "Exit",
+      "Going",
+      "Withdrawal"
+    ],
+    "examples": [
+      {
+        "sentence": "His sudden departure surprised everyone."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 300,
+    "id": "departure"
+  }
+]

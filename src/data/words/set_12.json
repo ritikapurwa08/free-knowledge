@@ -1,0 +1,1156 @@
+[
+  {
+    "text": "Tortuous",
+    "definition": "Full of twists and turns. Also, excessively lengthy and complex.",
+    "hindiSynonyms": [
+      "पेचीदा",
+      "टेढ़ा-मेढ़ा",
+      "कुटिल"
+    ],
+    "englishSynonyms": [
+      "Twisting",
+      "Winding",
+      "Convoluted",
+      "Complicated"
+    ],
+    "examples": [
+      {
+        "sentence": "The path to success is often tortuous."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 551,
+    "id": "tortuous"
+  },
+  {
+    "text": "Sinuous",
+    "definition": "Having many curves and turns.",
+    "hindiSynonyms": [
+      "लहरदार",
+      "घुमावदार",
+      "सांप जैसा"
+    ],
+    "englishSynonyms": [
+      "Winding",
+      "Serpentine",
+      "Curving"
+    ],
+    "examples": [
+      {
+        "sentence": "The river followed a sinuous course."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 552,
+    "id": "sinuous"
+  },
+  {
+    "text": "Minute",
+    "definition": "Extremely small. Also, a unit of time.",
+    "hindiSynonyms": [
+      "सूक्ष्म",
+      "अत्यंत छोटा",
+      "मिनट"
+    ],
+    "englishSynonyms": [
+      "Tiny",
+      "Microscopic",
+      "Infinitesimal"
+    ],
+    "examples": [
+      {
+        "sentence": "The diagram showed the minute details of the cell."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 553,
+    "id": "minute"
+  },
+  {
+    "text": "Façade",
+    "definition": "The face of a building. Also, an outward appearance that is maintained to conceal a less pleasant reality.",
+    "hindiSynonyms": [
+      "मुखौटा",
+      "सामने का हिस्सा",
+      "दिखावा"
+    ],
+    "englishSynonyms": [
+      "Front",
+      "Face",
+      "Exterior",
+      "Mask"
+    ],
+    "examples": [
+      {
+        "sentence": "Behind his cheerful façade, he was very lonely."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 554,
+    "id": "fa-ade"
+  },
+  {
+    "text": "Veneer",
+    "definition": "A thin decorative covering of fine wood applied to a coarser wood. Also, a superficial appearance or show.",
+    "hindiSynonyms": [
+      "परत",
+      "दिखावा",
+      "मुल्लमा"
+    ],
+    "englishSynonyms": [
+      "Surface",
+      "Coating",
+      "Façade",
+      "Mask"
+    ],
+    "examples": [
+      {
+        "sentence": "His politeness was just a veneer."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 555,
+    "id": "veneer"
+  },
+  {
+    "text": "Visage",
+    "definition": "A person's face, with reference to the form or proportions of the features.",
+    "hindiSynonyms": [
+      "चेहरा",
+      "मुख",
+      "सूरत"
+    ],
+    "englishSynonyms": [
+      "Face",
+      "Countenance",
+      "Features"
+    ],
+    "examples": [
+      {
+        "sentence": "His visage was grim and determined."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 556,
+    "id": "visage"
+  },
+  {
+    "text": "Exterior",
+    "definition": "The outer surface or structure of something.",
+    "hindiSynonyms": [
+      "बाहरी",
+      "बाहरी हिस्सा"
+    ],
+    "englishSynonyms": [
+      "Outside",
+      "Surface",
+      "Façade"
+    ],
+    "examples": [
+      {
+        "sentence": "The exterior of the house needs painting."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 557,
+    "id": "exterior"
+  },
+  {
+    "text": "Appearance",
+    "definition": "The way that someone or something looks.",
+    "hindiSynonyms": [
+      "दिखावट",
+      "रंग-रूप",
+      "प्रकटीकरण"
+    ],
+    "englishSynonyms": [
+      "Look",
+      "Aspect",
+      "Mien",
+      "Arrival"
+    ],
+    "examples": [
+      {
+        "sentence": "She takes pride in her appearance."
+      }
+    ],
+    "difficulty": "A2",
+    "category": "word",
+    "step": 558,
+    "id": "appearance"
+  },
+  {
+    "text": "Semblance",
+    "definition": "The outward appearance or apparent form of something, especially when the reality is different.",
+    "hindiSynonyms": [
+      "झलक",
+      "आभास",
+      "समानता"
+    ],
+    "englishSynonyms": [
+      "Appearance",
+      "Guise",
+      "Pretense",
+      "Show"
+    ],
+    "examples": [
+      {
+        "sentence": "She tried to maintain a semblance of order."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 559,
+    "id": "semblance"
+  },
+  {
+    "text": "Anterior",
+    "definition": "Nearer the front, especially situated in the front of the body or nearer to the head.",
+    "hindiSynonyms": [
+      "अगला",
+      "सामने का",
+      "पूर्ववर्ती"
+    ],
+    "englishSynonyms": [
+      "Front",
+      "Fore",
+      "Forward"
+    ],
+    "examples": [
+      {
+        "sentence": "The anterior part of the brain is damaged."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 560,
+    "id": "anterior"
+  },
+  {
+    "text": "Posterior",
+    "definition": "Further back in position; of or nearer the rear or hind end.",
+    "hindiSynonyms": [
+      "पिछला",
+      "पीछे का",
+      "बाद का"
+    ],
+    "englishSynonyms": [
+      "Rear",
+      "Hind",
+      "Back"
+    ],
+    "examples": [
+      {
+        "sentence": "The posterior legs of the insect are longer."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 561,
+    "id": "posterior"
+  },
+  {
+    "text": "Hapless",
+    "definition": "(especially of a person) unfortunate.",
+    "hindiSynonyms": [
+      "अभागा",
+      "बदनसीब",
+      "दुर्भगी"
+    ],
+    "englishSynonyms": [
+      "Unfortunate",
+      "Unlucky",
+      "Ill-fated"
+    ],
+    "examples": [
+      {
+        "sentence": "The hapless victims were caught in the crossfire."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 562,
+    "id": "hapless"
+  },
+  {
+    "text": "Unfortunate",
+    "definition": "Having or marked by bad luck; unlucky.",
+    "hindiSynonyms": [
+      "दुर्भाग्यपूर्ण",
+      "अभागा",
+      "खेदजनक"
+    ],
+    "englishSynonyms": [
+      "Unlucky",
+      "Hapless",
+      "Regrettable"
+    ],
+    "examples": [
+      {
+        "sentence": "It was an unfortunate incident."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 563,
+    "id": "unfortunate"
+  },
+  {
+    "text": "Ill-fated",
+    "definition": "Destined to fail or have bad luck.",
+    "hindiSynonyms": [
+      "अभागा",
+      "मनहूस",
+      "बदनसीब"
+    ],
+    "englishSynonyms": [
+      "Doomed",
+      "Unlucky",
+      "Hapless"
+    ],
+    "examples": [
+      {
+        "sentence": "The ill-fated voyage ended in disaster."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 564,
+    "id": "ill-fated"
+  },
+  {
+    "text": "Miserable",
+    "definition": "(of a person) wretchedly unhappy or uncomfortable.",
+    "hindiSynonyms": [
+      "दुखी",
+      "दयनीय",
+      "खराब"
+    ],
+    "englishSynonyms": [
+      "Unhappy",
+      "Sad",
+      "Wretched",
+      "Depressed"
+    ],
+    "examples": [
+      {
+        "sentence": "He felt miserable after the breakup."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 565,
+    "id": "miserable"
+  },
+  {
+    "text": "Abject",
+    "definition": "(of something bad) experienced or present to the maximum degree. Also, (of a person or their behavior) completely without pride or dignity.",
+    "hindiSynonyms": [
+      "दयनीय",
+      "नीच",
+      "अधम"
+    ],
+    "englishSynonyms": [
+      "Wretched",
+      "Hopeless",
+      "Miserable",
+      "Servile"
+    ],
+    "examples": [
+      {
+        "sentence": "They lived in abject poverty."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 566,
+    "id": "abject"
+  },
+  {
+    "text": "Woeful",
+    "definition": "Characterized by, expressing, or causing sorrow or misery.",
+    "hindiSynonyms": [
+      "दुखी",
+      "शोकाकुल",
+      "दयनीय"
+    ],
+    "englishSynonyms": [
+      "Sad",
+      "Miserable",
+      "Tragic",
+      "Doleful"
+    ],
+    "examples": [
+      {
+        "sentence": "She told a woeful tale of her misfortunes."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 567,
+    "id": "woeful"
+  },
+  {
+    "text": "Wretched",
+    "definition": "(of a person) in a very unhappy or unfortunate state.",
+    "hindiSynonyms": [
+      "मनहूस",
+      "दयनीय",
+      "बदनसीब"
+    ],
+    "englishSynonyms": [
+      "Miserable",
+      "Unhappy",
+      "Despicable",
+      "Vile"
+    ],
+    "examples": [
+      {
+        "sentence": "I felt wretched about what I had done."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 568,
+    "id": "wretched"
+  },
+  {
+    "text": "Privileged",
+    "definition": "Having special rights, advantages, or immunities.",
+    "hindiSynonyms": [
+      "विशेषाधिकार प्राप्त",
+      "सुविधा संपन्न"
+    ],
+    "englishSynonyms": [
+      "Advantaged",
+      "Favored",
+      "Elite"
+    ],
+    "examples": [
+      {
+        "sentence": "She comes from a privileged background."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 569,
+    "id": "privileged"
+  },
+  {
+    "text": "Fortunate",
+    "definition": "Favored by or involving good luck or fortune.",
+    "hindiSynonyms": [
+      "भाग्यशाली",
+      "खुशकिस्मत"
+    ],
+    "englishSynonyms": [
+      "Lucky",
+      "Blessed",
+      "Favored"
+    ],
+    "examples": [
+      {
+        "sentence": "We are fortunate to have such good friends."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 570,
+    "id": "fortunate"
+  },
+  {
+    "text": "Impasse",
+    "definition": "A situation in which no progress is possible, especially because of disagreement.",
+    "hindiSynonyms": [
+      "गतिरोध",
+      "बंद गली"
+    ],
+    "englishSynonyms": [
+      "Deadlock",
+      "Stalemate",
+      "Standstill"
+    ],
+    "examples": [
+      {
+        "sentence": "Negotiations have reached an impasse."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 571,
+    "id": "impasse"
+  },
+  {
+    "text": "Deadlock",
+    "definition": "A situation, typically one involving opposing parties, in which no progress can be made.",
+    "hindiSynonyms": [
+      "गतिरोध",
+      "रुकावट"
+    ],
+    "englishSynonyms": [
+      "Stalemate",
+      "Impasse",
+      "Standstill"
+    ],
+    "examples": [
+      {
+        "sentence": "The talks ended in a deadlock."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 572,
+    "id": "deadlock"
+  },
+  {
+    "text": "Standstill",
+    "definition": "A situation or condition in which there is no movement or activity at all.",
+    "hindiSynonyms": [
+      "विराम",
+      "ठहराव",
+      "रुकावट"
+    ],
+    "englishSynonyms": [
+      "Halt",
+      "Stop",
+      "Deadlock"
+    ],
+    "examples": [
+      {
+        "sentence": "Traffic came to a complete standstill."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 573,
+    "id": "standstill"
+  },
+  {
+    "text": "Stalemate",
+    "definition": "A situation in which further action or progress by opposing or competing parties seems impossible.",
+    "hindiSynonyms": [
+      "गतिरोध",
+      "शह और मात"
+    ],
+    "englishSynonyms": [
+      "Deadlock",
+      "Impasse",
+      "Stand-off"
+    ],
+    "examples": [
+      {
+        "sentence": "The war settled into a bloody stalemate."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 574,
+    "id": "stalemate"
+  },
+  {
+    "text": "Halt",
+    "definition": "Bring or come to an abrupt stop.",
+    "hindiSynonyms": [
+      "रुकना",
+      "विराम",
+      "ठहरना"
+    ],
+    "englishSynonyms": [
+      "Stop",
+      "Pause",
+      "Cease"
+    ],
+    "examples": [
+      {
+        "sentence": "The car screeched to a halt."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 575,
+    "id": "halt"
+  },
+  {
+    "text": "Recess",
+    "definition": "A period of time when the proceedings of a parliament, committee, court of law, or other official body are temporarily suspended.",
+    "hindiSynonyms": [
+      "अवकाश",
+      "मध्यांतर",
+      "विश्राम"
+    ],
+    "englishSynonyms": [
+      "Break",
+      "Intermission",
+      "Adjournment"
+    ],
+    "examples": [
+      {
+        "sentence": "The court is in recess for the weekend."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 576,
+    "id": "recess"
+  },
+  {
+    "text": "Stand-off",
+    "definition": "A deadlock between two equally matched opponents in a dispute or conflict.",
+    "hindiSynonyms": [
+      "गतिरोध",
+      "तटस्थता"
+    ],
+    "englishSynonyms": [
+      "Deadlock",
+      "Stalemate",
+      "Impasse"
+    ],
+    "examples": [
+      {
+        "sentence": "The hostage situation ended in a tense stand-off."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 577,
+    "id": "stand-off"
+  },
+  {
+    "text": "Breakthrough",
+    "definition": "A sudden, dramatic, and important discovery or development.",
+    "hindiSynonyms": [
+      "महत्वपूर्ण खोज",
+      "सफलता",
+      "छलांग"
+    ],
+    "englishSynonyms": [
+      "Advance",
+      "Discovery",
+      "Step forward"
+    ],
+    "examples": [
+      {
+        "sentence": "Scientists have made a major breakthrough in cancer research."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 578,
+    "id": "breakthrough"
+  },
+  {
+    "text": "Headway",
+    "definition": "Move forward or make progress, especially when circumstances make this slow or difficult.",
+    "hindiSynonyms": [
+      "प्रगति",
+      "तरक्की",
+      "आगे बढ़ना"
+    ],
+    "englishSynonyms": [
+      "Progress",
+      "Advance",
+      "Inroad"
+    ],
+    "examples": [
+      {
+        "sentence": "We are making little headway against the strong wind."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 579,
+    "id": "headway"
+  },
+  {
+    "text": "Imperative",
+    "definition": "Of vital importance; crucial.",
+    "hindiSynonyms": [
+      "अनिवार्य",
+      "अत्यावश्यक",
+      "जरूरी"
+    ],
+    "englishSynonyms": [
+      "Vital",
+      "Crucial",
+      "Essential",
+      "Urgent"
+    ],
+    "examples": [
+      {
+        "sentence": "It is imperative that you see a doctor immediately."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 580,
+    "id": "imperative"
+  },
+  {
+    "text": "Mandatory",
+    "definition": "Required by law or rules; compulsory.",
+    "hindiSynonyms": [
+      "अनिवार्य",
+      "बाध्यकारी",
+      "आज्ञापक"
+    ],
+    "englishSynonyms": [
+      "Compulsory",
+      "Obligatory",
+      "Required"
+    ],
+    "examples": [
+      {
+        "sentence": "Attendance at the meeting is mandatory."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 581,
+    "id": "mandatory"
+  },
+  {
+    "text": "Compulsory",
+    "definition": "Required by law or a rule; obligatory.",
+    "hindiSynonyms": [
+      "अनिवार्य",
+      "बाध्यकारी"
+    ],
+    "englishSynonyms": [
+      "Mandatory",
+      "Obligatory",
+      "Required"
+    ],
+    "examples": [
+      {
+        "sentence": "Education is compulsory until age 16."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 582,
+    "id": "compulsory"
+  },
+  {
+    "text": "Obligatory",
+    "definition": "Required by a legal, moral, or other rule; compulsory.",
+    "hindiSynonyms": [
+      "अनिवार्य",
+      "बाध्यकारी"
+    ],
+    "englishSynonyms": [
+      "Compulsory",
+      "Mandatory",
+      "Required"
+    ],
+    "examples": [
+      {
+        "sentence": "It is obligatory to wear a seatbelt."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 583,
+    "id": "obligatory"
+  },
+  {
+    "text": "Incumbent",
+    "definition": "Necessary for (someone) as a duty or responsibility. Also, currently holding office.",
+    "hindiSynonyms": [
+      "पदधारी",
+      "कर्तव्य",
+      "आवश्यक"
+    ],
+    "englishSynonyms": [
+      "Binding",
+      "Obligatory",
+      "Holder",
+      "Occupant"
+    ],
+    "examples": [
+      {
+        "sentence": "It is incumbent on us to take action."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 584,
+    "id": "incumbent"
+  },
+  {
+    "text": "Requisite",
+    "definition": "Made necessary by particular circumstances or regulations.",
+    "hindiSynonyms": [
+      "आवश्यक",
+      "अपेक्षित",
+      "जरूरी"
+    ],
+    "englishSynonyms": [
+      "Necessary",
+      "Required",
+      "Essential"
+    ],
+    "examples": [
+      {
+        "sentence": "She lacks the requisite experience for the job."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 585,
+    "id": "requisite"
+  },
+  {
+    "text": "Urgent",
+    "definition": "Requiring immediate action or attention.",
+    "hindiSynonyms": [
+      "अत्यावश्यक",
+      "जरूरी",
+      "तुरंत"
+    ],
+    "englishSynonyms": [
+      "Pressing",
+      "Critical",
+      "Crucial",
+      "Immediate"
+    ],
+    "examples": [
+      {
+        "sentence": "There is an urgent need for food and water."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 586,
+    "id": "urgent"
+  },
+  {
+    "text": "Indispensable",
+    "definition": "Absolutely necessary.",
+    "hindiSynonyms": [
+      "अपरिहार्य",
+      "अत्यावश्यक",
+      "जिसके बिना काम न चले"
+    ],
+    "englishSynonyms": [
+      "Essential",
+      "Crucial",
+      "Vital",
+      "Necessary"
+    ],
+    "examples": [
+      {
+        "sentence": "His help was indispensable to the project."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 587,
+    "id": "indispensable"
+  },
+  {
+    "text": "Optional",
+    "definition": "Available to be chosen but not obligatory.",
+    "hindiSynonyms": [
+      "वैकल्पिक",
+      "एच्छिक"
+    ],
+    "englishSynonyms": [
+      "Voluntary",
+      "Discretionary",
+      "Elective"
+    ],
+    "examples": [
+      {
+        "sentence": "Attendance at the workshop is optional."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 588,
+    "id": "optional"
+  },
+  {
+    "text": "Discretionary",
+    "definition": "Available for use at the discretion of the user.",
+    "hindiSynonyms": [
+      "विवेकाधीन",
+      "वैकल्पिक"
+    ],
+    "englishSynonyms": [
+      "Optional",
+      "Voluntary",
+      "Elective"
+    ],
+    "examples": [
+      {
+        "sentence": "You have a discretionary budget for the project."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 589,
+    "id": "discretionary"
+  },
+  {
+    "text": "Voluntary",
+    "definition": "Done, given, or acting of one's own free will.",
+    "hindiSynonyms": [
+      "स्वैच्छिक",
+      "स्वेच्छा से"
+    ],
+    "englishSynonyms": [
+      "Optional",
+      "Discretionary",
+      "Willing"
+    ],
+    "examples": [
+      {
+        "sentence": "The organization relies on voluntary contributions."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 590,
+    "id": "voluntary"
+  },
+  {
+    "text": "Intentional",
+    "definition": "Done on purpose; deliberate.",
+    "hindiSynonyms": [
+      "जानबूझकर",
+      "इरादतन"
+    ],
+    "englishSynonyms": [
+      "Deliberate",
+      "Calculated",
+      "Planned",
+      "Wilful"
+    ],
+    "examples": [
+      {
+        "sentence": "It was an intentional attempt to hurt her."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 591,
+    "id": "intentional"
+  },
+  {
+    "text": "Incessant",
+    "definition": "(of something regarded as unpleasant) continuing without pause or interruption.",
+    "hindiSynonyms": [
+      "निरंतर",
+      "लगातार",
+      "अविरल"
+    ],
+    "englishSynonyms": [
+      "Ceaseless",
+      "Constant",
+      "Unending",
+      "Perpetual"
+    ],
+    "examples": [
+      {
+        "sentence": "The incessant noise drove me crazy."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 592,
+    "id": "incessant"
+  },
+  {
+    "text": "Uninterrupted",
+    "definition": "Without a break in continuity.",
+    "hindiSynonyms": [
+      "अबाधित",
+      "लगातार",
+      "निरंतर"
+    ],
+    "englishSynonyms": [
+      "Continuous",
+      "Constant",
+      "Unbroken"
+    ],
+    "examples": [
+      {
+        "sentence": "We had three days of uninterrupted sunshine."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 593,
+    "id": "uninterrupted"
+  },
+  {
+    "text": "Continuous",
+    "definition": "Forming an unbroken whole; without interruption.",
+    "hindiSynonyms": [
+      "निरंतर",
+      "लगातार",
+      "अविराम"
+    ],
+    "englishSynonyms": [
+      "Uninterrupted",
+      "Unbroken",
+      "Constant"
+    ],
+    "examples": [
+      {
+        "sentence": "The brain needs a continuous supply of oxygen."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 594,
+    "id": "continuous"
+  },
+  {
+    "text": "Perpetual",
+    "definition": "Never ending or changing.",
+    "hindiSynonyms": [
+      "शाश्वत",
+      "लगातार",
+      "चिरस्थायी"
+    ],
+    "englishSynonyms": [
+      "Everlasting",
+      "Eternal",
+      "Permanent",
+      "Endless"
+    ],
+    "examples": [
+      {
+        "sentence": "He seems to be in a perpetual state of confusion."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 595,
+    "id": "perpetual"
+  },
+  {
+    "text": "Eternal",
+    "definition": "Lasting or existing forever; without end or beginning.",
+    "hindiSynonyms": [
+      "शाश्वत",
+      "अनंत",
+      "अविनाशी"
+    ],
+    "englishSynonyms": [
+      "Everlasting",
+      "Endless",
+      "Perpetual",
+      "Undying"
+    ],
+    "examples": [
+      {
+        "sentence": "She promised him eternal love."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 596,
+    "id": "eternal"
+  },
+  {
+    "text": "Unending",
+    "definition": "Having or appearing to have no end.",
+    "hindiSynonyms": [
+      "अंतिम",
+      "अनंत",
+      "असीम"
+    ],
+    "englishSynonyms": [
+      "Endless",
+      "Interminable",
+      "Ceaseless"
+    ],
+    "examples": [
+      {
+        "sentence": "It seemed like an unending journey."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 597,
+    "id": "unending"
+  },
+  {
+    "text": "Interminable",
+    "definition": "Endless (often used hyperbolically).",
+    "hindiSynonyms": [
+      "अनंत",
+      "दीर्घ",
+      "बेशुमार"
+    ],
+    "englishSynonyms": [
+      "Endless",
+      "Never-ending",
+      "Ceaseless"
+    ],
+    "examples": [
+      {
+        "sentence": "The meeting seemed interminable."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 598,
+    "id": "interminable"
+  },
+  {
+    "text": "Sporadic",
+    "definition": "Occurring at irregular intervals or only in a few places; scattered or isolated.",
+    "hindiSynonyms": [
+      "छिटपुट",
+      "कहीं-कहीं",
+      "अनियमित"
+    ],
+    "englishSynonyms": [
+      "Occasional",
+      "Infrequent",
+      "Irregular",
+      "Intermittent"
+    ],
+    "examples": [
+      {
+        "sentence": "There were sporadic outbreaks of violence."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 599,
+    "id": "sporadic"
+  },
+  {
+    "text": "Intermittent",
+    "definition": "Occurring at irregular intervals; not continuous or steady.",
+    "hindiSynonyms": [
+      "रुक-रुक कर",
+      "सविराम"
+    ],
+    "englishSynonyms": [
+      "Sporadic",
+      "Irregular",
+      "Fitful"
+    ],
+    "examples": [
+      {
+        "sentence": "We had intermittent rain all day."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 600,
+    "id": "intermittent"
+  }
+]

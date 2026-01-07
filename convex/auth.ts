@@ -11,9 +11,7 @@ const CustomPassword = Password<DataModel>({
       totalXp:params.totalXp as number,
       streak:params.streak as number,
       lastLogin:params.lastLogin as number,
-
       // Include other fields for user creation based on your usersConvexSchema:
-
     };
   },
 });

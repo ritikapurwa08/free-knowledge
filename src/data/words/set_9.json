@@ -1,0 +1,1179 @@
+[
+  {
+    "text": "Incapacitated",
+    "definition": "Deprived of strength or power; debilitated.",
+    "hindiSynonyms": [
+      "अक्षम",
+      "असमर्थ",
+      "शक्तिहीन"
+    ],
+    "englishSynonyms": [
+      "Disabled",
+      "Debilitated",
+      "Impaired"
+    ],
+    "examples": [
+      {
+        "sentence": "He was incapacitated by the accident."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 401,
+    "id": "incapacitated"
+  },
+  {
+    "text": "Frail",
+    "definition": "(of a person) weak and delicate.",
+    "hindiSynonyms": [
+      "दुर्बल",
+      "कमजोर",
+      "नाज़ुक"
+    ],
+    "englishSynonyms": [
+      "Weak",
+      "Delicate",
+      "Fragile",
+      "Feeble"
+    ],
+    "examples": [
+      {
+        "sentence": "She looked old and frail."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 402,
+    "id": "frail"
+  },
+  {
+    "text": "Doddering",
+    "definition": "Trembling or tottering, typically because of old age.",
+    "hindiSynonyms": [
+      "डगमगाता हुआ",
+      "जरजर",
+      "कांपता हुआ"
+    ],
+    "englishSynonyms": [
+      "Tottering",
+      "Shaking",
+      "Trembling",
+      "Feeble"
+    ],
+    "examples": [
+      {
+        "sentence": "The doddering old man needed help crossing the street."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 403,
+    "id": "doddering"
+  },
+  {
+    "text": "Robust",
+    "definition": "Strong and healthy; vigorous.",
+    "hindiSynonyms": [
+      "मजबूत",
+      "तगड़ा",
+      "हृष्ट-पुष्ट"
+    ],
+    "englishSynonyms": [
+      "Strong",
+      "Healthy",
+      "Vigorous",
+      "Sturdy"
+    ],
+    "examples": [
+      {
+        "sentence": "He is in robust health."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 404,
+    "id": "robust"
+  },
+  {
+    "text": "Resilient",
+    "definition": "(of a person, animal, or thing) able to withstand or recover quickly from difficult conditions.",
+    "hindiSynonyms": [
+      "लचीला",
+      "प्रतिरोधी",
+      "लचकदार"
+    ],
+    "englishSynonyms": [
+      "Strong",
+      "Tough",
+      "Hardy",
+      "Durable"
+    ],
+    "examples": [
+      {
+        "sentence": "Children are often more resilient than adults."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 405,
+    "id": "resilient"
+  },
+  {
+    "text": "Puritanical",
+    "definition": "Practicing or affecting strict religious or moral behavior.",
+    "hindiSynonyms": [
+      "कट्टर",
+      "नैतिकतावादी",
+      "शुद्धतावादी"
+    ],
+    "englishSynonyms": [
+      "Moralistic",
+      "Strict",
+      "Austere",
+      "Prudish"
+    ],
+    "examples": [
+      {
+        "sentence": "His puritanical views made him unpopular."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 406,
+    "id": "puritanical"
+  },
+  {
+    "text": "Upright",
+    "definition": "Strictly honorable or honest. Also, vertical or erect.",
+    "hindiSynonyms": [
+      "ईमानदार",
+      "सच्चा",
+      "सीधा"
+    ],
+    "englishSynonyms": [
+      "Honest",
+      "Honorable",
+      "Virtuous",
+      "Ethical"
+    ],
+    "examples": [
+      {
+        "sentence": "He was an upright citizen."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 407,
+    "id": "upright"
+  },
+  {
+    "text": "Uptight",
+    "definition": "Anxious or angry in a tense and overly controlled way.",
+    "hindiSynonyms": [
+      "तनावग्रस्त",
+      "गुस्सैल",
+      "परेशान"
+    ],
+    "englishSynonyms": [
+      "Tense",
+      "Anxious",
+      "Nervous",
+      "Edgy"
+    ],
+    "examples": [
+      {
+        "sentence": "Don't get so uptight about small things."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 408,
+    "id": "uptight"
+  },
+  {
+    "text": "Virtuous",
+    "definition": "Having or showing high moral standards.",
+    "hindiSynonyms": [
+      "सदाचारी",
+      "नेकी",
+      "धार्मिक"
+    ],
+    "englishSynonyms": [
+      "Righteous",
+      "Moral",
+      "Good",
+      "Ethical"
+    ],
+    "examples": [
+      {
+        "sentence": "She led a virtuous life."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 409,
+    "id": "virtuous"
+  },
+  {
+    "text": "Scrupulous",
+    "definition": "Diligent, thorough, and extremely attentive to details. Also, concerned to avoid doing wrong.",
+    "hindiSynonyms": [
+      "ईमानदार",
+      "सूक्ष्म",
+      "कर्तव्यनिष्ठ"
+    ],
+    "englishSynonyms": [
+      "Meticulous",
+      "Careful",
+      "Conscientious",
+      "Honest"
+    ],
+    "examples": [
+      {
+        "sentence": "He was scrupulous in his business dealings."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 410,
+    "id": "scrupulous"
+  },
+  {
+    "text": "Unscrupulous",
+    "definition": "Having or showing no moral principles; not honest or fair.",
+    "hindiSynonyms": [
+      "बेईमान",
+      "अनैतिक",
+      "दुष्ट"
+    ],
+    "englishSynonyms": [
+      "Unprincipled",
+      "Unethical",
+      "Dishonest",
+      "Corrupt"
+    ],
+    "examples": [
+      {
+        "sentence": "The unscrupulous salesman tricked the elderly couple."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 411,
+    "id": "unscrupulous"
+  },
+  {
+    "text": "Conscience",
+    "definition": "An inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one's behavior.",
+    "hindiSynonyms": [
+      "अंतरात्मा",
+      "विवेक",
+      "ज़मीर"
+    ],
+    "englishSynonyms": [
+      "Moral sense",
+      "Scruples",
+      "Principles"
+    ],
+    "examples": [
+      {
+        "sentence": "His conscience bothered him after he lied."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 412,
+    "id": "conscience"
+  },
+  {
+    "text": "Reservation",
+    "definition": "A qualification to an expression of agreement or approval; a doubt.",
+    "hindiSynonyms": [
+      "संदेह",
+      "आरक्षण",
+      "शर्त"
+    ],
+    "englishSynonyms": [
+      "Doubt",
+      "Qualm",
+      "Scruple",
+      "Hesitation"
+    ],
+    "examples": [
+      {
+        "sentence": "I have some reservations about the plan."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 413,
+    "id": "reservation"
+  },
+  {
+    "text": "Imbecile",
+    "definition": "A stupid person.",
+    "hindiSynonyms": [
+      "मूर्ख",
+      "बेवकूफ",
+      "मंदबुद्धि"
+    ],
+    "englishSynonyms": [
+      "Fool",
+      "Idiot",
+      "Moron",
+      "Dolt"
+    ],
+    "examples": [
+      {
+        "sentence": "Don't act like an imbecile."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 414,
+    "id": "imbecile"
+  },
+  {
+    "text": "Asinine",
+    "definition": "Extremely stupid or foolish.",
+    "hindiSynonyms": [
+      "मूर्खतापूर्ण",
+      "गधा जैसा",
+      "बेवकूफी भरा"
+    ],
+    "englishSynonyms": [
+      "Stupid",
+      "Foolish",
+      "Silly",
+      "Idiotic"
+    ],
+    "examples": [
+      {
+        "sentence": "That was an asinine comment."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 415,
+    "id": "asinine"
+  },
+  {
+    "text": "Fatuous",
+    "definition": "Silly and pointless.",
+    "hindiSynonyms": [
+      "मूर्खतापूर्ण",
+      "बुद्धिहीन",
+      "जड़"
+    ],
+    "englishSynonyms": [
+      "Silly",
+      "Foolish",
+      "Inane",
+      "Vacuous"
+    ],
+    "examples": [
+      {
+        "sentence": "He made a fatuous remark."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 416,
+    "id": "fatuous"
+  },
+  {
+    "text": "Dunce",
+    "definition": "A person who is slow at learning; a stupid person.",
+    "hindiSynonyms": [
+      "मंदबुद्धि",
+      "मूर्ख छात्र"
+    ],
+    "englishSynonyms": [
+      "Blockhead",
+      "Dolt",
+      "Ignoramus",
+      "Simpleton"
+    ],
+    "examples": [
+      {
+        "sentence": "He was the class dunce."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 417,
+    "id": "dunce"
+  },
+  {
+    "text": "Nincompoop",
+    "definition": "A foolish or stupid person.",
+    "hindiSynonyms": [
+      "मूर्ख",
+      "बुद्धू"
+    ],
+    "englishSynonyms": [
+      "Fool",
+      "Idiot",
+      "Simpleton",
+      "Nitwit"
+    ],
+    "examples": [
+      {
+        "sentence": "Only a nincompoop would believe that."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 418,
+    "id": "nincompoop"
+  },
+  {
+    "text": "Simplet",
+    "definition": "A foolish or gullible person (Likely meant 'Simpleton').",
+    "hindiSynonyms": [
+      "अनाड़ी",
+      "भोला-भाला"
+    ],
+    "englishSynonyms": [
+      "Simpleton",
+      "Fool",
+      "Naive person"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a simplet who believes everything."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 419,
+    "id": "simplet"
+  },
+  {
+    "text": "Ignoramus",
+    "definition": "An ignorant or stupid person.",
+    "hindiSynonyms": [
+      "अज्ञानी",
+      "मूर्ख"
+    ],
+    "englishSynonyms": [
+      "Know-nothing",
+      "Fool",
+      "Dunce"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a complete ignoramus when it comes to technology."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 420,
+    "id": "ignoramus"
+  },
+  {
+    "text": "Obtuse",
+    "definition": "Annoyingly insensitive or slow to understand.",
+    "hindiSynonyms": [
+      "मंदबुद्धि",
+      "कुंद",
+      "बेवकूफ"
+    ],
+    "englishSynonyms": [
+      "Stupid",
+      "Slow-witted",
+      "Dull",
+      "Insensitive"
+    ],
+    "examples": [
+      {
+        "sentence": "Are you being deliberately obtuse?"
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 421,
+    "id": "obtuse"
+  },
+  {
+    "text": "Oaf",
+    "definition": "A stupid, uncultured, or clumsy person.",
+    "hindiSynonyms": [
+      "गंवार",
+      "बेवकूफ",
+      "भोंदू"
+    ],
+    "englishSynonyms": [
+      "Lout",
+      "Boor",
+      "Clod",
+      "Bumpkin"
+    ],
+    "examples": [
+      {
+        "sentence": "Watch where you're going, you clumsy oaf!"
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 422,
+    "id": "oaf"
+  },
+  {
+    "text": "Crass",
+    "definition": "Lacking sensitivity, refinement, or intelligence.",
+    "hindiSynonyms": [
+      "मूर्खतापूर्ण",
+      "अशिष्ट",
+      "मोटा"
+    ],
+    "englishSynonyms": [
+      "Insensitive",
+      "Blunt",
+      "Coarse",
+      "Gross"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a crass remark to make."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 423,
+    "id": "crass"
+  },
+  {
+    "text": "Dolt",
+    "definition": "A stupid person.",
+    "hindiSynonyms": [
+      "मूर्ख",
+      "गधा"
+    ],
+    "englishSynonyms": [
+      "Blockhead",
+      "Dunce",
+      "Fool",
+      "Idiot"
+    ],
+    "examples": [
+      {
+        "sentence": "He's such a dolt, he forgot his own birthday."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 424,
+    "id": "dolt"
+  },
+  {
+    "text": "Numbskull",
+    "definition": "A stupid or foolish person.",
+    "hindiSynonyms": [
+      "मूर्ख",
+      "बेवकूफ"
+    ],
+    "englishSynonyms": [
+      "Blockhead",
+      "Bonehead",
+      "Dunce"
+    ],
+    "examples": [
+      {
+        "sentence": "Use your brain, you numbskull!"
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 425,
+    "id": "numbskull"
+  },
+  {
+    "text": "Blockhead",
+    "definition": "A stupid person.",
+    "hindiSynonyms": [
+      "मूर्ख",
+      "अक्खड़"
+    ],
+    "englishSynonyms": [
+      "Dunce",
+      "Dolt",
+      "Numbskull",
+      "Idiot"
+    ],
+    "examples": [
+      {
+        "sentence": "Listen to me, you blockhead!"
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 426,
+    "id": "blockhead"
+  },
+  {
+    "text": "Acute",
+    "definition": "Having or showing a perceptive understanding or insight; shrewd. Also, (of a bad situation) severe.",
+    "hindiSynonyms": [
+      "तीव्र",
+      "कुशाग्र",
+      "तेज"
+    ],
+    "englishSynonyms": [
+      "Sharp",
+      "Astute",
+      "Shrewd",
+      "Keen"
+    ],
+    "examples": [
+      {
+        "sentence": "She has an acute mind."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 427,
+    "id": "acute"
+  },
+  {
+    "text": "Acumen",
+    "definition": "The ability to make good judgments and quick decisions, typically in a particular domain.",
+    "hindiSynonyms": [
+      "कुशाग्रता",
+      "सूझ-बूझ",
+      "तीक्ष्णता"
+    ],
+    "englishSynonyms": [
+      "Astuteness",
+      "Shrewdness",
+      "Insight",
+      "Sharpness"
+    ],
+    "examples": [
+      {
+        "sentence": "He has remarkable business acumen."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 428,
+    "id": "acumen"
+  },
+  {
+    "text": "Sapient",
+    "definition": "Wise, or attempting to appear wise.",
+    "hindiSynonyms": [
+      "बुद्धिमान",
+      "ज्ञानी",
+      "समझदार"
+    ],
+    "englishSynonyms": [
+      "Wise",
+      "Sagacious",
+      "Sage",
+      "Insightful"
+    ],
+    "examples": [
+      {
+        "sentence": "The sapient old man gave good advice."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 429,
+    "id": "sapient"
+  },
+  {
+    "text": "Street-smart",
+    "definition": "Having the experience and knowledge necessary to deal with the potential difficulties or dangers of life in an urban environment.",
+    "hindiSynonyms": [
+      "दुनियादार",
+      "व्यावहारिक रूप से समझदार"
+    ],
+    "englishSynonyms": [
+      "Savvy",
+      "Shrewd",
+      "Wise"
+    ],
+    "examples": [
+      {
+        "sentence": "You need to be street-smart to survive here."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 430,
+    "id": "street-smart"
+  },
+  {
+    "text": "Encyclopedia",
+    "definition": "A book or set of books giving information on many subjects or on many aspects of one subject.",
+    "hindiSynonyms": [
+      "विश्वकोश",
+      "ज्ञानकोश"
+    ],
+    "englishSynonyms": [
+      "Compendium",
+      "Cyclopedia"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a walking encyclopedia of sports trivia."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 431,
+    "id": "encyclopedia"
+  },
+  {
+    "text": "Mendacious",
+    "definition": "Not telling the truth; lying.",
+    "hindiSynonyms": [
+      "झूठा",
+      "असत्यवादी",
+      "मिथ्या"
+    ],
+    "englishSynonyms": [
+      "Lying",
+      "Untruthful",
+      "Dishonest",
+      "Deceitful"
+    ],
+    "examples": [
+      {
+        "sentence": "That was a mendacious statement."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 432,
+    "id": "mendacious"
+  },
+  {
+    "text": "Fallacious",
+    "definition": "Based on a mistaken belief.",
+    "hindiSynonyms": [
+      "भ्रामक",
+      "तर्कहीन",
+      "गलत"
+    ],
+    "englishSynonyms": [
+      "False",
+      "Erroneous",
+      "Misleading",
+      "Incorrect"
+    ],
+    "examples": [
+      {
+        "sentence": "His argument was based on fallacious reasoning."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 433,
+    "id": "fallacious"
+  },
+  {
+    "text": "Fabricate",
+    "definition": "Invent or concoct (something), typically with deceitful intent.",
+    "hindiSynonyms": [
+      "गढ़ना",
+      "बनाना",
+      "जालसाजी करना"
+    ],
+    "englishSynonyms": [
+      "Invent",
+      "Concoct",
+      "Fake",
+      "Forge"
+    ],
+    "examples": [
+      {
+        "sentence": "He fabricated a story to explain his absence."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 434,
+    "id": "fabricate"
+  },
+  {
+    "text": "Specious",
+    "definition": "Superficially plausible, but actually wrong.",
+    "hindiSynonyms": [
+      "दिखावटी",
+      "ऊपर से अच्छा",
+      "मिथ्या"
+    ],
+    "englishSynonyms": [
+      "Misleading",
+      "Deceptive",
+      "Fallacious",
+      "Plausible"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a specious argument."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 435,
+    "id": "specious"
+  },
+  {
+    "text": "Rogue",
+    "definition": "A dishonest or unprincipled man.",
+    "hindiSynonyms": [
+      "दुष्ट",
+      "बदमाश",
+      "आवारा"
+    ],
+    "englishSynonyms": [
+      "Scoundrel",
+      "Rascal",
+      "Villain",
+      "Cheat"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a charming rogue."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 436,
+    "id": "rogue"
+  },
+  {
+    "text": "Guile",
+    "definition": "Sly or cunning intelligence.",
+    "hindiSynonyms": [
+      "छल",
+      "कपट",
+      "धूर्तता"
+    ],
+    "englishSynonyms": [
+      "Cunning",
+      "Craftiness",
+      "Deceit",
+      "Artifice"
+    ],
+    "examples": [
+      {
+        "sentence": "He used guile to get what he wanted."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 437,
+    "id": "guile"
+  },
+  {
+    "text": "Imposter",
+    "definition": "A person who pretends to be someone else in order to deceive others.",
+    "hindiSynonyms": [
+      "बहरूपिया",
+      "ढोंगी",
+      "जालसाज़"
+    ],
+    "englishSynonyms": [
+      "Fraud",
+      "Fake",
+      "Pretender",
+      "Charlatan"
+    ],
+    "examples": [
+      {
+        "sentence": "The doctor turned out to be an imposter."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 438,
+    "id": "imposter"
+  },
+  {
+    "text": "Perjury",
+    "definition": "The offense of willfully telling an untruth in a court after having taken an oath or affirmation.",
+    "hindiSynonyms": [
+      "झूठी गवाही",
+      "शपथ-भंग"
+    ],
+    "englishSynonyms": [
+      "Lying under oath",
+      "Falsehood"
+    ],
+    "examples": [
+      {
+        "sentence": "He was convicted of perjury."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 439,
+    "id": "perjury"
+  },
+  {
+    "text": "Quack",
+    "definition": "A person who dishonestly claims to have special knowledge and skill in some field, typically in medicine.",
+    "hindiSynonyms": [
+      "नीम-हकीम",
+      "ढोंगी चिकित्सक"
+    ],
+    "englishSynonyms": [
+      "Charlatan",
+      "Fraud",
+      "Imposter"
+    ],
+    "examples": [
+      {
+        "sentence": "Don't trust that quack with your health."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 440,
+    "id": "quack"
+  },
+  {
+    "text": "Chicanery",
+    "definition": "The use of trickery to achieve a political, financial, or legal purpose.",
+    "hindiSynonyms": [
+      "छल-कपट",
+      "धोखाधड़ी",
+      "वाकछल"
+    ],
+    "englishSynonyms": [
+      "Trickery",
+      "Deception",
+      "Duplicity",
+      "Guile"
+    ],
+    "examples": [
+      {
+        "sentence": "He resorted to chicanery to win the election."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 441,
+    "id": "chicanery"
+  },
+  {
+    "text": "Mountebank",
+    "definition": "A person who deceives others, especially in order to trick them out of their money; a charlatan.",
+    "hindiSynonyms": [
+      "ढोंगी",
+      "ठग",
+      "बाजीगर"
+    ],
+    "englishSynonyms": [
+      "Charlatan",
+      "Fraud",
+      "Swindler",
+      "Quack"
+    ],
+    "examples": [
+      {
+        "sentence": "The mountebank sold fake cures to the villagers."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 442,
+    "id": "mountebank"
+  },
+  {
+    "text": "Quixotic",
+    "definition": "Exceedingly idealistic; unrealistic and impractical.",
+    "hindiSynonyms": [
+      "काल्पनिक",
+      "अव्यावहारिक",
+      "भावुक"
+    ],
+    "englishSynonyms": [
+      "Idealistic",
+      "Romantic",
+      "Visionary",
+      "Impractical"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a quixotic attempt to change the world overnight."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 443,
+    "id": "quixotic"
+  },
+  {
+    "text": "Hallucination",
+    "definition": "An experience involving the apparent perception of something not present.",
+    "hindiSynonyms": [
+      "भ्रम",
+      "माया",
+      "मतिभ्रम"
+    ],
+    "englishSynonyms": [
+      "Delusion",
+      "Illusion",
+      "Mirage",
+      "Figment"
+    ],
+    "examples": [
+      {
+        "sentence": "He was suffering from hallucinations."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 444,
+    "id": "hallucination"
+  },
+  {
+    "text": "Utopia",
+    "definition": "An imagined place or state of things in which everything is perfect.",
+    "hindiSynonyms": [
+      "रामराज्य",
+      "आदर्श लोक"
+    ],
+    "englishSynonyms": [
+      "Paradise",
+      "Heaven",
+      "Eden",
+      "Shangri-La"
+    ],
+    "examples": [
+      {
+        "sentence": "The idea of a utopia is unrealistic."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 445,
+    "id": "utopia"
+  },
+  {
+    "text": "Chimerical",
+    "definition": "(of a mythical animal) formed from parts of various animals. Also, hoped for but illusory or impossible to achieve.",
+    "hindiSynonyms": [
+      "काल्पनिक",
+      "असंभव",
+      "खयाली"
+    ],
+    "englishSynonyms": [
+      "Illusory",
+      "Imaginary",
+      "Fanciful",
+      "Visionary"
+    ],
+    "examples": [
+      {
+        "sentence": "His plans for wealth were purely chimerical."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 446,
+    "id": "chimerical"
+  },
+  {
+    "text": "Squander",
+    "definition": "Waste (something, especially money or time) in a reckless and foolish manner.",
+    "hindiSynonyms": [
+      "गंवाना",
+      "उड़ाना",
+      "अपव्यय करना"
+    ],
+    "englishSynonyms": [
+      "Waste",
+      "Misspend",
+      "Throw away",
+      "Fritter away"
+    ],
+    "examples": [
+      {
+        "sentence": "He squandered his inheritance on gambling."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 447,
+    "id": "squander"
+  },
+  {
+    "text": "Dissipate",
+    "definition": "Disappear or cause to disappear. Also, squander or fritter away (money, energy, or resources).",
+    "hindiSynonyms": [
+      "नष्ट करना",
+      "बिखेरना",
+      "गायब हो जाना"
+    ],
+    "englishSynonyms": [
+      "Disappear",
+      "Vanish",
+      "Squander",
+      "Waste"
+    ],
+    "examples": [
+      {
+        "sentence": "The fog began to dissipate."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 448,
+    "id": "dissipate"
+  },
+  {
+    "text": "Disseminate",
+    "definition": "Spread (something, especially information) widely.",
+    "hindiSynonyms": [
+      "प्रसारित करना",
+      "फैलाना",
+      "प्रचार करना"
+    ],
+    "englishSynonyms": [
+      "Spread",
+      "Circulate",
+      "Distribute",
+      "Propagate"
+    ],
+    "examples": [
+      {
+        "sentence": "The internet allows us to disseminate information quickly."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 449,
+    "id": "disseminate"
+  },
+  {
+    "text": "Profane",
+    "definition": "Relating or devoted to that which is not sacred or biblical; secular rather than religious. Also, to treat (something sacred) with irreverence.",
+    "hindiSynonyms": [
+      "अपवित्र",
+      "नास्तिक",
+      "सांसारिक"
+    ],
+    "englishSynonyms": [
+      "Secular",
+      "Irreverent",
+      "Blasphemous",
+      "Unholy"
+    ],
+    "examples": [
+      {
+        "sentence": "He used profane language in church."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 450,
+    "id": "profane"
+  }
+]

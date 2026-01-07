@@ -1,0 +1,1302 @@
+[
+  {
+    "text": "Ravage",
+    "definition": "Cause severe and extensive damage to.",
+    "hindiSynonyms": [
+      "नाश करना",
+      "लूटपाट करना",
+      "बर्बाद करना",
+      "उजाड़ना",
+      "ध्वंस करना"
+    ],
+    "englishSynonyms": [
+      "Devastate",
+      "Ruin",
+      "Destroy",
+      "Damage"
+    ],
+    "examples": [
+      {
+        "sentence": "The hurricane ravaged the southern coast."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 101,
+    "id": "ravage"
+  },
+  {
+    "text": "Savage",
+    "definition": "(of an animal or force of nature) fierce, violent, and uncontrolled.",
+    "hindiSynonyms": [
+      "जंगली",
+      "बर्बर",
+      "क्रूर",
+      "हिंसक",
+      "असभ्य"
+    ],
+    "englishSynonyms": [
+      "Ferocious",
+      "Fierce",
+      "Wild",
+      "Brutal"
+    ],
+    "examples": [
+      {
+        "sentence": "He was the victim of a savage attack."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 102,
+    "id": "savage"
+  },
+  {
+    "text": "Eradicate",
+    "definition": "Destroy completely; put an end to.",
+    "hindiSynonyms": [
+      "उन्मूलन करना",
+      "जड़ से उखाड़ना",
+      "मिटाना",
+      "नष्ट करना",
+      "दूर करना"
+    ],
+    "englishSynonyms": [
+      "Eliminate",
+      "Remove",
+      "Destroy",
+      "Get rid of"
+    ],
+    "examples": [
+      {
+        "sentence": "The government aims to eradicate poverty."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 103,
+    "id": "eradicate"
+  },
+  {
+    "text": "Revive",
+    "definition": "Restore to life or consciousness.",
+    "hindiSynonyms": [
+      "पुनर्जीवित करना",
+      "फिर से जीवित करना",
+      "होश में लाना",
+      "ताज़ा करना",
+      "जगाना"
+    ],
+    "englishSynonyms": [
+      "Resuscitate",
+      "Bring back",
+      "Restore",
+      "Recover"
+    ],
+    "examples": [
+      {
+        "sentence": "The doctors managed to revive him."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 104,
+    "id": "revive"
+  },
+  {
+    "text": "Pertinacious",
+    "definition": "Holding firmly to an opinion or a course of action.",
+    "hindiSynonyms": [
+      "हठी",
+      "ज़िद्दी",
+      "दृढ़",
+      "अटल",
+      "आग्रही"
+    ],
+    "englishSynonyms": [
+      "Determined",
+      "Tenacious",
+      "Persistent",
+      "Resolute"
+    ],
+    "examples": [
+      {
+        "sentence": "She was pertinacious in her demands."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 105,
+    "id": "pertinacious"
+  },
+  {
+    "text": "Obstinate",
+    "definition": "Stubbornly refusing to change one's opinion or chosen course of action.",
+    "hindiSynonyms": [
+      "ज़िद्दी",
+      "हठी",
+      "अड़ियल",
+      "दुराग्रही",
+      "कठोर"
+    ],
+    "englishSynonyms": [
+      "Stubborn",
+      "Headstrong",
+      "Willful",
+      "Unyielding"
+    ],
+    "examples": [
+      {
+        "sentence": "He can be very obstinate when he wants to be."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 106,
+    "id": "obstinate"
+  },
+  {
+    "text": "Obdurate",
+    "definition": "Stubbornly refusing to change one's opinion or course of action.",
+    "hindiSynonyms": [
+      "कठोर",
+      "पक्का",
+      "हठी",
+      "निष्ठुर",
+      "दुराग्रही"
+    ],
+    "englishSynonyms": [
+      "Stubborn",
+      "Obstinate",
+      "Inflexible",
+      "Unyielding"
+    ],
+    "examples": [
+      {
+        "sentence": "The president remained obdurate on the issue of tax cuts."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 107,
+    "id": "obdurate"
+  },
+  {
+    "text": "Steadfast",
+    "definition": "Resolutely or dutifully firm and unwavering.",
+    "hindiSynonyms": [
+      "दृढ़",
+      "अचल",
+      "स्थिर",
+      "वफादार",
+      "पक्का"
+    ],
+    "englishSynonyms": [
+      "Loyal",
+      "Faithful",
+      "Committed",
+      "Dedicated"
+    ],
+    "examples": [
+      {
+        "sentence": "She remained steadfast in her belief."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 108,
+    "id": "steadfast"
+  },
+  {
+    "text": "Tenacious",
+    "definition": "Tending to keep a firm hold of something; clinging or adhering closely.",
+    "hindiSynonyms": [
+      "दृढ़",
+      "अटल",
+      "चिपकने वाला",
+      "सख्त",
+      "हठी"
+    ],
+    "englishSynonyms": [
+      "Firm",
+      "Tight",
+      "Fast",
+      "Clinging"
+    ],
+    "examples": [
+      {
+        "sentence": "He is a tenacious opponent."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 109,
+    "id": "tenacious"
+  },
+  {
+    "text": "Pigheaded",
+    "definition": "Stupidly obstinate.",
+    "hindiSynonyms": [
+      "अड़ियल",
+      "मूर्खतापूर्ण हठी",
+      "ज़िद्दी",
+      "बेवकूफ",
+      "दुराग्रही"
+    ],
+    "englishSynonyms": [
+      "Obstinate",
+      "Stubborn",
+      "Mulish",
+      "Inflexible"
+    ],
+    "examples": [
+      {
+        "sentence": "I was too pigheaded to listen to reason."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 110,
+    "id": "pigheaded"
+  },
+  {
+    "text": "Mulish",
+    "definition": "Resembling or likened to a mule in being stubborn.",
+    "hindiSynonyms": [
+      "हठी",
+      "अड़ियल",
+      "ज़िद्दी",
+      "मूर्ख",
+      "दुराग्रही"
+    ],
+    "englishSynonyms": [
+      "Stubborn",
+      "Obstinate",
+      "Pigheaded",
+      "Intractable"
+    ],
+    "examples": [
+      {
+        "sentence": "She adopted a mulish expression and refused to speak."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 111,
+    "id": "mulish"
+  },
+  {
+    "text": "Intractable",
+    "definition": "Hard to control or deal with.",
+    "hindiSynonyms": [
+      "असभ्य",
+      "अविनीत",
+      "कठिन",
+      "दुसाध्य",
+      "हठी"
+    ],
+    "englishSynonyms": [
+      "Unmanageable",
+      "Uncontrollable",
+      "Difficult",
+      "Stubborn"
+    ],
+    "examples": [
+      {
+        "sentence": "The problem proved to be intractable."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 112,
+    "id": "intractable"
+  },
+  {
+    "text": "Relentless",
+    "definition": "Oppressively constant; incessant.",
+    "hindiSynonyms": [
+      "दयाहीन",
+      "कठोर",
+      "लगातार",
+      "अथक",
+      "निष्ठुर"
+    ],
+    "englishSynonyms": [
+      "Persistent",
+      "Continuing",
+      "Constant",
+      "Continual"
+    ],
+    "examples": [
+      {
+        "sentence": "The sun was relentless."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 113,
+    "id": "relentless"
+  },
+  {
+    "text": "Inexorable",
+    "definition": "Impossible to stop or prevent.",
+    "hindiSynonyms": [
+      "निष्ठुर",
+      "कठोर",
+      "अटल",
+      "अपरिवर्तनीय",
+      "दयाहीन"
+    ],
+    "englishSynonyms": [
+      "Relentless",
+      "Unstoppable",
+      "Inevitable",
+      "Unavoidable"
+    ],
+    "examples": [
+      {
+        "sentence": "The inexorable rise of unemployment."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 114,
+    "id": "inexorable"
+  },
+  {
+    "text": "Willful",
+    "definition": "Having or showing a stubborn and determined intention to do as one wants, regardless of the consequences.",
+    "hindiSynonyms": [
+      "हठी",
+      "ज़िद्दी",
+      "स्वेच्छाचारी",
+      "मनमर्जी का",
+      "इरादतन"
+    ],
+    "englishSynonyms": [
+      "Headstrong",
+      "Self-willed",
+      "Obstinate",
+      "Stubborn"
+    ],
+    "examples": [
+      {
+        "sentence": "A willful child who refused to eat his vegetables."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 115,
+    "id": "willful"
+  },
+  {
+    "text": "Headstrong",
+    "definition": "Self-willed and obstinate.",
+    "hindiSynonyms": [
+      "ज़िद्दी",
+      "हठी",
+      "अड़ियल",
+      "मनचला",
+      "स्वेच्छाचारी"
+    ],
+    "englishSynonyms": [
+      "Willful",
+      "Strong-willed",
+      "Stubborn",
+      "Obstinate"
+    ],
+    "examples": [
+      {
+        "sentence": "He is young and headstrong."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 116,
+    "id": "headstrong"
+  },
+  {
+    "text": "Ossified",
+    "definition": "Cease developing; be stagnant or rigid.",
+    "hindiSynonyms": [
+      "कठोर",
+      "रूढ़िवादी",
+      "जड़",
+      "हड्डी बना हुआ",
+      "अपरिवर्तनीय"
+    ],
+    "englishSynonyms": [
+      "Rigid",
+      "Fixed",
+      "Set",
+      "Inflexible"
+    ],
+    "examples": [
+      {
+        "sentence": "The government's ossified bureaucracy."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 117,
+    "id": "ossified"
+  },
+  {
+    "text": "Stiff-necked",
+    "definition": "Haughty and stubborn.",
+    "hindiSynonyms": [
+      "हठी",
+      "अड़ियल",
+      "घमंडी",
+      "अहंकारी",
+      "ज़िद्दी"
+    ],
+    "englishSynonyms": [
+      "Stubborn",
+      "Obstinate",
+      "Arrogant",
+      "Haughty"
+    ],
+    "examples": [
+      {
+        "sentence": "The stiff-necked refusal of the union to negotiate."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 118,
+    "id": "stiff-necked"
+  },
+  {
+    "text": "Recalcitrant",
+    "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
+    "hindiSynonyms": [
+      "आज्ञा न मानने वाला",
+      "अड़ियल",
+      "हठी",
+      "बेशर्म",
+      "विद्रोही"
+    ],
+    "englishSynonyms": [
+      "Uncooperative",
+      "Intractable",
+      "Unmanageable",
+      "Defiant"
+    ],
+    "examples": [
+      {
+        "sentence": "A class of recalcitrant fifteen-year-olds."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 119,
+    "id": "recalcitrant"
+  },
+  {
+    "text": "Unflinching",
+    "definition": "Not showing fear or hesitation in the face of danger or difficulty.",
+    "hindiSynonyms": [
+      "बेहिचक",
+      "निडर",
+      "साहसी",
+      "अविचल",
+      "दृढ़"
+    ],
+    "englishSynonyms": [
+      "Resolute",
+      "Determined",
+      "Firm",
+      "Steadfast"
+    ],
+    "examples": [
+      {
+        "sentence": "He looked at her with an unflinching gaze."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 120,
+    "id": "unflinching"
+  },
+  {
+    "text": "Docile",
+    "definition": "Ready to accept control or instruction; submissive.",
+    "hindiSynonyms": [
+      "विनीत",
+      "सीधा",
+      "आज्ञाकारी",
+      "दब्बू",
+      "नरम"
+    ],
+    "englishSynonyms": [
+      "Submissive",
+      "Compliant",
+      "Obedient",
+      "Pliant"
+    ],
+    "examples": [
+      {
+        "sentence": "A cheap and docile workforce."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 121,
+    "id": "docile"
+  },
+  {
+    "text": "Submissive",
+    "definition": "Ready to conform to the authority or will of others; meekly obedient or passive.",
+    "hindiSynonyms": [
+      "विनम्र",
+      "दब्बू",
+      "आज्ञाकारी",
+      "विनीत",
+      "अधीन"
+    ],
+    "englishSynonyms": [
+      "Compliant",
+      "Yielding",
+      "Acquiescent",
+      "Passive"
+    ],
+    "examples": [
+      {
+        "sentence": "She was far from being a submissive woman."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 122,
+    "id": "submissive"
+  },
+  {
+    "text": "Pliable",
+    "definition": "Easily bent; flexible.",
+    "hindiSynonyms": [
+      "लचीला",
+      "कोमल",
+      "आसानी से मुड़ने वाला",
+      "विनम्र",
+      "सुलभ"
+    ],
+    "englishSynonyms": [
+      "Flexible",
+      "Supple",
+      "Bendable",
+      "Pliant"
+    ],
+    "examples": [
+      {
+        "sentence": "Quality leather is pliable and soft."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 123,
+    "id": "pliable"
+  },
+  {
+    "text": "Complaisant",
+    "definition": "Willing to please others; obliging; agreeable.",
+    "hindiSynonyms": [
+      "शिष्ट",
+      "मेहरबान",
+      "कृपालु",
+      "सुशील",
+      "विनम्र"
+    ],
+    "englishSynonyms": [
+      "Willing",
+      "Obliging",
+      "Agreeable",
+      "Cooperative"
+    ],
+    "examples": [
+      {
+        "sentence": "There are too many complaisant physicians signing sick notes."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 124,
+    "id": "complaisant"
+  },
+  {
+    "text": "Yielding",
+    "definition": "(of a substance or object) giving way under pressure; not hard or rigid.",
+    "hindiSynonyms": [
+      "नर्म",
+      "लचीला",
+      "मानने वाला",
+      "दबनेवाला",
+      "फलदायक"
+    ],
+    "englishSynonyms": [
+      "Submissive",
+      "Compliant",
+      "Acquiescent",
+      "Docile"
+    ],
+    "examples": [
+      {
+        "sentence": "He was a gentle, yielding man."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 125,
+    "id": "yielding"
+  },
+  {
+    "text": "Servile",
+    "definition": "Having or showing an excessive willingness to serve or please others.",
+    "hindiSynonyms": [
+      "चापलूस",
+      "गुलाम",
+      "दासवत",
+      "हीन",
+      "नीच"
+    ],
+    "englishSynonyms": [
+      "Obsequious",
+      "Sycophantic",
+      "Subservient",
+      "Fawning"
+    ],
+    "examples": [
+      {
+        "sentence": "He had always maintained a servile attitude regarding the director."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 126,
+    "id": "servile"
+  },
+  {
+    "text": "Subservient",
+    "definition": "Prepared to obey others unquestioningly.",
+    "hindiSynonyms": [
+      "अधीन",
+      "सहायक",
+      "जी हुज़ूरिया",
+      "दासवत",
+      "ताबेदार"
+    ],
+    "englishSynonyms": [
+      "Submissive",
+      "Deferential",
+      "Obedient",
+      "Docile"
+    ],
+    "examples": [
+      {
+        "sentence": "She refused to be subservient to her husband."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 127,
+    "id": "subservient"
+  },
+  {
+    "text": "Obedient",
+    "definition": "Complying or willing to comply with orders or requests; submissive to another's will.",
+    "hindiSynonyms": [
+      "आज्ञाकारी",
+      "फरमानबरदार",
+      "विनीत",
+      "श्रोता",
+      "वफादार"
+    ],
+    "englishSynonyms": [
+      "Compliant",
+      "Biddable",
+      "Dutiful",
+      "Respectful"
+    ],
+    "examples": [
+      {
+        "sentence": "A docile and obedient dog."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 128,
+    "id": "obedient"
+  },
+  {
+    "text": "Comeuppance",
+    "definition": "A punishment or fate that someone deserves.",
+    "hindiSynonyms": [
+      "कर्मों की सज़ा",
+      "फजीहत",
+      "उचित दण्ड",
+      "दुर्दशा",
+      "नतीजा"
+    ],
+    "englishSynonyms": [
+      "Deserts",
+      "Due",
+      "Retribution",
+      "Punishment"
+    ],
+    "examples": [
+      {
+        "sentence": "He got his comeuppance in the end."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 129,
+    "id": "comeuppance"
+  },
+  {
+    "text": "Mammoth",
+    "definition": "Huge.",
+    "hindiSynonyms": [
+      "विशाल",
+      "भारी भरकम",
+      "अवाक",
+      "बड़ा",
+      "विशालकाय"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Giant"
+    ],
+    "examples": [
+      {
+        "sentence": "Ordering the new equipment was a mammoth task."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 130,
+    "id": "mammoth"
+  },
+  {
+    "text": "Elephantine",
+    "definition": "Of, resembling, or characteristic of an elephant or elephants, especially in being large, clumsy, or awkward.",
+    "hindiSynonyms": [
+      "हाथी जैसा",
+      "विशाल",
+      "भारी",
+      "भद्दा",
+      "अजीब"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Massive"
+    ],
+    "examples": [
+      {
+        "sentence": "She has an elephantine memory."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 131,
+    "id": "elephantine"
+  },
+  {
+    "text": "Behemoth",
+    "definition": "A huge or monstrous creature.",
+    "hindiSynonyms": [
+      "विशालकाय जीव",
+      "दानव",
+      "बड़ा जानवर",
+      "असुर",
+      "दैत्य"
+    ],
+    "englishSynonyms": [
+      "Monster",
+      "Giant",
+      "Colossus",
+      "Titan"
+    ],
+    "examples": [
+      {
+        "sentence": "Shoppers are now more attracted to the discount behemoths."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 132,
+    "id": "behemoth"
+  },
+  {
+    "text": "Lofty",
+    "definition": "Of imposing height.",
+    "hindiSynonyms": [
+      "बुलंद",
+      "ऊँचा",
+      "महान",
+      "गौरवपूर्ण",
+      "उदात्त"
+    ],
+    "englishSynonyms": [
+      "Tall",
+      "High",
+      "Giant",
+      "Towering"
+    ],
+    "examples": [
+      {
+        "sentence": "The elegant square was shaded by lofty palms."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 133,
+    "id": "lofty"
+  },
+  {
+    "text": "Gigantic",
+    "definition": "Of very great size or extent; huge or enormous.",
+    "hindiSynonyms": [
+      "विशाल",
+      "भारी भरकम",
+      "अवाक",
+      "बड़ा",
+      "महाकाय"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Vast",
+      "Giant"
+    ],
+    "examples": [
+      {
+        "sentence": "A gigantic concrete tower."
+      }
+    ],
+    "difficulty": "B1",
+    "category": "word",
+    "step": 134,
+    "id": "gigantic"
+  },
+  {
+    "text": "Prodigious",
+    "definition": "Remarkably or impressively great in extent, size, or degree.",
+    "hindiSynonyms": [
+      "अद्भुत",
+      "विशाल",
+      "असाधारण",
+      "कौतुकपूर्ण",
+      "भारी"
+    ],
+    "englishSynonyms": [
+      "Enormous",
+      "Huge",
+      "Colossal",
+      "Vast"
+    ],
+    "examples": [
+      {
+        "sentence": "The stove consumed a prodigious amount of fuel."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 135,
+    "id": "prodigious"
+  },
+  {
+    "text": "Humongous",
+    "definition": "Huge; enormous.",
+    "hindiSynonyms": [
+      "विशाल",
+      "बहुत बड़ा",
+      "भारी",
+      "अवाक",
+      "महाकाय"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Giant"
+    ],
+    "examples": [
+      {
+        "sentence": "They have a humongous dog."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 136,
+    "id": "humongous"
+  },
+  {
+    "text": "Colossal",
+    "definition": "Extremely large.",
+    "hindiSynonyms": [
+      "कोलोसल",
+      "विशाल",
+      "प्रचंड",
+      "अवाक",
+      "भव्य"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Massive",
+      "Enormous",
+      "Gigantic"
+    ],
+    "examples": [
+      {
+        "sentence": "A colossal amount of money."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 137,
+    "id": "colossal"
+  },
+  {
+    "text": "Titanic",
+    "definition": "Of exceptional strength, size, or power.",
+    "hindiSynonyms": [
+      "विशाल",
+      "असुर",
+      "बलवान",
+      "महाबली",
+      "शक्तिशाली"
+    ],
+    "englishSynonyms": [
+      "Colossal",
+      "Gigantic",
+      "Huge",
+      "Giant"
+    ],
+    "examples": [
+      {
+        "sentence": "A titanic struggle between good and evil."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 138,
+    "id": "titanic"
+  },
+  {
+    "text": "Tremendous",
+    "definition": "Very great in amount, scale, or intensity.",
+    "hindiSynonyms": [
+      "अद्भुत",
+      "जबरदस्त",
+      "विशाल",
+      "भयानक",
+      "डरावना"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Immense",
+      "Great"
+    ],
+    "examples": [
+      {
+        "sentence": "He has a tremendous amount of energy."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 139,
+    "id": "tremendous"
+  },
+  {
+    "text": "Magnificent",
+    "definition": "Impressively beautiful, elaborate, or extravagant; striking.",
+    "hindiSynonyms": [
+      "शानदार",
+      "भव्य",
+      "आलीशान",
+      "महत्वपूर्ण",
+      "उत्कृष्ट"
+    ],
+    "englishSynonyms": [
+      "Splendid",
+      "Spectacular",
+      "Impressive",
+      "Glorious"
+    ],
+    "examples": [
+      {
+        "sentence": "A magnificent view of the mountains."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 140,
+    "id": "magnificent"
+  },
+  {
+    "text": "Profound",
+    "definition": "(of a state, quality, or emotion) very great or intense.",
+    "hindiSynonyms": [
+      "गहरा",
+      "गंभीर",
+      "अगाध",
+      "प्रगाढ़",
+      "हार्दिक"
+    ],
+    "englishSynonyms": [
+      "Deep",
+      "Intense",
+      "Extreme",
+      "Great"
+    ],
+    "examples": [
+      {
+        "sentence": "Her speech had a profound effect on me."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 141,
+    "id": "profound"
+  },
+  {
+    "text": "Monumental",
+    "definition": "Great in importance, extent, or size.",
+    "hindiSynonyms": [
+      "स्मरणीय",
+      "विशाल",
+      "महत्वपूर्ण",
+      "स्मारक",
+      "भारी"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Massive"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a monumental decision."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 142,
+    "id": "monumental"
+  },
+  {
+    "text": "Gargantuan",
+    "definition": "Enormous.",
+    "hindiSynonyms": [
+      "विशाल",
+      "गगनचुंबी",
+      "राक्षसी",
+      "भारी",
+      "अवाक"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Massive"
+    ],
+    "examples": [
+      {
+        "sentence": "A gargantuan appetite."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 143,
+    "id": "gargantuan"
+  },
+  {
+    "text": "Massive",
+    "definition": "Large and heavy or solid.",
+    "hindiSynonyms": [
+      "विशाल",
+      "बड़ा",
+      "भारी",
+      "ठोस",
+      "व्यापक"
+    ],
+    "englishSynonyms": [
+      "Huge",
+      "Enormous",
+      "Gigantic",
+      "Vast"
+    ],
+    "examples": [
+      {
+        "sentence": "A massive heart attack."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 144,
+    "id": "massive"
+  },
+  {
+    "text": "Monstrous",
+    "definition": "Having the ugly or frightening appearance of a monster.",
+    "hindiSynonyms": [
+      "राक्षसी",
+      "विशालकाय",
+      "डरावना",
+      "भयानक",
+      "कुरूप"
+    ],
+    "englishSynonyms": [
+      "Grotesque",
+      "Hideous",
+      "Abnormal",
+      "Ghastly"
+    ],
+    "examples": [
+      {
+        "sentence": "A monstrous tidal wave."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 145,
+    "id": "monstrous"
+  },
+  {
+    "text": "Leviathan",
+    "definition": "A very large aquatic creature, especially a whale.",
+    "hindiSynonyms": [
+      "विशालकाय जलजीवाश्म",
+      "बड़ा जहाज़",
+      "शक्तिशाली वस्तु",
+      "समुद्री राक्षस",
+      "विशाल"
+    ],
+    "englishSynonyms": [
+      "Giant",
+      "Titan",
+      "Monster",
+      "Behemoth"
+    ],
+    "examples": [
+      {
+        "sentence": "The factory is a leviathan of industry."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 146,
+    "id": "leviathan"
+  },
+  {
+    "text": "Miniature",
+    "definition": "A thing that is much smaller than normal, especially a small replica or model.",
+    "hindiSynonyms": [
+      "लघु",
+      "छोटा",
+      "नन्हा",
+      "लघुचित्र",
+      "सूक्ष्म"
+    ],
+    "englishSynonyms": [
+      "Small",
+      "Tiny",
+      "Little",
+      "Minute"
+    ],
+    "examples": [
+      {
+        "sentence": "A miniature railway."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 147,
+    "id": "miniature"
+  },
+  {
+    "text": "Diminutive",
+    "definition": "Extremely or unusually small.",
+    "hindiSynonyms": [
+      "नन्हा",
+      "छोटा",
+      "लघु",
+      "अल्प",
+      "बौना"
+    ],
+    "englishSynonyms": [
+      "Tiny",
+      "Small",
+      "Little",
+      "Petite"
+    ],
+    "examples": [
+      {
+        "sentence": "A diminutive figure."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 148,
+    "id": "diminutive"
+  },
+  {
+    "text": "Miniscule",
+    "definition": "Extremely small; tiny.",
+    "hindiSynonyms": [
+      "बहुत छोटा",
+      "सूक्ष्म",
+      "लघु",
+      "कण मात्र",
+      "नगण्य"
+    ],
+    "englishSynonyms": [
+      "Tiny",
+      "Minute",
+      "Microscopic",
+      "Infinitesimal"
+    ],
+    "examples": [
+      {
+        "sentence": "A minuscule amount of food."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 149,
+    "id": "miniscule"
+  },
+  {
+    "text": "Pygmy",
+    "definition": "A person, animal, or plant that is much smaller than more typical members of its type.",
+    "hindiSynonyms": [
+      "बौना",
+      "नाटा",
+      "छोटा",
+      "वामन",
+      "अल्पकाय"
+    ],
+    "englishSynonyms": [
+      "Dwarf",
+      "Midget",
+      "Small",
+      "Tiny"
+    ],
+    "examples": [
+      {
+        "sentence": "A pygmy hippopotamus."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 150,
+    "id": "pygmy"
+  }
+]

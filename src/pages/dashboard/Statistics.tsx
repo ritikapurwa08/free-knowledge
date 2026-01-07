@@ -1,8 +1,25 @@
 import { useState } from "react";
 import { TopHeader } from "@/components/layout/TopHeader";
+import { useQuery } from "convex/react";
+import { api } from "../../../convex/_generated/api";
 
 export default function Statistics() {
   const [filter, setFilter] = useState<"week" | "month" | "all">("week");
+  const history = useQuery(api.quiz.getHistory);
+  const user = useQuery(api.users.viewer);
+
+  const totalTests = history?.length || 0;
+  const avgScore = totalTests > 0
+    ? Math.round(history!.reduce((acc, curr) => acc + (curr.score / curr.maxScore), 0) / totalTests * 100)
+    : 0;
+
+  // Calculate Time Active (Mock for now as we don't track time strictly per session in db yet, only completion time)
+  // But we can sum up 'completedAt' deltas if we had start time, or just estimate.
+  // For now, let's just use totalTests * 10 mins as an estimate or just placeholder.
+  const timeActive = `${Math.floor(totalTests * 10 / 60)}h ${totalTests * 10 % 60}m`;
+
+  const xp = user?.totalXp || 0;
+  const streak = user?.streak || 0;
 
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark pb-10">
@@ -40,9 +57,9 @@ export default function Statistics() {
                 <span className="bg-primary/10 text-primary text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">Level 5</span>
               </div>
               <p className="text-slate-900 dark:text-white text-2xl font-bold leading-tight">Scholar</p>
-              <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">Total XP: 2,450</p>
+              <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">Total XP: {xp}</p>
             </div>
-            {/* 3D Avatar */}
+            {/* Avatar */}
             <div
               className="size-20 bg-center bg-no-repeat bg-cover rounded-full shrink-0 border-4 border-white dark:border-[#1a2230] shadow-lg"
               style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfI0LRlb6ojn6ES8pPuNX6uHAvB07eI__Bo5bSVqTx5kJs09rnfn0YKPyEktq3Qr3VATv1nzH9-B_akF_1Z0Hld_mj9bPDdYr-LZDdft2I_M1jKOZaJI9J9XpPq4SuHGkccdWn09-HA6mg_QsMo_wFsWtJnnc6ImvgakgNGH1GGGc5JfM1LQNcTS1bWregFRj3iUib271jDSLnzhBaYxvHEHe4nXO60L6H7nspSgjCMCdeikD4Q3vEVHbMDXSNPwTiW-w8tdj9wg")'}}
@@ -68,7 +85,7 @@ export default function Statistics() {
               <span className="material-symbols-outlined material-symbols-filled">local_fire_department</span>
             </div>
             <div>
-              <p className="text-slate-900 dark:text-white text-sm font-bold">7 Day Streak!</p>
+              <p className="text-slate-900 dark:text-white text-sm font-bold">{streak} Day Streak!</p>
               <p className="text-slate-500 dark:text-slate-400 text-xs">Keep learning to maintain it</p>
             </div>
           </div>
@@ -77,10 +94,10 @@ export default function Statistics() {
 
         {/* 4. Stats Grid (2x2) */}
         <div className="grid grid-cols-2 gap-3">
-          <StatCard icon="quiz" color="text-primary" bg="bg-blue-50 dark:bg-blue-900/20" value="42" label="Total Tests" />
-          <StatCard icon="percent" color="text-green-500" bg="bg-green-50 dark:bg-green-900/20" value="88%" label="Avg Score" />
-          <StatCard icon="schedule" color="text-purple-500" bg="bg-purple-50 dark:bg-purple-900/20" value="12h 30m" label="Time Active" />
-          <StatCard icon="school" color="text-pink-500" bg="bg-pink-50 dark:bg-pink-900/20" value="350" label="Words Learned" />
+          <StatCard icon="quiz" color="text-primary" bg="bg-blue-50 dark:bg-blue-900/20" value={totalTests.toString()} label="Total Tests" />
+          <StatCard icon="percent" color="text-green-500" bg="bg-green-50 dark:bg-green-900/20" value={`${avgScore}%`} label="Avg Score" />
+          <StatCard icon="schedule" color="text-purple-500" bg="bg-purple-50 dark:bg-purple-900/20" value={timeActive} label="Est. Time" />
+          <StatCard icon="school" color="text-pink-500" bg="bg-pink-50 dark:bg-pink-900/20" value="--" label="Words Learned" />
         </div>
 
         {/* 5. Chart Section */}

@@ -23,6 +23,19 @@ export function QuestionForm({ onSave, onCancel }: Props) {
     setOptions(newOpts);
   };
 
+  const addOption = () => {
+    setOptions([...options, ""]);
+  };
+
+  const removeOption = (index: number) => {
+    if (options.length <= 2) return;
+    const newOpts = options.filter((_, i) => i !== index);
+    setOptions(newOpts);
+    if (correctAnswer >= index && correctAnswer > 0) {
+        setCorrectAnswer(correctAnswer - 1);
+    }
+  };
+
   const handleSubmit = () => {
     if (!text || options.some(o => !o)) {
       alert("Please fill all fields");
@@ -65,15 +78,29 @@ export function QuestionForm({ onSave, onCancel }: Props) {
                 name="correct"
                 checked={correctAnswer === idx}
                 onChange={() => setCorrectAnswer(idx)}
-                className="size-4"
+                className="size-4 shrink-0"
               />
               <Input
                 value={opt}
                 onChange={e => handleOptionChange(idx, e.target.value)}
                 placeholder={`Option ${idx + 1}`}
               />
+              {options.length > 2 && (
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => removeOption(idx)}
+                    className="shrink-0 text-red-500 hover:text-red-700 hover:bg-red-50"
+                  >
+                     <span className="material-symbols-outlined text-[18px]">delete</span>
+                  </Button>
+              )}
             </div>
           ))}
+          <Button type="button" variant="outline" size="sm" onClick={addOption} className="mt-2 w-full border-dashed">
+            <span className="material-symbols-outlined text-[18px] mr-1">add</span> Add Option
+          </Button>
         </div>
       </div>
 

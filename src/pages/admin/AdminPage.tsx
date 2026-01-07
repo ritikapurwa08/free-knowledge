@@ -74,13 +74,11 @@ export default function AdminPage() {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <Label>Subject</Label>
-              <select
-                className="w-full mt-1 p-2 rounded-md border border-gray-300 dark:bg-slate-800 dark:border-slate-700"
-                value={subject} onChange={e => setSubject(e.target.value)}
-              >
-                <option value="English">English</option>
-                <option value="GK">GK</option>
-              </select>
+              <Input
+                value={subject}
+                onChange={e => setSubject(e.target.value)}
+                placeholder="e.g. History"
+              />
             </div>
             <div>
               <Label>Topic</Label>

@@ -10,6 +10,9 @@
 
 import type * as auth from "../auth.js";
 import type * as http from "../http.js";
+import type * as quiz from "../quiz.js";
+import type * as users from "../users.js";
+import type * as vocab from "../vocab.js";
 
 import type {
   ApiFromModules,
@@ -20,6 +23,9 @@ import type {
 declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   http: typeof http;
+  quiz: typeof quiz;
+  users: typeof users;
+  vocab: typeof vocab;
 }>;
 
 /**

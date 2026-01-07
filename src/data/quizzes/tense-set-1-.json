@@ -1,0 +1,150 @@
+{
+  "id": "tense-set-1-",
+  "title": "tense set 1 ",
+  "subject": "English",
+  "topic": "tense",
+  "difficulty": "Medium",
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "q-1767778289190-0",
+      "text": "Which tense is used in this sentence? 'She has been working here for two years.'",
+      "type": "Single Choice",
+      "options": [
+        "Present Perfect",
+        "Present Continuous",
+        "Present Perfect Continuous",
+        "Past Perfect Continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The structure 'has/have + been + verb-ing' indicates the Present Perfect Continuous tense, used for actions starting in the past and continuing to the present.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-1",
+      "text": "Fill in the blank: 'I _____ him yesterday.'",
+      "type": "Single Choice",
+      "options": [
+        "meet",
+        "met",
+        "have met",
+        "will meet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The specific time indicator 'yesterday' requires the Past Simple tense (met).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-2",
+      "text": "Choose the correct verb form: 'The sun _____ in the east.'",
+      "type": "Single Choice",
+      "options": [
+        "rise",
+        "rises",
+        "rose",
+        "rising"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Universal truths and facts use the Present Simple tense.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-3",
+      "text": "Identify the tense: 'By this time tomorrow, I will have finished the project.'",
+      "type": "Single Choice",
+      "options": [
+        "Future Simple",
+        "Future Continuous",
+        "Future Perfect",
+        "Future Perfect Continuous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The structure 'will have + past participle' indicates the Future Perfect tense, used for actions that will be completed by a specific future time.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-4",
+      "text": "Fill in the blank: 'When I arrived at the station, the train _____ already _____.'",
+      "type": "Single Choice",
+      "options": [
+        "has, left",
+        "had, left",
+        "was, leaving",
+        "did, leave"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Past Perfect tense (had left) is used to show an action that was completed before another action in the past.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-5",
+      "text": "Which sentence is in the Present Continuous Tense?",
+      "type": "Single Choice",
+      "options": [
+        "He plays cricket.",
+        "He is playing cricket.",
+        "He has played cricket.",
+        "He played cricket."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The structure 'subject + is/am/are + verb-ing' indicates the Present Continuous tense.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-6",
+      "text": "Fill in the blank: 'If it rains, we _____ the picnic.'",
+      "type": "Single Choice",
+      "options": [
+        "cancel",
+        "cancelled",
+        "will cancel",
+        "would cancel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a First Conditional sentence (If + Present Simple, ... Future Simple).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-7",
+      "text": "Choose the correct option: 'Look! The baby _____.'",
+      "type": "Single Choice",
+      "options": [
+        "sleeps",
+        "slept",
+        "is sleeping",
+        "was sleeping"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The exclamation 'Look!' suggests an action is happening right now, requiring the Present Continuous tense.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-8",
+      "text": "Identify the tense: 'I was reading a book when you called.'",
+      "type": "Single Choice",
+      "options": [
+        "Past Simple",
+        "Past Continuous",
+        "Past Perfect",
+        "Present Continuous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The structure 'was/were + verb-ing' indicates the Past Continuous tense.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767778289190-9",
+      "text": "Fill in the blank: 'I _____ to London three times so far.'",
+      "type": "Single Choice",
+      "options": [
+        "go",
+        "went",
+        "have been",
+        "was going"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Present Perfect tense (have been) is used to describe life experiences when the specific time is not important or not mentioned.",
+      "imageUrl": ""
+    }
+  ]
+}

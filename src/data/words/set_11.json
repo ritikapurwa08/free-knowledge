@@ -1,0 +1,1187 @@
+[
+  {
+    "text": "Tractable",
+    "definition": "(of a person) easy to control or influence.",
+    "hindiSynonyms": [
+      "विनीत",
+      "आज्ञाकारी",
+      "सुलझने योग्य"
+    ],
+    "englishSynonyms": [
+      "Manageable",
+      "Amenable",
+      "Docile",
+      "Compliant"
+    ],
+    "examples": [
+      {
+        "sentence": "The children were tractable and well-behaved."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 501,
+    "id": "tractable"
+  },
+  {
+    "text": "Meek",
+    "definition": "Quiet, gentle, and easily imposed on; submissive.",
+    "hindiSynonyms": [
+      "विनम्र",
+      "दब्बू",
+      "साधु"
+    ],
+    "englishSynonyms": [
+      "Submissive",
+      "Gentle",
+      "Docile",
+      "Passive"
+    ],
+    "examples": [
+      {
+        "sentence": "She was as meek as a lamb."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 502,
+    "id": "meek"
+  },
+  {
+    "text": "Compliant",
+    "definition": "Inclined to agree with others or obey rules, especially to an excessive degree.",
+    "hindiSynonyms": [
+      "आज्ञाकारी",
+      "अनुपालक",
+      "नम्र"
+    ],
+    "englishSynonyms": [
+      "Obedient",
+      "Submissive",
+      "Accommodating",
+      "Tractable"
+    ],
+    "examples": [
+      {
+        "sentence": "He was compliant with all the rules."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 503,
+    "id": "compliant"
+  },
+  {
+    "text": "Nonchalant",
+    "definition": "(of a person or manner) feeling or appearing casually calm and relaxed.",
+    "hindiSynonyms": [
+      "बेपरवाह",
+      "उदासीन",
+      "निश्चिंत"
+    ],
+    "englishSynonyms": [
+      "Calm",
+      "Cool",
+      "Unconcerned",
+      "Indifferent"
+    ],
+    "examples": [
+      {
+        "sentence": "He was surprisingly nonchalant about winning the award."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 504,
+    "id": "nonchalant"
+  },
+  {
+    "text": "Indifferent",
+    "definition": "Having no particular interest or sympathy; unconcerned.",
+    "hindiSynonyms": [
+      "उदासीन",
+      "तटस्थ",
+      "सामान्य"
+    ],
+    "englishSynonyms": [
+      "Unconcerned",
+      "Apathetic",
+      "Uninterested",
+      "Mediocre"
+    ],
+    "examples": [
+      {
+        "sentence": "He was indifferent to their suffering."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 505,
+    "id": "indifferent"
+  },
+  {
+    "text": "Apathetic",
+    "definition": "Showing or feeling no interest, enthusiasm, or concern.",
+    "hindiSynonyms": [
+      "उदासीन",
+      "निरुत्साही",
+      "बेपरवाह"
+    ],
+    "englishSynonyms": [
+      "Indifferent",
+      "Uninterested",
+      "Unconcerned",
+      "Passive"
+    ],
+    "examples": [
+      {
+        "sentence": "The students were apathetic about the upcoming election."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 506,
+    "id": "apathetic"
+  },
+  {
+    "text": "Stoic",
+    "definition": "A person who can endure pain or hardship without showing their feelings or complaining.",
+    "hindiSynonyms": [
+      "उदासीन",
+      "भावहीन",
+      "सहनशील"
+    ],
+    "englishSynonyms": [
+      "Impassive",
+      "Unemotional",
+      "Resigned",
+      "Long-suffering"
+    ],
+    "examples": [
+      {
+        "sentence": "He remained stoic despite the bad news."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 507,
+    "id": "stoic"
+  },
+  {
+    "text": "Stolid",
+    "definition": "(of a person) calm, dependable, and showing little emotion or animation.",
+    "hindiSynonyms": [
+      "मंदबुद्धि",
+      "भावहीन",
+      "अविचल"
+    ],
+    "englishSynonyms": [
+      "Impassive",
+      "Phlegmatic",
+      "Unemotional",
+      "Placid"
+    ],
+    "examples": [
+      {
+        "sentence": "The stolid security guard refused to smile."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 508,
+    "id": "stolid"
+  },
+  {
+    "text": "Impassive",
+    "definition": "Not feeling or showing emotion.",
+    "hindiSynonyms": [
+      "भावनाहीन",
+      "शांत",
+      "अविचल"
+    ],
+    "englishSynonyms": [
+      "Expressionless",
+      "Unemotional",
+      "Blank",
+      "Stoic"
+    ],
+    "examples": [
+      {
+        "sentence": "She kept her face impassive during the interrogation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 509,
+    "id": "impassive"
+  },
+  {
+    "text": "Lukewarm",
+    "definition": "Showing little enthusiasm. Also, (of liquid) only moderately warm.",
+    "hindiSynonyms": [
+      "गुनगुना",
+      "उदासीन",
+      "निरुत्साही"
+    ],
+    "englishSynonyms": [
+      "Indifferent",
+      "Cool",
+      "Unenthusiastic",
+      "Tepid"
+    ],
+    "examples": [
+      {
+        "sentence": "The proposal received a lukewarm response."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 510,
+    "id": "lukewarm"
+  },
+  {
+    "text": "Perfunctory",
+    "definition": "(of an action or gesture) carried out with a minimum of effort or reflection.",
+    "hindiSynonyms": [
+      "बेपरवाह",
+      "ऊपरी मन से",
+      "सरसरी"
+    ],
+    "englishSynonyms": [
+      "Cursory",
+      "Desultory",
+      "Quick",
+      "Brief"
+    ],
+    "examples": [
+      {
+        "sentence": "He gave a perfunctory nod as he passed."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 511,
+    "id": "perfunctory"
+  },
+  {
+    "text": "Esoteric",
+    "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
+    "hindiSynonyms": [
+      "गुढ़",
+      "गोपनीय",
+      "जटिल"
+    ],
+    "englishSynonyms": [
+      "Abstruse",
+      "Obscure",
+      "Arcane",
+      "Recondite"
+    ],
+    "examples": [
+      {
+        "sentence": "He enjoys reading esoteric philosophy books."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 512,
+    "id": "esoteric"
+  },
+  {
+    "text": "Abstruse",
+    "definition": "Difficult to understand; obscure.",
+    "hindiSynonyms": [
+      "जटिल",
+      "गूढ़",
+      "समझने में कठिन"
+    ],
+    "englishSynonyms": [
+      "Obscure",
+      "Arcane",
+      "Esoteric",
+      "Perplexing"
+    ],
+    "examples": [
+      {
+        "sentence": "The professor's lecture was too abstruse for the students."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 513,
+    "id": "abstruse"
+  },
+  {
+    "text": "Inarticulate",
+    "definition": "Unable to speak distinctly or express oneself clearly.",
+    "hindiSynonyms": [
+      "अस्पष्ट",
+      "मूक",
+      "गूंगा"
+    ],
+    "englishSynonyms": [
+      "Tongue-tied",
+      "Unintelligible",
+      "Mumbled"
+    ],
+    "examples": [
+      {
+        "sentence": "He becomes inarticulate when he is angry."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 514,
+    "id": "inarticulate"
+  },
+  {
+    "text": "Ambiguous",
+    "definition": "(of language) open to more than one interpretation; having a double meaning.",
+    "hindiSynonyms": [
+      "अस्पष्ट",
+      "द्विअर्थी",
+      "संदिग्ध"
+    ],
+    "englishSynonyms": [
+      "Equivocal",
+      "Unclear",
+      "Vague",
+      "Obscure"
+    ],
+    "examples": [
+      {
+        "sentence": "The ending of the movie was ambiguous."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 515,
+    "id": "ambiguous"
+  },
+  {
+    "text": "Cryptic",
+    "definition": "Having a meaning that is mysterious or obscure.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "रहस्यमय",
+      "छिपा हुआ"
+    ],
+    "englishSynonyms": [
+      "Enigmatic",
+      "Mysterious",
+      "Confusing",
+      "Obscure"
+    ],
+    "examples": [
+      {
+        "sentence": "She sent me a cryptic message."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 516,
+    "id": "cryptic"
+  },
+  {
+    "text": "Equivocal",
+    "definition": "Open to more than one interpretation; ambiguous.",
+    "hindiSynonyms": [
+      "गोलमोल",
+      "संदिग्ध",
+      "अनिश्चित"
+    ],
+    "englishSynonyms": [
+      "Ambiguous",
+      "Vague",
+      "Indefinite",
+      "Evasive"
+    ],
+    "examples": [
+      {
+        "sentence": "His answer was equivocal, leaving us confused."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 517,
+    "id": "equivocal"
+  },
+  {
+    "text": "Nebulous",
+    "definition": "In the form of a cloud or haze; hazy. Also, (of a concept or idea) unclear, vague, or ill-defined.",
+    "hindiSynonyms": [
+      "धुंधला",
+      "अस्पष्ट",
+      "मेघ-सदृश"
+    ],
+    "englishSynonyms": [
+      "Vague",
+      "Hazy",
+      "Unclear",
+      "Indistinct"
+    ],
+    "examples": [
+      {
+        "sentence": "He has a nebulous idea of what he wants to do."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 518,
+    "id": "nebulous"
+  },
+  {
+    "text": "Intelligible",
+    "definition": "Able to be understood; comprehensible.",
+    "hindiSynonyms": [
+      "सुबोध",
+      "समझने योग्य",
+      "स्पष्ट"
+    ],
+    "englishSynonyms": [
+      "Understandable",
+      "Comprehensible",
+      "Clear",
+      "Lucid"
+    ],
+    "examples": [
+      {
+        "sentence": "His speech was barely intelligible."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 519,
+    "id": "intelligible"
+  },
+  {
+    "text": "Vague",
+    "definition": "Of uncertain, indefinite, or unclear character or meaning.",
+    "hindiSynonyms": [
+      "अस्पष्ट",
+      "धुंधला",
+      "अनिश्चित"
+    ],
+    "englishSynonyms": [
+      "Indistinct",
+      "Unclear",
+      "Hazy",
+      "Imprecise"
+    ],
+    "examples": [
+      {
+        "sentence": "She gave a vague answer."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 520,
+    "id": "vague"
+  },
+  {
+    "text": "Obscure",
+    "definition": "Not discovered or known about; uncertain. Also, not clearly expressed or easily understood.",
+    "hindiSynonyms": [
+      "अस्पष्ट",
+      "अंधकारमय",
+      "गुमनाम"
+    ],
+    "englishSynonyms": [
+      "Unclear",
+      "Unknown",
+      "Doubtful",
+      "Vague"
+    ],
+    "examples": [
+      {
+        "sentence": "The details of his life remain obscure."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 521,
+    "id": "obscure"
+  },
+  {
+    "text": "Turgid",
+    "definition": "Swollen and distended or congested. Also, (of language or style) tediously pompous or bombastic.",
+    "hindiSynonyms": [
+      "सूजा हुआ",
+      "आडंबरपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Swollen",
+      "Bombastic",
+      "Pompous",
+      "Inflated"
+    ],
+    "examples": [
+      {
+        "sentence": "His writing style is turgid and boring."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 522,
+    "id": "turgid"
+  },
+  {
+    "text": "Turbid",
+    "definition": "(of a liquid) cloudy, opaque, or thick with suspended matter.",
+    "hindiSynonyms": [
+      "गंदला",
+      "मैला",
+      "अस्पष्ट"
+    ],
+    "englishSynonyms": [
+      "Murky",
+      "Cloudy",
+      "Muddy",
+      "Opaque"
+    ],
+    "examples": [
+      {
+        "sentence": "The river water was brown and turbid."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 523,
+    "id": "turbid"
+  },
+  {
+    "text": "Comprehensible",
+    "definition": "Able to be understood; intelligible.",
+    "hindiSynonyms": [
+      "बोधगम्य",
+      "समझने योग्य"
+    ],
+    "englishSynonyms": [
+      "Understandable",
+      "Intelligible",
+      "Clear"
+    ],
+    "examples": [
+      {
+        "sentence": "The instructions were easily comprehensible."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 524,
+    "id": "comprehensible"
+  },
+  {
+    "text": "Limpid",
+    "definition": "(of a liquid) free of anything that darkens; completely clear.",
+    "hindiSynonyms": [
+      "पारदर्शी",
+      "निर्मल",
+      "स्पष्ट"
+    ],
+    "englishSynonyms": [
+      "Clear",
+      "Transparent",
+      "Lucid",
+      "Pellucid"
+    ],
+    "examples": [
+      {
+        "sentence": "She looked into his limpid blue eyes."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 525,
+    "id": "limpid"
+  },
+  {
+    "text": "Lucid",
+    "definition": "Expressed clearly; easy to understand. Also, showing ability to think clearly.",
+    "hindiSynonyms": [
+      "स्पष्ट",
+      "सुबोध",
+      "चमकीला"
+    ],
+    "englishSynonyms": [
+      "Clear",
+      "Intelligible",
+      "Rational",
+      "Sane"
+    ],
+    "examples": [
+      {
+        "sentence": "He gave a lucid explanation of the complex theory."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 526,
+    "id": "lucid"
+  },
+  {
+    "text": "Perspicuous",
+    "definition": "Clearly expressed and easily understood; lucid.",
+    "hindiSynonyms": [
+      "स्पष्ट",
+      "सुबोध"
+    ],
+    "englishSynonyms": [
+      "Clear",
+      "Lucid",
+      "Plain",
+      "Intelligible"
+    ],
+    "examples": [
+      {
+        "sentence": "His perspicuous arguments convinced the jury."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 527,
+    "id": "perspicuous"
+  },
+  {
+    "text": "Pellucid",
+    "definition": "Translucently clear.",
+    "hindiSynonyms": [
+      "पारदर्शी",
+      "साफ",
+      "स्पष्ट"
+    ],
+    "englishSynonyms": [
+      "Clear",
+      "Limpid",
+      "Transparent",
+      "Lucid"
+    ],
+    "examples": [
+      {
+        "sentence": "The water in the mountain stream was pellucid."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 528,
+    "id": "pellucid"
+  },
+  {
+    "text": "Explicit",
+    "definition": "Stated clearly and in detail, leaving no room for confusion or doubt.",
+    "hindiSynonyms": [
+      "स्पष्ट",
+      "मुखर",
+      "साफ"
+    ],
+    "englishSynonyms": [
+      "Clear",
+      "Plain",
+      "Direct",
+      "Unambiguous"
+    ],
+    "examples": [
+      {
+        "sentence": "I gave you explicit instructions not to touch anything."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 529,
+    "id": "explicit"
+  },
+  {
+    "text": "Captive",
+    "definition": "A person who has been taken prisoner or an animal that has been confined.",
+    "hindiSynonyms": [
+      "बंदी",
+      "कैदी",
+      "गुलाम"
+    ],
+    "englishSynonyms": [
+      "Prisoner",
+      "Convict",
+      "Hostage",
+      "Detainee"
+    ],
+    "examples": [
+      {
+        "sentence": "The soldiers were held captive for months."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 530,
+    "id": "captive"
+  },
+  {
+    "text": "Captivity",
+    "definition": "The condition of being imprisoned or confined.",
+    "hindiSynonyms": [
+      "कैद",
+      "बंदीकरण",
+      "गुलामी"
+    ],
+    "englishSynonyms": [
+      "Imprisonment",
+      "Confinement",
+      "Detention",
+      "Bondage"
+    ],
+    "examples": [
+      {
+        "sentence": "Animals bred in captivity often cannot survive in the wild."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 531,
+    "id": "captivity"
+  },
+  {
+    "text": "Captivate",
+    "definition": "Attract and hold the interest and attention of; charm.",
+    "hindiSynonyms": [
+      "मोहित करना",
+      "लुभाना",
+      "बंदी बनाना"
+    ],
+    "englishSynonyms": [
+      "Charm",
+      "Enchant",
+      "Fascinate",
+      "Bewitch"
+    ],
+    "examples": [
+      {
+        "sentence": "She was captivated by his story."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 532,
+    "id": "captivate"
+  },
+  {
+    "text": "Bondage",
+    "definition": "The state of being a slave.",
+    "hindiSynonyms": [
+      "गुलामी",
+      "दासता",
+      "बंधन"
+    ],
+    "englishSynonyms": [
+      "Slavery",
+      "Servitude",
+      "Enslavement",
+      "Captivity"
+    ],
+    "examples": [
+      {
+        "sentence": "They were kept in bondage for years."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 533,
+    "id": "bondage"
+  },
+  {
+    "text": "Incarceration",
+    "definition": "The state of being confined in prison; imprisonment.",
+    "hindiSynonyms": [
+      "कैद",
+      "कारावास",
+      "बंदीकरण"
+    ],
+    "englishSynonyms": [
+      "Imprisonment",
+      "Confinement",
+      "Detention",
+      "Custody"
+    ],
+    "examples": [
+      {
+        "sentence": "His incarceration lasted ten years."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 534,
+    "id": "incarceration"
+  },
+  {
+    "text": "Confinement",
+    "definition": "The action of confining, or the state of being confined.",
+    "hindiSynonyms": [
+      "कारावास",
+      "कैद",
+      "प्रसव-पीड़ा"
+    ],
+    "englishSynonyms": [
+      "Imprisonment",
+      "Detention",
+      "Custody",
+      "Incarceration"
+    ],
+    "examples": [
+      {
+        "sentence": "He was placed in solitary confinement."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 535,
+    "id": "confinement"
+  },
+  {
+    "text": "Serfdom",
+    "definition": "The state of being a serf or feudal laborer.",
+    "hindiSynonyms": [
+      "दासता",
+      "गुलामी"
+    ],
+    "englishSynonyms": [
+      "Slavery",
+      "Servitude",
+      "Bondage"
+    ],
+    "examples": [
+      {
+        "sentence": "The peasants lived in a state of serfdom."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 536,
+    "id": "serfdom"
+  },
+  {
+    "text": "Impoundment",
+    "definition": "The act of seizing and holding legal custody of something.",
+    "hindiSynonyms": [
+      "जब्ती",
+      "बाड़े में बंद करना"
+    ],
+    "englishSynonyms": [
+      "Confiscation",
+      "Seizure",
+      "Appropriation"
+    ],
+    "examples": [
+      {
+        "sentence": "The impoundment of the vehicle was ordered by the court."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 537,
+    "id": "impoundment"
+  },
+  {
+    "text": "Internment",
+    "definition": "The state of being confined as a prisoner, especially for political or military reasons.",
+    "hindiSynonyms": [
+      "नज़रबंदी",
+      "कैद"
+    ],
+    "englishSynonyms": [
+      "Confinement",
+      "Detention",
+      "Imprisonment"
+    ],
+    "examples": [
+      {
+        "sentence": "During the war, many citizens faced internment."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 538,
+    "id": "internment"
+  },
+  {
+    "text": "Hostage",
+    "definition": "A person seized or held as security for the fulfillment of a condition.",
+    "hindiSynonyms": [
+      "बंधक",
+      "ज़मानत"
+    ],
+    "englishSynonyms": [
+      "Captive",
+      "Prisoner",
+      "Pawn"
+    ],
+    "examples": [
+      {
+        "sentence": "The terrorists held him hostage for three days."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 539,
+    "id": "hostage"
+  },
+  {
+    "text": "Clandestine",
+    "definition": "Kept secret or done secretively, especially because illicit.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "अवैध",
+      "छिपा हुआ"
+    ],
+    "englishSynonyms": [
+      "Secret",
+      "Covert",
+      "Furtive",
+      "Stealthy"
+    ],
+    "examples": [
+      {
+        "sentence": "They had a clandestine meeting in the park."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 540,
+    "id": "clandestine"
+  },
+  {
+    "text": "Surreptitious",
+    "definition": "Kept secret, especially because it would not be approved of.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "छल से किया हुआ",
+      "चोरी-छिपे"
+    ],
+    "englishSynonyms": [
+      "Secret",
+      "Stealthy",
+      "Clandestine",
+      "Furtive"
+    ],
+    "examples": [
+      {
+        "sentence": "She took a surreptitious glance at her watch."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 541,
+    "id": "surreptitious"
+  },
+  {
+    "text": "Stealthy",
+    "definition": "Behaving, done, or made in a cautious and surreptitious manner, so as not to be seen or heard.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "चुपके से",
+      "छलपूर्ण"
+    ],
+    "englishSynonyms": [
+      "Furtive",
+      "Secretive",
+      "Sneaky",
+      "Sly"
+    ],
+    "examples": [
+      {
+        "sentence": "The cat made a stealthy approach toward the bird."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 542,
+    "id": "stealthy"
+  },
+  {
+    "text": "Covert",
+    "definition": "Not openly acknowledged or displayed.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "छिपा हुआ",
+      "प्रच्छन्न"
+    ],
+    "englishSynonyms": [
+      "Secret",
+      "Clandestine",
+      "Hidden",
+      "Undercover"
+    ],
+    "examples": [
+      {
+        "sentence": "It was a covert military operation."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 543,
+    "id": "covert"
+  },
+  {
+    "text": "Furtive",
+    "definition": "Attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble.",
+    "hindiSynonyms": [
+      "चोरी-छिपे",
+      "गुप्त",
+      "रहस्यमय"
+    ],
+    "englishSynonyms": [
+      "Secretive",
+      "Sly",
+      "Sneaky",
+      "Stealthy"
+    ],
+    "examples": [
+      {
+        "sentence": "He cast a furtive look over his shoulder."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 544,
+    "id": "furtive"
+  },
+  {
+    "text": "Ulterior",
+    "definition": "Existing beyond what is obvious or admitted; intentionally hidden.",
+    "hindiSynonyms": [
+      "गुप्त",
+      "छिपा हुआ",
+      "दूरस्थ"
+    ],
+    "englishSynonyms": [
+      "Hidden",
+      "Secret",
+      "Undisclosed",
+      "Concealed"
+    ],
+    "examples": [
+      {
+        "sentence": "She had an ulterior motive for helping him."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 545,
+    "id": "ulterior"
+  },
+  {
+    "text": "Camouflage",
+    "definition": "The disguising of military personnel, equipment, and installations by painting or covering them to make them blend in with their surroundings.",
+    "hindiSynonyms": [
+      "छलावरण",
+      "छद्मवेष"
+    ],
+    "englishSynonyms": [
+      "Disguise",
+      "Mask",
+      "Concealment",
+      "Cover"
+    ],
+    "examples": [
+      {
+        "sentence": "The soldiers used branches as camouflage."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 546,
+    "id": "camouflage"
+  },
+  {
+    "text": "Veil",
+    "definition": "A piece of fine material worn by women to protect or conceal the face. Also, something that hides or obscures something.",
+    "hindiSynonyms": [
+      "घूंघट",
+      "पर्दा",
+      "आवरण"
+    ],
+    "englishSynonyms": [
+      "Mask",
+      "Cover",
+      "Cloak",
+      "Screen"
+    ],
+    "examples": [
+      {
+        "sentence": "A thin veil of mist covered the valley."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 547,
+    "id": "veil"
+  },
+  {
+    "text": "Lurk",
+    "definition": "Be or remain hidden so as to wait in ambush for someone or something.",
+    "hindiSynonyms": [
+      "घात में रहना",
+      "छिपा रहना"
+    ],
+    "englishSynonyms": [
+      "Skulk",
+      "Loiter",
+      "Hide",
+      "Prowl"
+    ],
+    "examples": [
+      {
+        "sentence": "Danger lurks around every corner."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 548,
+    "id": "lurk"
+  },
+  {
+    "text": "Overt",
+    "definition": "Done or shown openly; plainly or readily apparent, not secret or hidden.",
+    "hindiSynonyms": [
+      "खुला",
+      "प्रत्यक्ष",
+      "जाहिर"
+    ],
+    "englishSynonyms": [
+      "Open",
+      "Obvious",
+      "Clear",
+      "Apparent"
+    ],
+    "examples": [
+      {
+        "sentence": "His overt hostility was shocking."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 549,
+    "id": "overt"
+  },
+  {
+    "text": "Aboveboard",
+    "definition": "Legitimate, honest, and open.",
+    "hindiSynonyms": [
+      "निष्कपट",
+      "खुला",
+      "ईमानदार"
+    ],
+    "englishSynonyms": [
+      "Honest",
+      "Fair",
+      "Open",
+      "Legitimate"
+    ],
+    "examples": [
+      {
+        "sentence": "The deal was completely aboveboard."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 550,
+    "id": "aboveboard"
+  }
+]

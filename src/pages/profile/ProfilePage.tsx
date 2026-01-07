@@ -3,92 +3,172 @@ import { TopHeader } from "@/components/layout/TopHeader";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { useQuery, useMutation } from "convex/react";
+import { api } from "../../../convex/_generated/api";
+import { useAuthActions } from "@convex-dev/auth/react";
+import { useNavigate } from "react-router-dom";
+import { useMutationHook } from "@/hooks/use-mutation-hook";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { ImagePicker, AVATARS } from "@/components/common/ImagePicker";
+import { Textarea } from "@/components/ui/textarea";
 
-const AVATARS = [
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuDDZ1Pp270umxhXhfUP9BXjMC272BUVux7nZOdgb1dklGnqJeXbiMvPOanv4RNtK_WlILLHBgxv3RYHjFj-B2emQD361KdoA4GyvhLYfJHLUiWgB0GLO-YQZCrqtMPxllZVYJE-omuO4U1ID8wkt09Unk1KkXCwVwXQQUoSZPqsfVEDxwWYlBowmDJIpzQtwqJ3YFBTc-C3xepLe22_3q_OaYnRojgB4rR064bMxrioUG08c_3aPYrY0pC5nXJb9akZonxUj9qGzg",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuB2slCiPQBiWCVxs-5z1rOkZf9h8VVXOuKpb2wp-9rszAyemfy_KXZPmK3q5tls6lXODXXU7gP6HAB9Y3nFziyBa8-AHnTR7oIztercmnTFzD7aAP8Exl-ZlTrEM21g0TzkUFlGQGHE5xZY8D_aOWW4zdWZsVE47qCJmtPeodJR3y9hXmrRj6uaw7DfQ-iaOhmDFpNWhos8z18Iqp56G-GgHdlFz--upzrmnGO5dPxf6RQQw_Dmb3YTVmTc-F_n5K3WfA6jcm4aOA",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAqb8pph8hVlpRG5Fb-EtFOmfLMHIXbDi7a6GlVq-eb8sC_Bf8KRDVXLVXFwbCF-4NXPyUBOlUji4z1ukEe3OuAqnZ2Za9YnZF1CxwXJO5JA439XjBcQWSpyJUosBuANVeQ9zN2J124odkUFr5kf224IBg_-_PoGAEVnkvOmdhCQZcq6NEGuQcNB8wP2ziwJiNDA5NLpgsikixADhfqdXlUloyb5OOeStemjxFi4vn1vKROcaacATCkaZxp8yQ0UTQTVvptLNyW3A",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuASQx5uCkzrv4jTr849ZrHq9oCOnqPT0FKfpGCG0PU-gFGImYqLZ15TYzxv1hWvPEU_SPxMr914Qc1Ztm-uKd-fg37MtAJFLRUGLbCrVEUz8AvW8y9I9-hDBV-eea91680EHIsffIE21tI8rhC-1aQEd94t7ZnP96RMLUQ1phqIIJCgV5eBuxh9hhEOWE3-rOpG9shseHS0FY9akQ9_O74WEwTfJYNGDcFdXtR1kK2MGLjg1hbfIGRLLxyeRSJ70LASKGdyBmNVcA",
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuA1fFcNAyCcjv2AfvGDeOjLh9QEJuqay2dO6YUfZ_-E0L0rzGjgHeG4UjOHTI8TkEVxs1XCH4BlHg4v3RF7m-9eA6EOIPogix_5wzFZMcaB6-CHPvoT0Av1eURj6TtiEYORywCIqUJwasVUDznr6uZEG9_si3NTfdNcoFqfmobxLUku_ryU36kwOiCPUm6O0LbbpL87NSF0QJaaTYUBWPBHOJMosj0u6pCgD2jW5ifoi5EA9mEUAJJvQ_dJabw7GhMygDLZ1cWLdw",
-];
+// Extracted Form Component to handle state isolation
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function EditProfileForm({ user, onClose }: { user: any; onClose: () => void }) {
+  const updateUserMutation = useMutation(api.users.updateUser);
+  const { mutate: updateUser, isPending } = useMutationHook(updateUserMutation);
 
-export default function Profile() {
-  const [name, setName] = useState("Amit Kumar");
-  const [bio, setBio] = useState("Student • Level 4");
-  const [selectedAvatar, setSelectedAvatar] = useState(AVATARS[0]);
+  // Initialize state directly from props.
+  // Since this component is mounted when the Dialog (and its Content) opens, these values will be fresh.
+  const [name, setName] = useState(user.name || "");
+  const [bio, setBio] = useState(user.bio || "");
+  const [selectedAvatar, setSelectedAvatar] = useState(user.imageUrl || AVATARS[0]);
+
+  const handleSave = async () => {
+    try {
+      await updateUser({
+        name,
+        bio,
+        imageUrl: selectedAvatar,
+      });
+      onClose();
+    } catch (error) {
+      console.error("Failed to update profile", error);
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-background-light dark:bg-background-dark pb-32">
-      <TopHeader title="Profile"
-        rightAction={<button className="text-primary font-bold text-sm">Save</button>}
-      />
+    <>
+      <DialogHeader>
+        <DialogTitle>Edit Profile</DialogTitle>
+        <DialogDescription>
+          Make changes to your profile here. Click save when you're done.
+        </DialogDescription>
+      </DialogHeader>
 
-      {/* Hero Section */}
-      <div className="flex flex-col items-center p-6 gap-4">
+      <div className="grid gap-4 py-4">
+        <div className="flex flex-col gap-3">
+          <Label>Avatar</Label>
+          <ImagePicker selected={selectedAvatar} onSelect={setSelectedAvatar} />
+        </div>
+
+        <div className="grid gap-2">
+          <Label htmlFor="name">Name</Label>
+          <Input id="name" value={name} onChange={(e) => setName(e.target.value)} />
+        </div>
+
+        <div className="grid gap-2">
+          <Label htmlFor="bio">Bio</Label>
+          <Textarea
+            id="bio"
+            value={bio}
+            onChange={(e) => setBio(e.target.value)}
+            placeholder="Tell us about yourself"
+            className="min-h-25"
+          />
+        </div>
+      </div>
+
+      <DialogFooter>
+        <Button type="submit" onClick={handleSave} disabled={isPending}>
+          {isPending ? "Saving..." : "Save changes"}
+        </Button>
+      </DialogFooter>
+    </>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function ProfileContent({ user }: { user: any }) {
+  const { signOut } = useAuthActions();
+  const navigate = useNavigate();
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+  const handleLogout = async () => {
+      await signOut();
+      navigate("/login");
+  };
+
+  return (
+    <div className="min-h-screen bg-background pb-32">
+      <TopHeader title="Profile" showBack={true} />
+
+      {/* Hero Section (Read Only) */}
+      <div className="flex flex-col items-center p-6 gap-4 mt-4">
         <div className="relative group">
-           <div className="size-32 rounded-full border-4 border-white dark:border-gray-800 shadow-lg bg-cover bg-center" style={{backgroundImage: `url(${selectedAvatar})`}}></div>
-           <button className="absolute bottom-0 right-0 bg-primary text-white p-2 rounded-full border-4 border-background-light dark:border-background-dark shadow-sm">
-             <span className="material-symbols-outlined text-[18px]">edit</span>
-           </button>
+           <div
+             className="size-32 rounded-full border-4 border-background shadow-lg bg-cover bg-center ring-2 ring-border"
+             style={{backgroundImage: `url(${user.imageUrl || AVATARS[0]})`}}
+           ></div>
+           {/* Edit Button Triggering Dialog */}
+           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+             <DialogTrigger asChild>
+                <button className="absolute bottom-0 right-0 bg-primary text-primary-foreground p-2 rounded-full border-4 border-background shadow-sm hover:scale-105 transition-transform cursor-pointer">
+                    <span className="material-symbols-outlined text-[18px]">edit</span>
+                </button>
+             </DialogTrigger>
+             {/* DialogContent unmounts its children when closed, ensuring EditProfileForm resets state on reopen */}
+             <DialogContent className="sm:max-w-106.25 max-h-[90vh] overflow-y-auto">
+               <EditProfileForm user={user} onClose={() => setIsDialogOpen(false)} />
+             </DialogContent>
+           </Dialog>
         </div>
-        <div className="text-center">
-            <h2 className="text-2xl font-bold text-[#111318] dark:text-white">{name}</h2>
-            <p className="text-gray-500">{bio}</p>
+
+        <div className="text-center space-y-2">
+            <h2 className="text-2xl font-bold text-foreground">{user.name}</h2>
+            <p className="text-muted-foreground max-w-xs mx-auto text-sm leading-relaxed">
+              {user.bio || "No bio set yet. Click the edit icon to add one!"}
+            </p>
         </div>
       </div>
 
-      {/* Avatar Selection */}
-      <div className="px-4 pb-2">
-        <h3 className="font-bold text-base mb-3 px-1">Choose Avatar</h3>
-        <div className="bg-white dark:bg-[#1a2230] p-4 rounded-xl border border-gray-200 dark:border-gray-800 shadow-sm">
-            <div className="grid grid-cols-5 gap-3 justify-items-center">
-                {AVATARS.map((avatar, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setSelectedAvatar(avatar)}
-                      className={`relative size-12 rounded-full overflow-hidden transition-transform hover:scale-105 ${selectedAvatar === avatar ? 'ring-2 ring-primary ring-offset-2 dark:ring-offset-gray-900' : ''}`}
-                    >
-                        <img src={avatar} className="size-full object-cover" />
-                        {selectedAvatar === avatar && (
-                            <div className="absolute inset-0 bg-primary/30 flex items-center justify-center">
-                                <span className="material-symbols-outlined text-white text-sm font-bold">check</span>
-                            </div>
-                        )}
-                    </button>
-                ))}
+      {/* Stats or Other Info (Placeholder for now) */}
+      <div className="px-6 py-4">
+         <div className="bg-card rounded-xl p-4 border border-border flex items-center justify-between shadow-sm">
+            <div>
+                <p className="text-sm text-muted-foreground font-medium">Email</p>
+                <p className="text-foreground font-medium">{user.email}</p>
             </div>
-        </div>
+            <span className="material-symbols-outlined text-muted-foreground">lock</span>
+         </div>
       </div>
 
-      {/* Form Fields */}
-      <div className="p-4 space-y-4">
-        <div className="space-y-2">
-            <Label>Full Name</Label>
-            <Input value={name} onChange={e => setName(e.target.value)} className="h-12 text-base" />
-        </div>
-
-        <div className="space-y-2">
-            <Label>Email (Read-only)</Label>
-            <div className="relative">
-                <Input value="amit.kumar@example.com" readOnly className="h-12 text-base bg-gray-50 dark:bg-gray-800 text-gray-500" />
-                <span className="material-symbols-outlined absolute right-3 top-3 text-gray-400">lock</span>
-            </div>
-        </div>
-
-        <div className="space-y-2">
-            <Label>Bio</Label>
-            <textarea
-                className="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-25"
-                value={bio}
-                onChange={e => setBio(e.target.value)}
-            />
-        </div>
-
-        <div className="pt-4">
-            <Button className="w-full h-12 text-lg shadow-lg shadow-primary/20">Save Changes</Button>
-            <p className="text-center text-red-500 text-sm font-medium mt-4 cursor-pointer">Log Out</p>
-        </div>
+      <div className="px-6 mt-4">
+          <Button
+            variant="destructive"
+            className="w-full h-12 text-base font-medium bg-red-50 text-red-600 hover:bg-red-100 dark:bg-red-900/20 dark:text-red-400 dark:hover:bg-red-900/30 border border-red-100 dark:border-red-900/50 shadow-none"
+            onClick={handleLogout}
+          >
+            Log Out
+          </Button>
       </div>
+
     </div>
   );
+}
+
+export default function ProfilePage() {
+  const user = useQuery(api.users.viewer);
+
+  if (user === undefined) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+        </div>
+      );
+  }
+
+  if (user === null) {
+      return <div className="p-10 text-center">Please log in.</div>;
+  }
+
+  return <ProfileContent user={user} />;
 }

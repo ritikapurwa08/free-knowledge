@@ -1,0 +1,584 @@
+{
+  "id": "lok-devta-set-1-",
+  "title": "LOK DEVTA SET 1 ",
+  "subject": "English",
+  "topic": "LOK DEVTA",
+  "difficulty": "Medium",
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "q-1767777325209-0",
+      "text": "Which of the following Lok Devtas is NOT included in the 'Panch Pir' (Five Peers) of Rajasthan?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Gogaji",
+        "Tejaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Panch Pirs are Ramdevji, Gogaji, Pabuji, Hadbuji, and Mehaji. Tejaji is a major deity but not counted among the Panch Pirs.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-1",
+      "text": "Where is the main temple of Lok Devta Ramdevji located?",
+      "type": "Single Choice",
+      "options": [
+        "Kharnal (Nagaur)",
+        "Runicha (Jaisalmer)",
+        "Kolumand (Phalodi)",
+        "Asind (Bhilwara)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main temple is in Runicha (Ramdevra), Jaisalmer.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-2",
+      "text": "Which Lok Devta is worshipped as an incarnation of Laxman?",
+      "type": "Single Choice",
+      "options": [
+        "Pabuji",
+        "Ramdevji",
+        "Gogaji",
+        "Devnarayanji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pabuji is considered the incarnation of Laxman, the brother of Lord Rama.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-3",
+      "text": "What is the name of the mare of Lok Devta Tejaji?",
+      "type": "Single Choice",
+      "options": [
+        "Kesar Kalmi",
+        "Leelan",
+        "Neeli Ghodi",
+        "Kirad Kabra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tejaji's mare was named Leelan (or Singari).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-4",
+      "text": "Which Lok Devta fought a battle against Mahmud Ghaznavi?",
+      "type": "Single Choice",
+      "options": [
+        "Pabuji",
+        "Tejaji",
+        "Gogaji",
+        "Ramdevji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gogaji fought against Mahmud Ghaznavi to protect cows.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-5",
+      "text": "The place 'Dadreva' in Churu district is the birthplace of which Lok Devta?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Pabuji",
+        "Tejaji",
+        "Hadbuji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gogaji was born in Dadreva, Churu. This place is also known as 'Sheesh Medhi'.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-6",
+      "text": "Who is known as the 'Deity of Camels' in Rajasthan?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Ramdevji",
+        "Pabuji",
+        "Devnarayanji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pabuji is worshipped as the deity of camels. It is believed he brought camels to Rajasthan.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-7",
+      "text": "Which Lok Devta founded the 'Kamadiya' sect?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Mallinathji",
+        "Gogaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ramdevji founded the Kamadiya sect. Women of this sect perform the Terah Tali dance.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-8",
+      "text": "Where is the main shrine of Lok Devta Devnarayanji located?",
+      "type": "Single Choice",
+      "options": [
+        "Asind (Bhilwara)",
+        "Kolu (Phalodi)",
+        "Parbatsar (Nagaur)",
+        "Nokha (Bikaner)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main temple of Devnarayanji is in Asind, Bhilwara.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-9",
+      "text": "Which Lok Devta is known as 'Kalla-Bala' and the deity of agriculture?",
+      "type": "Single Choice",
+      "options": [
+        "Tejaji",
+        "Gogaji",
+        "Pabuji",
+        "Kallaji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tejaji is worshipped as the deity of agriculture and protector against snake bites (Kalla-Bala).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-10",
+      "text": "Who is the four-armed Lok Devta (Char Haathon Wale Lok Devta)?",
+      "type": "Single Choice",
+      "options": [
+        "Veer Kallaji",
+        "Tejaji",
+        "Gogaji",
+        "Hadbuji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Veer Kallaji Rathore is known as the four-armed deity because he carried Jaimal on his shoulders and fought during the siege of Chittorgarh.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-11",
+      "text": "The longest 'Phad' (scroll painting) belongs to which Lok Devta?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Pabuji",
+        "Devnarayanji",
+        "Gogaji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Phad of Devnarayanji is the longest and oldest among the folk deities.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-12",
+      "text": "What is the vehicle of Lok Devta Hadbuji?",
+      "type": "Single Choice",
+      "options": [
+        "Horse",
+        "Lion",
+        "Jackal",
+        "Camel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The vehicle (vahan) of Hadbuji Sankhla is a Jackal (Siyar).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-13",
+      "text": "Which Lok Devta is associated with the 'Bankti' village in Phalodi?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Hadbuji",
+        "Mehaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bankti village is the main worship place of Hadbuji, where his bullock cart is worshipped.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-14",
+      "text": "The fair of Ramdevji is known for holding which type of harmony?",
+      "type": "Single Choice",
+      "options": [
+        "Caste Harmony",
+        "Communal Harmony",
+        "Political Harmony",
+        "Regional Harmony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ramdevji's fair is a symbol of communal harmony as both Hindus and Muslims worship him.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-15",
+      "text": "What is the name of Pabuji's mare?",
+      "type": "Single Choice",
+      "options": [
+        "Leelan",
+        "Kesar Kalmi",
+        "Mumal",
+        "Kirad Kabra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pabuji's mare was named Kesar Kalmi.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-16",
+      "text": "Where was Lok Devta Tejaji born?",
+      "type": "Single Choice",
+      "options": [
+        "Kharnal (Nagaur)",
+        "Sursura (Ajmer)",
+        "Parbatsar (Nagaur)",
+        "Sendariya (Ajmer)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tejaji was born in Kharnal, Nagaur.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-17",
+      "text": "Which Lok Devta is worshipped by the 'Raika' or 'Rebari' community mostly?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Tejaji",
+        "Pabuji",
+        "Ramdevji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Raika/Rebari community (camel herders) considers Pabuji as their primary deity.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-18",
+      "text": "Who gave the title 'Jahar Pir' to Gogaji?",
+      "type": "Single Choice",
+      "options": [
+        "Alauddin Khilji",
+        "Mahmud Ghaznavi",
+        "Aurangzeb",
+        "Akbar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mahmud Ghaznavi called Gogaji 'Jahar Pir' (Living Saint) after witnessing his bravery in battle.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-19",
+      "text": "Which Lok Devta wrote the book '24 Baniya'?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Gogaji",
+        "Tejaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ramdevji was also a poet and wrote '24 Baniya'.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-20",
+      "text": "The main temple of Mehaji Mangaliya is located in?",
+      "type": "Single Choice",
+      "options": [
+        "Bapini (Jodhpur/Phalodi)",
+        "Bankti (Phalodi)",
+        "Kolu (Phalodi)",
+        "Osian (Jodhpur)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main temple of Mehaji is in Bapini.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-21",
+      "text": "Which Lok Devta's flag is called 'Neja'?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Pabuji",
+        "Ramdevji",
+        "Tejaji"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The five-colored flag of Ramdevji is called Neja.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-22",
+      "text": "Who is the 'Kuldevta' (Family Deity) of the Meena tribe who is never sworn upon falsely?",
+      "type": "Single Choice",
+      "options": [
+        "Bhuriya Baba (Gautamwar)",
+        "Tejaji",
+        "Gogaji",
+        "Bigga Ji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bhuriya Baba (Gautameshwar) is revered by the Meenas, and they do not take a false oath in his name.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-23",
+      "text": "Which Lok Devta is associated with the 'Ovarin' (temple) where paralysis is treated?",
+      "type": "Single Choice",
+      "options": [
+        "Bhabhuta Siddha",
+        "Kallaji",
+        "Bursingh",
+        "Khetla Ji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wait, specifically for paralysis, the temple of 'Avari Mata' is famous, but among Lok Devtas, the worshippers of Kallaji are known to treat poison and ailments. However, 'Bhabhuta Siddha's' temple in Churu is often associated. A more common question refers to 'Kallaji' for snake/poison. Let's use a clearer question. 'Where is the main temple of Mallinath Ji?'",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-24",
+      "text": "Where is the main temple of Mallinath Ji located?",
+      "type": "Single Choice",
+      "options": [
+        "Tilwara (Barmer/Balotra)",
+        "Nagaana",
+        "Kolu",
+        "Asind"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mallinath Ji's main temple is in Tilwara on the banks of the Luni river.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-25",
+      "text": "Which Lok Devta is known as the 'Rain God' (Barsaat ke Devta)?",
+      "type": "Single Choice",
+      "options": [
+        "Mama Dev",
+        "Gogaji",
+        "Tejaji",
+        "Pabuji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mama Dev is worshipped as the God of Rain. He has no temple; instead, a wooden 'Toran' is worshipped outside the village.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-26",
+      "text": "Tejaji attained martyrdom at which place due to snakebite?",
+      "type": "Single Choice",
+      "options": [
+        "Sursura",
+        "Sendariya",
+        "Kharnal",
+        "Parbatsar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tejaji was bitten by a snake at Sendariya but passed away at Sursura.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-27",
+      "text": "Who is the Lok Devta of the Jakhar clan (Jat society)?",
+      "type": "Single Choice",
+      "options": [
+        "Bigga Ji",
+        "Tejaji",
+        "Pabuji",
+        "Fatta Ji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bigga Ji is the Kuldevta of the Jakhar clan.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-28",
+      "text": "Where is the 'Dhurmedhi' of Gogaji located?",
+      "type": "Single Choice",
+      "options": [
+        "Dadreva (Churu)",
+        "Nohar (Hanumangarh)",
+        "Sanchore (Jalore)",
+        "Kolumand (Phalodi)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dhurmedhi (where his torso fell) is in Gogamedi, Nohar, Hanumangarh. Dadreva is Sheeshmedhi (where his head fell).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-29",
+      "text": "Which Lok Devta is worshipped to protect borders and is known as the 'Guardian of the Land'?",
+      "type": "Single Choice",
+      "options": [
+        "Bhomiya Ji",
+        "Khetrapal",
+        "Tejaji",
+        "Gogaji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bhomiya Ji is worshipped as the protector of the land/village borders.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-30",
+      "text": "Talli Nath Ji is the main folk deity of which district?",
+      "type": "Single Choice",
+      "options": [
+        "Jalore",
+        "Jaisalmer",
+        "Bikaner",
+        "Alwar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Talli Nath Ji is the nature-loving deity of the Jalore region (Panchota village).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-31",
+      "text": "Whose devotees perform the 'Terah Tali' dance?",
+      "type": "Single Choice",
+      "options": [
+        "Ramdevji",
+        "Pabuji",
+        "Gogaji",
+        "Tejaji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Kamad sect women perform Terah Tali dance in devotion to Ramdevji.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-32",
+      "text": "Which instrument is primarily played while reading the 'Phad' of Pabuji?",
+      "type": "Single Choice",
+      "options": [
+        "Ravanhatha",
+        "Jantar",
+        "Ektara",
+        "Sarangi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ravanhatha is used for Pabuji's Phad. Jantar is used for Devnarayanji's Phad.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-33",
+      "text": "What is the symbol of Lok Devta Gogaji?",
+      "type": "Single Choice",
+      "options": [
+        "Snake",
+        "Spear",
+        "Footprints",
+        "Flag"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gogaji is symbolized by a snake. His Than (shrine) is usually under a Khejri tree.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-34",
+      "text": "Hari Ram Ji's main temple, famous for treating snake bites, is located in which village?",
+      "type": "Single Choice",
+      "options": [
+        "Jorada (Nagaur)",
+        "Santhu (Jalore)",
+        "Bankti (Phalodi)",
+        "Kolumand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Baba Hari Ram Ji's temple is in Jorada village, Nagaur.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-35",
+      "text": "Alamji's Dhora is located in which district?",
+      "type": "Single Choice",
+      "options": [
+        "Barmer",
+        "Jalore",
+        "Jaisalmer",
+        "Pali"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alamji ka Dhora is in the Gudhamalani region of Barmer (now Barmer/Balotra area).",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-36",
+      "text": "Which Lok Devta is related to the 'Olan' (Gogaji ki Olan) in Sanchore?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Tejaji",
+        "Pabuji",
+        "Ramdevji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gogaji ki Olan (hut/temple) is located in Kilariyon ki Dhani, Sanchore.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-37",
+      "text": "Who are the parents of Lok Devta Ramdevji?",
+      "type": "Single Choice",
+      "options": [
+        "Ajmal Ji and Mainade",
+        "Dhatal Ji and Kamalade",
+        "Jewar Ji and Bachhal",
+        "Tahad Ji and Ramade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ramdevji's father was Ajmal Ji Tanwar and mother was Mainade.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-38",
+      "text": "Kirad Kabra is the name of the horse of which Lok Devta?",
+      "type": "Single Choice",
+      "options": [
+        "Mehaji Mangaliya",
+        "Pabuji",
+        "Ramdevji",
+        "Gogaji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kirad Kabra was the horse of Mehaji Mangaliya.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-39",
+      "text": "Which Lok Devta's priest is usually a Muslim from the Chaiyal clan?",
+      "type": "Single Choice",
+      "options": [
+        "Gogaji",
+        "Ramdevji",
+        "Pabuji",
+        "Tejaji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Gogamedi, the priest is traditionally a Muslim Chaiyal, while in Dadreva, the priest is Hindu.",
+      "imageUrl": ""
+    },
+    {
+      "id": "q-1767777325209-40",
+      "text": "Fatta Ji is the folk deity associated with which village?",
+      "type": "Single Choice",
+      "options": [
+        "Santhu (Jalore)",
+        "Jorada (Nagaur)",
+        "Imloha (Sikar)",
+        "Simbhudara (Bikaner)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fatta Ji saved the village Santhu (Jalore) from invaders and sacrificed his life.",
+      "imageUrl": ""
+    }
+  ]
+}

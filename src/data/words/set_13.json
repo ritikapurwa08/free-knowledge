@@ -1,0 +1,130 @@
+[
+  {
+    "text": "Recurrent",
+    "definition": "Occurring often or repeatedly.",
+    "hindiSynonyms": [
+      "बार-बार होने वाला",
+      "पुनरावर्ती"
+    ],
+    "englishSynonyms": [
+      "Recurring",
+      "Repeated",
+      "Frequent"
+    ],
+    "examples": [
+      {
+        "sentence": "She suffers from recurrent headaches."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 601,
+    "id": "recurrent"
+  },
+  {
+    "text": "Periodic",
+    "definition": "Appearing or occurring at intervals.",
+    "hindiSynonyms": [
+      "सामायिक",
+      "नियतकालिक",
+      "आवधिक"
+    ],
+    "englishSynonyms": [
+      "Regular",
+      "Recurrent",
+      "Cyclical"
+    ],
+    "examples": [
+      {
+        "sentence": "He makes periodic visits to the doctor."
+      }
+    ],
+    "difficulty": "C1",
+    "category": "word",
+    "step": 602,
+    "id": "periodic"
+  },
+  {
+    "text": "Inclement",
+    "definition": "(of the weather) unpleasantly cold or wet.",
+    "hindiSynonyms": [
+      "कठोर",
+      "तूफानी",
+      "बेदर्द"
+    ],
+    "englishSynonyms": [
+      "Bad",
+      "Severe",
+      "Harsh",
+      "Stormy"
+    ],
+    "examples": [
+      {
+        "sentence": "The game was postponed due to inclement weather."
+      }
+    ],
+    "difficulty": "C2",
+    "category": "word",
+    "step": 603,
+    "id": "inclement"
+  },
+  {
+    "text": "Severe",
+    "definition": "(of something bad or undesirable) very great; intense. Also, strict or harsh.",
+    "hindiSynonyms": [
+      "गंभीर",
+      "कठोर",
+      "सख्त"
+    ],
+    "englishSynonyms": [
+      "Acute",
+      "Grave",
+      "Harsh",
+      "Strict"
+    ],
+    "examples": [
+      {
+        "sentence": "He suffered severe head injuries."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 604,
+    "id": "severe"
+  },
+  {
+    "text": "Harsh",
+    "definition": "Unpleasantly rough or jarring to the senses. Also, cruel or severe.",
+    "hindiSynonyms": [
+      "कठोर",
+      "रूखा",
+      "सख्त"
+    ],
+    "englishSynonyms": [
+      "Cruel",
+      "Severe",
+      "Rough",
+      "Sharp"
+    ],
+    "examples": [
+      {
+        "sentence": "The punishment was too harsh."
+      }
+    ],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 605,
+    "id": "harsh"
+  },
+  {
+    "text": "Stormy",
+    "definition": "Definition pending...",
+    "hindiSynonyms": [],
+    "englishSynonyms": [],
+    "examples": [],
+    "difficulty": "B2",
+    "category": "word",
+    "step": 606,
+    "id": "stormy"
+  }
+]

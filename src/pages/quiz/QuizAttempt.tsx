@@ -2,56 +2,67 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
-// --- Types (Mock Data for now) ---
-interface Question {
-  id: number;
-  text: string;
-  type: "Single Choice" | "Multiple Choice";
-  options: string[];
-}
+import { useMutation } from "convex/react";
+import { api } from "../../../convex/_generated/api";
+import { type QuizData } from "@/types/content";
+import { useLocation } from "react-router-dom";
 
-const MOCK_QUIZ = {
-  id: "grammar-101",
-  title: "General English",
-  timeLimit: 600, // 10 minutes in seconds
-  questions: [
-    {
-      id: 1,
-      text: "Identify the synonym of the word <span class='text-primary'>'Diligent'</span>.",
-      type: "Single Choice",
-      options: ["Lazy", "Hard-working", "Intelligent", "Quick"],
-    },
-    {
-      id: 2,
-      text: "Which sentence is grammatically <b>correct</b>?",
-      type: "Single Choice",
-      options: [
-        "She don't like apples.",
-        "She doesn't likes apples.",
-        "She doesn't like apples.",
-        "She do not like apples."
-      ],
-    },
-    {
-      id: 3,
-      text: "Fill in the blank: I have been waiting _____ 3 hours.",
-      type: "Single Choice",
-      options: ["since", "for", "from", "at"],
-    }
-  ] as Question[]
-};
+// Remove MOCK_QUIZ and Question definition as we use shared types now
 
 export default function QuizAttempt() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const quizData = location.state?.quizData as QuizData;
+  const saveResultMutation = useMutation(api.quiz.saveResult);
 
   // -- State --
   const [currentQIndex, setCurrentQIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({}); // { questionIndex: optionIndex }
-  const [timeLeft, setTimeLeft] = useState(MOCK_QUIZ.timeLimit);
+  // Initialize timer only if quizData exists
+  const [timeLeft, setTimeLeft] = useState(quizData?.timeLimit || 0);
 
-  const currentQuestion = MOCK_QUIZ.questions[currentQIndex];
-  const totalQuestions = MOCK_QUIZ.questions.length;
+  useEffect(() => {
+    if (!quizData) {
+        navigate('/quiz');
+    }
+  }, [quizData, navigate]);
+
+
+
+  const currentQuestion = quizData.questions[currentQIndex];
+  const totalQuestions = quizData.questions.length;
   const progress = ((currentQIndex + 1) / totalQuestions) * 100;
+
+  const handleSubmit = async () => {
+    let score = 0;
+    quizData.questions.forEach((q, index) => {
+        if (answers[index] === q.correctAnswer) {
+            score++;
+        }
+    });
+
+    try {
+        await saveResultMutation({
+            quizId: quizData.id,
+            score: score,
+            maxScore: totalQuestions,
+            answers: JSON.stringify(answers)
+        });
+
+        // Navigate to review with data so we don't have to fetch immediately
+        navigate("/quiz/review", {
+            state: {
+                quizData,
+                answers,
+                score,
+                totalQuestions
+            }
+        });
+    } catch (error) {
+        console.error("Failed to save result:", error);
+        alert("Failed to save result. Please try again.");
+    }
+  };
 
   // -- Timer Logic --
   useEffect(() => {
@@ -59,8 +70,7 @@ export default function QuizAttempt() {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          // Auto-submit logic would go here
-          alert("Time's up!");
+          handleSubmit(); // Auto-submit
           return 0;
         }
         return prev - 1;
@@ -68,6 +78,8 @@ export default function QuizAttempt() {
     }, 1000);
     return () => clearInterval(timer);
   }, []);
+
+  if (!quizData) return null;
 
   // Format Time (mm:ss)
   const formatTime = (seconds: number) => {
@@ -89,8 +101,7 @@ export default function QuizAttempt() {
       setCurrentQIndex((prev) => prev + 1);
     } else {
       // Submit Quiz
-      console.log("Submitting answers:", answers);
-      navigate("/"); // Redirect to home or result page
+      handleSubmit();
     }
   };
 
@@ -116,7 +127,7 @@ export default function QuizAttempt() {
 
           {/* Title & Timer */}
           <div className="flex flex-col items-center">
-            <span className="text-xs font-medium text-slate-500 dark:text-slate-400">{MOCK_QUIZ.title}</span>
+            <span className="text-xs font-medium text-slate-500 dark:text-slate-400">{quizData.title}</span>
             <div className={`flex items-center gap-1.5 font-bold text-lg leading-none mt-0.5 ${timeLeft < 60 ? 'text-red-500 animate-pulse' : 'text-primary'}`}>
               <span className="material-symbols-outlined text-[20px]">timer</span>
               <span>{formatTime(timeLeft)}</span>
@@ -180,7 +191,7 @@ export default function QuizAttempt() {
               >
                 <input
                   type="radio"
-                  name={`question-${currentQuestion.id}`}
+                  name={`question-${currentQuestion.id || currentQIndex}`} // Fallback to index if no ID
                   className="peer sr-only"
                   checked={isSelected}
                   readOnly
