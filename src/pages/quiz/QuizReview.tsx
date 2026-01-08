@@ -5,29 +5,80 @@ import { useLocation } from "react-router-dom";
 import { type QuizData } from "@/types/content";
 import { cn } from "@/lib/utils";
 import { fetchAllQuizzes } from "@/lib/local-api";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
+import { useQuery } from "convex/react";
+import { api } from "../../../convex/_generated/api";
+import type { Id } from "../../../convex/_generated/dataModel";
 
 export default function QuizReview() {
   const navigate = useNavigate();
   const location = useLocation();
   const state = location.state as {
-    quizData: QuizData;
+    quizData?: QuizData;
+    quizId?: string;
     answers: Record<number, number>;
     score: number;
     totalQuestions: number
   } | undefined;
 
+  const [localQuiz, setLocalQuiz] = useState<QuizData | null>(null);
+
+  // 1. Try resolving local quiz (Legacy IDs)
+  useEffect(() => {
+    if (!state?.quizData && state?.quizId) {
+         if (state.quizId.includes("-")) { // Heuristic for legacy IDs
+             fetchAllQuizzes().then(all => {
+                const found = all.find(q => q.id === state.quizId);
+                if (found) setLocalQuiz(found);
+             });
+         }
+    }
+  }, [state?.quizId, state?.quizData]);
+
+  // 2. Try resolving Convex Quiz
+  const convexQuizId = (state?.quizId && !state.quizId.includes("-"))
+      ? state.quizId as Id<"quizzes">
+      : null;
+
+  const convexQuiz = useQuery(api.quiz.getQuiz, convexQuizId ? { quizId: convexQuizId } : "skip");
+
+  // 3. Unify Data
+  const quizData = useMemo<QuizData | null>(() => {
+      if (state?.quizData) return state.quizData;
+      if (localQuiz) return localQuiz;
+      if (convexQuiz) {
+          // Adapt Convex doc to QuizData
+          return {
+              id: convexQuiz._id,
+              title: convexQuiz.title,
+              subject: convexQuiz.subject,
+              topic: convexQuiz.topic,
+              questions: convexQuiz.questions.map((q, i) => ({
+                ...q,
+                id: `q-${i}`,
+                subject: convexQuiz.subject,
+                topic: convexQuiz.topic,
+                difficulty: "Medium",
+                type: (q.type as "Single Choice" | "Multiple Choice")
+              })),
+              timeLimit: 60 * 10, // Default 10m
+              difficulty: "Medium"
+          };
+      }
+      return null;
+  }, [state?.quizData, localQuiz, convexQuiz]);
+
   const [nextQuiz, setNextQuiz] = useState<QuizData | null>(null);
 
   useEffect(() => {
     async function findNext() {
-        if (!state?.quizData) return;
+        if (!quizData) return;
         const allQuizzes = await fetchAllQuizzes();
         // Find other quizzes with same subject & topic, excluding current one
         const others = allQuizzes.filter(q =>
-            q.subject === state.quizData.subject &&
-            q.topic === state.quizData.topic &&
-            q.id !== state.quizData.id
+            q.subject === quizData.subject &&
+            q.topic === quizData.topic &&
+            q.id !== quizData.id
         );
         // Simple logic: just pick the first one found (or could be smarter)
         if (others.length > 0) {
@@ -35,7 +86,7 @@ export default function QuizReview() {
         }
     }
     findNext();
-  }, [state?.quizData]);
+  }, [quizData]);
 
   if (!state) {
     return (
@@ -46,7 +97,16 @@ export default function QuizReview() {
     );
   }
 
-  const { quizData, answers, score, totalQuestions } = state;
+  if (!quizData) {
+      return (
+          <div className="flex items-center justify-center min-h-screen flex-col gap-2">
+            <span className="material-symbols-outlined animate-spin text-4xl text-primary">progress_activity</span>
+            <p className="text-gray-500">Loading quiz details...</p>
+          </div>
+      );
+  }
+
+  const { answers, score, totalQuestions } = state;
   const percentage = Math.round((score / totalQuestions) * 100);
 
   return (

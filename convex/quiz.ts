@@ -127,3 +127,10 @@ export const deleteQuiz = mutation({
         await ctx.db.delete(args.quizId);
     }
 });
+
+export const getQuiz = query({
+    args: { quizId: v.id("quizzes") },
+    handler: async (ctx, args) => {
+        return await ctx.db.get(args.quizId);
+    }
+});

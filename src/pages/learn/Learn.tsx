@@ -176,7 +176,8 @@ export default function Learn() {
                                 if (item.type === 'quiz') {
                                     navigate('/quiz/attempt', { state: { quiz: item.data } });
                                 } else if (item.type === 'pdf') {
-                                    window.open(item.data.url, '_blank');
+                                    // Navigate to in-app viewer
+                                    navigate('/pdf-viewer', { state: { pdfUrl: item.data.url, title: item.data.title } });
                                 } else {
                                     // Blog
                                     alert("Blog Reader Coming Soon!");

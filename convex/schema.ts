@@ -59,6 +59,16 @@ const schema = defineSchema({
   .index("by_subject_topic", ["subject", "topic"])
   .index("by_subject", ["subject"]),
 
+  words: defineTable({
+    text: v.string(),
+    definition: v.string(),
+    hindiSynonyms: v.array(v.string()),
+    englishSynonyms: v.array(v.string()),
+    examples: v.array(v.object({ sentence: v.string() })),
+    difficulty: v.string(),
+    category: v.string(), // e.g., "word"
+    step: v.number(),     // For ordering/pagination (1-50, etc.)
+  }).index("by_step", ["step"]),
 });
 export default schema;
 

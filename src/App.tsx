@@ -15,6 +15,7 @@ import Login from "./pages/auth/Login";
 import Statistics from "./pages/dashboard/Statistics";
 import QuizReview from "./pages/quiz/QuizReview";
 import QuizHistory from "./pages/quiz/QuizHistory";
+import PDFViewerPage from "./pages/pdf/PDFViewerPage";
 
 // Placeholder Pages
 
@@ -42,6 +43,7 @@ function App() {
           <Route path="/statistics" element={<Statistics />} />
           <Route path="/quiz/review" element={<QuizReview />} />
           <Route path="/quiz/history" element={<QuizHistory />} />
+          <Route path="/pdf-viewer" element={<PDFViewerPage />} />
         </Route>
 
         {/* Admin Route - Does NOT use RootLayout (no bottom nav) */}

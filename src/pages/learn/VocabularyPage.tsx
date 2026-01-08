@@ -1,9 +1,8 @@
 
-import { useState, useEffect, useMemo, } from "react";
+import { useState, useMemo } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
-import { loadWordSet, getTotalSets, type Word } from "@/data/words";
 import { cn } from "@/lib/utils";
 import {
   DropdownMenu,
@@ -16,6 +15,18 @@ import {
 type ViewMode = "list" | "card";
 type WordStatus = "new" | "learning" | "mastered";
 
+interface Word {
+    text: string;
+    definition: string;
+    hindiSynonyms: string[];
+    englishSynonyms: string[];
+    examples: { sentence: string }[];
+    difficulty: string;
+    category: string;
+    step: number;
+    _id: string;
+}
+
 interface DisplayWord extends Word {
   status: WordStatus;
 }
@@ -27,54 +38,68 @@ export default function VocabularyPage() {
 
   // Data State
   const currentSet = parseInt(searchParams.get("set") || "1");
-  const totalSets = getTotalSets();
-  const [words, setWords] = useState<Word[]>([]);
-  const [loading, setLoading] = useState(true);
+  const totalSets = 15; // Estimated
+  const WORDS_PER_PAGE = 50;
+
+  // Range Logic
+  const rangeStart = (currentSet - 1) * WORDS_PER_PAGE + 1;
 
   // Convex
+  const wordsQuery = useQuery(api.vocab.getWords, { start: rangeStart, limit: WORDS_PER_PAGE });
   const knownWordsQuery = useQuery(api.vocab.getKnownWords);
+  const markKnownMutation = useMutation(api.vocab.markWordAsLearned);
+
+  const words = useMemo(() => wordsQuery || [], [wordsQuery]);
   const knownWords = useMemo(() => knownWordsQuery || [], [knownWordsQuery]);
-  const markKnownMutation = useMutation(api.vocab.markWordAsKnown);
+  const loading = wordsQuery === undefined;
 
   // Card View State
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Fetch Words
-  useEffect(() => {
-    async function fetchWords() {
-      setLoading(true);
-      const data = await loadWordSet(currentSet);
-      setWords(data);
-      setLoading(false);
-      setCurrentIndex(0); // Reset index on set change
-    }
-    fetchWords();
-  }, [currentSet]);
-
   // Merge Status
   const displayWords: DisplayWord[] = useMemo(() => {
-    return words.map(w => ({
-      ...w,
-      status: knownWords.includes(w.id) ? "mastered" : (w.step === 1 ? "learning" : "new")
-    }));
-  }, [words, knownWords]);
+    return words.map(w => {
+        // Use text as ID for matching known status
+        const isKnown = knownWords.includes(w.text);
+        return {
+            ...w,
+            status: isKnown ? "mastered" : (w.step === rangeStart ? "learning" : "new")
+        };
+    });
+  }, [words, knownWords, rangeStart]);
 
   const handleSetChange = (newSet: number) => {
     setSearchParams({ set: newSet.toString() });
+    setCurrentIndex(0);
   };
 
-  const handleMarkKnown = async (wordId: string) => {
-      await markKnownMutation({ wordId });
+  const handleMarkKnown = async (word: Word) => {
+      await markKnownMutation({
+          wordId: word.text,
+          status: "mastered",
+          wordStringId: word.text
+      });
   };
 
   const handleNextCard = () => {
-    setCurrentIndex(prev => (prev + 1) % displayWords.length);
+    if (currentIndex >= displayWords.length - 1) {
+        // End of set
+        if (currentSet < totalSets) {
+            handleSetChange(currentSet + 1);
+        } else {
+            // End of all
+            navigate(-1);
+        }
+    } else {
+        setCurrentIndex(prev => prev + 1);
+    }
   };
 
-  const rangeStart = (currentSet - 1) * 50 + 1;
-  const rangeEnd = Math.min(rangeStart + 49, rangeStart + words.length - 1);
+  const rangeEnd = Math.min(rangeStart + 49, rangeStart + (words.length || 50) - 1);
 
-  if (loading && words.length === 0) return <div className="p-10 flex justify-center text-muted-foreground">Loading...</div>;
+  if (loading) return <div className="h-screen w-full flex items-center justify-center">
+    <span className="material-symbols-outlined animate-spin text-4xl text-primary">progress_activity</span>
+  </div>;
 
   return (
     <div className="flex flex-col h-screen bg-background-light dark:bg-background-dark overflow-hidden font-sans max-w-300 w-full mx-auto shadow-2xl">
@@ -87,7 +112,7 @@ export default function VocabularyPage() {
           <span className="material-symbols-outlined text-[#111318] dark:text-white">arrow_back_ios_new</span>
         </button>
 
-        <h2 className="text-lg font-bold leading-tight text-center text-[#111318] dark:text-white">Knowledge Map</h2>
+        <h2 className="text-lg font-bold leading-tight text-center text-[#111318] dark:text-white">Vocabulary</h2>
 
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-1 bg-amber-50 dark:bg-amber-900/20 px-3 py-1 rounded-full border border-amber-100 dark:border-amber-800">
@@ -108,7 +133,13 @@ export default function VocabularyPage() {
 
       {/* 2. Main Content Area */}
       <main className="flex-1 overflow-y-auto px-4 py-4 pb-0 no-scrollbar relative">
-        {viewMode === "list" ? (
+        {displayWords.length === 0 ? (
+             <div className="flex flex-col items-center justify-center h-full text-gray-400 text-center p-6">
+                 <span className="material-symbols-outlined text-4xl mb-2">menu_book</span>
+                 <p>No words found for this range.</p>
+                 <p className="text-xs mt-1">Please ensure the database is seeded.</p>
+             </div>
+        ) : viewMode === "list" ? (
           <ListView
             data={displayWords}
             onMarkKnown={handleMarkKnown}
@@ -129,7 +160,7 @@ export default function VocabularyPage() {
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <button className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-                        Range {rangeStart} - {rangeEnd}
+                        Set {currentSet} ({rangeStart} - {rangeEnd})
                         <span className="material-symbols-outlined text-[18px]">expand_less</span>
                     </button>
                 </DropdownMenuTrigger>
@@ -151,7 +182,7 @@ export default function VocabularyPage() {
         <div className="grid grid-cols-10 gap-1.5 w-full max-w-sm mx-auto">
            {displayWords.map((w, i) => (
                 <button
-                    key={w.id}
+                    key={w._id || i}
                     onClick={() => { setCurrentIndex(i); setViewMode("card"); }}
                     className={cn(
                         "aspect-square rounded-[3px] transition-all duration-200 cursor-pointer hover:opacity-80",
@@ -175,17 +206,17 @@ function ListView({
     onMarkKnown
 }: {
     data: DisplayWord[],
-    onMarkKnown: (id: string) => void
+    onMarkKnown: (word: Word) => void
 }) {
   const [expandedWordId, setExpandedWordId] = useState<string | null>(null);
 
   return (
     <div className="flex flex-col gap-3 pb-24">
       {data.map((item, index) => {
-        const isExpanded = expandedWordId === item.id;
+        const isExpanded = expandedWordId === item._id;
         return (
           <div
-            key={item.id}
+            key={item._id || index}
             className={cn(
               "group bg-white dark:bg-[#1e293b] rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700/50 p-3 transition-all hover:shadow-md",
                item.status === 'new' && index === 0 ? "ring-1 ring-purple-500/30 bg-purple-50/10" : ""
@@ -212,7 +243,7 @@ function ListView({
 
                   <div className="flex items-center gap-2 mt-2">
                       <button
-                          onClick={() => setExpandedWordId(isExpanded ? null : item.id)}
+                          onClick={() => setExpandedWordId(isExpanded ? null : item._id)}
                           className="flex-1 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs font-semibold py-1.5 rounded-lg transition-colors"
                       >
                           {isExpanded ? "Hide" : "View More"}
@@ -220,8 +251,7 @@ function ListView({
                       {item.status !== 'mastered' && (
                           <button
                               onClick={() => {
-                                  onMarkKnown(item.id);
-                                  // Optional: feedback toast
+                                  onMarkKnown(item);
                               }}
                               className="bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors whitespace-nowrap"
                           >
@@ -250,7 +280,7 @@ function ListView({
         );
       })}
     </div>
-  );
+    );
 }
 
 // --- SUB-COMPONENT: Card View (Refactored) ---
@@ -263,10 +293,10 @@ function CardView({
     data: DisplayWord[],
     currentIndex: number,
     onNext: () => void,
-    onMarkKnown: (id: string) => void
+    onMarkKnown: (word: Word) => void
 }) {
   const item = data[currentIndex];
-  if (!item) return <div>End of set</div>;
+  if (!item) return <div className="p-8 text-center text-gray-500">End of set</div>;
 
   return (
     <div className="flex flex-col h-full">
@@ -351,7 +381,7 @@ function CardView({
             </button>
             <button
                 onClick={() => {
-                    onMarkKnown(item.id);
+                    onMarkKnown(item);
                     onNext();
                 }}
                 className="flex-1 bg-[#2dd4bf] hover:bg-[#14b8a6] text-white font-bold py-4 rounded-2xl shadow-lg shadow-teal-500/20 transition-all flex items-center justify-center gap-2"

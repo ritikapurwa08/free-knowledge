@@ -10,6 +10,7 @@
 
 import type * as admin from "../admin.js";
 import type * as auth from "../auth.js";
+import type * as history from "../history.js";
 import type * as http from "../http.js";
 import type * as quiz from "../quiz.js";
 import type * as users from "../users.js";
@@ -24,6 +25,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   admin: typeof admin;
   auth: typeof auth;
+  history: typeof history;
   http: typeof http;
   quiz: typeof quiz;
   users: typeof users;
