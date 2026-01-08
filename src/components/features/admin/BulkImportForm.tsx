@@ -19,6 +19,7 @@ export function BulkImportForm() {
   const [subject, setSubject] = useState<Subject>("English");
   const [topic, setTopic] = useState("Grammar");
   const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const createQuiz = useMutation(api.quiz.createQuiz);
 
@@ -30,6 +31,7 @@ export function BulkImportForm() {
     }
 
     try {
+      setIsLoading(true);
       const parsed = JSON.parse(jsonInput);
 
       if (!Array.isArray(parsed)) {
@@ -83,6 +85,8 @@ export function BulkImportForm() {
     } catch (err: any) {
       setError(err.message || "Invalid JSON format");
       toast.error("Format Error");
+    } finally {
+        setIsLoading(false);
     }
   };
 
@@ -129,9 +133,18 @@ export function BulkImportForm() {
       </div>
 
       <div className="flex justify-end">
-        <Button onClick={handleImport} className="bg-green-600 hover:bg-green-700 text-white">
-          <span className="material-symbols-outlined mr-2">cloud_upload</span>
-          Publish to Database
+        <Button onClick={handleImport} disabled={isLoading} className="bg-green-600 hover:bg-green-700 text-white disabled:opacity-50 disabled:cursor-not-allowed">
+           {isLoading ? (
+             <>
+               <span className="material-symbols-outlined animate-spin mr-2">progress_activity</span>
+               Saving...
+             </>
+           ) : (
+             <>
+               <span className="material-symbols-outlined mr-2">cloud_upload</span>
+               Publish to Database
+             </>
+           )}
         </Button>
       </div>
     </div>
